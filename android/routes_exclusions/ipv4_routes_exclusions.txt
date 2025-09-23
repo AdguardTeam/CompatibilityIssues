@@ -1,0 +1,58 @@
+// Reserved subnets
+0.0.0.0/8
+10.0.0.0/8
+100.64.0.0/10
+172.16.0.0/12
+192.0.0.0/24
+192.168.0.0/16
+224.0.0.0/4
+240.0.0.0/4
+255.255.255.255/32
+
+// Multicast range
+224.0.0.0/3
+
+// T-Mobile wi-fi calling (#233)
+208.54.0.0/16
+
+// AT&T wi-fi calling
+129.192.166.0/24
+
+// UK EE wi-fi calling (#582)
+109.249.0.0/16
+
+// Sprint wi-fi calling (#939)
+68.31.26.0/24
+
+// Verizon wi-fi calling (#1321)
+141.207.0.0/16
+
+// Orange PL wi-fi calling (#1796)
+217.116.96.0/20
+
+// Telia wi-fi calling (#4815)
+195.50.247.0/24
+
+// Airtel India wi-fi calling (#4934)
+223.224.123.0/24
+
+// Pl Play Wi-Fi calling (#4975)
+89.108.200.0/24
+
+// MTS wi-fi calling (#4992)
+213.87.142.0/24
+
+// Megafon wi-fi calling (#4992)
+85.26.231.0/24
+31.173.34.0/24
+
+// Beeline wi-fi calling (#4992)
+85.249.19.0/24
+85.249.16.0/24
+
+// Tele2 wi-fi calling (#4992)
+217.169.82.0/23
+176.59.32.0/16
+
+// Three UK wi-fi calling (#2550)
+185.153.237.99/24

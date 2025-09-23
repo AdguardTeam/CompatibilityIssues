@@ -1,0 +1,9 @@
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3866
+com.zhiliaoapp.musically
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3879
+com.instagram.android
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/5158
+com.nekki.shadowfightarena
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/5497
+com.tencent.mm
+com.alibaba.aliexpresshd
