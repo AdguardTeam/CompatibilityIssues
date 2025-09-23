@@ -4,7 +4,7 @@
 
 This is a repo for listing all kinds of compatibility issues that we maintain for AdGuard apps. 
 
-This repository contains lists of exclusions and inclusions with entries for package names, UIDs, and IP ranges. Information from this repo is automatically built into the versions of AdGuard apps. 
+This repository contains lists of filtering exclusions and inclusions for applications and IP ranges. Information from this repo is automatically built into the versions of AdGuard apps. 
 
 
 ## Why exclude apps from filtering?
@@ -27,31 +27,29 @@ We deeply appreciate and value community contributions. You can contribute by cr
 
 &nbsp;
 
-## Filtering lists for Android  
+## Filtering lists for AdGuard for Android  
 
-### App Management tab
 
-`filter_traffic_exclusions.json` - A list of app package names where routing through AdGuard is disabled by default (App Management -> Route traffic through AdGuard).
+- [`filter_traffic_exclusions.json`](android/filter_traffic_exclusions.json) - A list of app package names where routing through AdGuard is disabled by default (App Management -> Route traffic through AdGuard).
 
-`block_ads_exclusions.json` - A list of app package names where traffic filtering is disabled by default (App Management -> Filter traffic).
+- [`block_ads_exclusions.json`](android/block_ads_exclusions.json) - A list of app package names where traffic filtering is disabled by default (App Management -> Filter traffic).
 
-`filter_https_traffic_exclusions.json` - A list of app package names where HTTPS filtering is disabled by default, even on rooted devices (App Management -> Filter HTTPS traffic).
+- [`filter_https_traffic_exclusions.json`](android/filter_https_traffic_exclusions.json) - A list of app package names where HTTPS filtering is disabled by default, even on rooted devices (App Management -> Filter HTTPS traffic).
 
-`filter_https_traffic_inclusions.txt` - A list of app package names where HTTPS filtering is enabled by default, including non-rooted devices (App Management -> Filter HTTPS traffic).
+- [`filter_https_traffic_inclusions.txt`](android/filter_https_traffic_inclusions.txt) - A list of app package names where HTTPS filtering is enabled by default, including non-rooted devices (App Management -> Filter HTTPS traffic).
 
-`filter_https_traffic_inclusions_problematic_devices.txt` - A special list of app package names where HTTPS filtering is enabled by default, including non-rooted devices. It is applied on problematic devices instead of the standard 'filter_https_traffic_inclusions.txt' (App Management -> Filter HTTPS traffic).
+- [`filter_https_traffic_inclusions_problematic_devices.txt`](android/filter_https_traffic_inclusions_problematic_devices.txt) - A special list of app package names where HTTPS filtering is enabled by default, including non-rooted devices. It is applied on problematic devices instead of the standard 'filter_https_traffic_inclusions.txt' (App Management -> Filter HTTPS traffic).
 
-`browsers.txt` - A list of browsers where traffic filtering is enabled with the free version of AdGuard.
+- [`browsers.txt`](android/browsers.txt) - A list of browsers where traffic filtering is enabled with the free version of AdGuard.
 
-### Low-level settings
 
-`pkg_exclusions.txt` - A list of apps excluded from routing completely. It supports exclusions by package names and reserved UIDs (Low-level settings -> Excluded apps).
+- [`pkg_exclusions.txt`](android/pkg_exclusions.txt) - A list of apps excluded from routing completely. It supports exclusions by package names and reserved UIDs (Low-level settings -> Excluded apps).
 
-`quic_pkg_exclusions.txt` - A list of app package names where QUIC traffic is allowed (Low-level settings -> QUIC bypass packages).
+- [`quic_pkg_exclusions.txt`](android/quic_pkg_exclusions.txt) - A list of app package names where QUIC traffic is allowed (Low-level settings -> QUIC bypass packages).
 
-`ipv4_routes_exclusions.txt` - A list of IPv4 ranges excluded from routing. 
+- [`ipv4_routes_exclusions.txt`](android/routes_exclusions/ipv4_routes_exclusions.txt) - A list of IPv4 ranges excluded from routing. 
 
-`ipv4_routes_exclusions_fujitsu.txt` - A list of IPv4 ranges excluded from routing on problematic devices. This list applies on Fujitsu devices: F-01J, F-01K, F-01L, F-02H, F-03H, F-03K, F-04H, F-04K. 
+- [`ipv4_routes_exclusions_fujitsu.txt`](android/routes_exclusions/ipv4_routes_exclusions_fujitsu.txt) - A list of IPv4 ranges excluded from routing on problematic devices. This list applies on Fujitsu devices: F-01J, F-01K, F-01L, F-02H, F-03H, F-03K, F-04H, F-04K. 
 
-`ipv6_routes_exclusions.txt` - A list of IPv6 ranges excluded from routing. 
+- [`ipv6_routes_exclusions.txt`](android/routes_exclusions/ipv6_routes_exclusions.txt) - A list of IPv6 ranges excluded from routing. 
 
