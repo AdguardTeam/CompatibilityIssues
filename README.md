@@ -1,4 +1,4 @@
-&nbsp;
+
 
 # Compatibility issues
 
@@ -6,7 +6,6 @@ This is a repo for listing all kinds of compatibility issues that we maintain fo
 
 This repository contains lists of exclusions and inclusions with entries for package names, UIDs, and IP ranges. Information from this repo is automatically built into the versions of AdGuard apps. 
 
-&nbsp;
 
 ## Why exclude apps from filtering?
 
