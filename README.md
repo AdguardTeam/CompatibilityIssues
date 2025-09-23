@@ -6,6 +6,8 @@ This is a repo for listing all kinds of compatibility issues that we maintain fo
 
 This repository contains lists of exclusions and inclusions with entries for package names, UIDs, and IP ranges. Information from this repo is automatically built into the versions of AdGuard apps. 
 
+&nbsp;
+
 ## Why exclude apps from filtering?
 
 Although we strive to maintain a high quality of filtering primarily through rules (see https://github.com/AdguardTeam/AdguardFilters), in specific cases, rules may not be enough. Some applications do not allow their traffic to be filtered, which leads to them malfunctioning. We carefully investigate such cases and add the identifier of the problematic app to the corresponding list. 
@@ -24,9 +26,11 @@ When you update AdGuard, the applications filtering settings will be updated unl
 
 We deeply appreciate and value community contributions. You can contribute by creating an issue or opening a pull request in this repository.
 
-### Filtering lists for Android  
+&nbsp;
 
-#### App Management tab
+## Filtering lists for Android  
+
+### App Management tab
 
 `filter_traffic_exclusions.json` - A list of app package names where routing through AdGuard is disabled by default (App Management -> Route traffic through AdGuard).
 
@@ -40,7 +44,7 @@ We deeply appreciate and value community contributions. You can contribute by cr
 
 `browsers.txt` - A list of browsers where traffic filtering is enabled with the free version of AdGuard.
 
-#### Low-level settings
+### Low-level settings
 
 `pkg_exclusions.txt` - A list of apps excluded from routing completely. It supports exclusions by package names and reserved UIDs (Low-level settings -> Excluded apps).
 
