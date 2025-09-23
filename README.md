@@ -9,7 +9,7 @@ This repository contains lists of exclusions and inclusions with entries for pac
 
 ## Why exclude apps from filtering?
 
-Although we strive to maintain a high quality of filtering primarily through rules (see https://github.com/AdguardTeam/AdguardFilters), in specific cases, rules may not be enough. Some applications do not allow their traffic to be filtered, which leads to them malfunctioning. We carefully investigate such cases and add the identifier of the problematic app to the corresponding list. 
+Although we strive to maintain a high quality of filtering primarily through rules (see [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repo), in specific cases, rules may not be enough. Some applications do not allow their traffic to be filtered, which leads to them malfunctioning. We carefully investigate such cases and add the identifier of the problematic app to the corresponding list. 
 
 ## What AdGuard applications use these filtering lists?
 
