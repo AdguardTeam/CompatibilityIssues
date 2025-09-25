@@ -25,6 +25,18 @@ When you update AdGuard, the applications filtering settings will be updated unl
 
 We deeply appreciate and value community contributions. You can contribute by creating an issue or opening a pull request in this repository.
 
+## Banking apps filtering policy
+
+AdGuard does not filter banking websites and applications due to security concerns. Many banking apps use SSL pinning, a technique to verify that the server's certificate is the one expected by the app. Filtering traffic could interfere with this process, causing banking apps to fail or detect potential security threats.
+
+Therefore, we exclude banking apps from filtering by default to protect your sensitive financial data and ensure their stable operation.
+
+If your banking application experiences any problems and isn't yet excluded from filtering by default, please open a [new issue](https://github.com/AdguardTeam/CompatibilityIssues/issues/new) or pull request in this repository.
+
+#### Banking apps should be added to:
+- [block_ads_exclusions.json](android/block_ads_exclusions.json) list for AdGuard for Android
+
+
 &nbsp;
 
 ## Filtering lists for AdGuard for Android  
