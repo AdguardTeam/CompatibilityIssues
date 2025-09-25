@@ -1,1073 +1,729 @@
 [
   {
     "package_name": "com.roku.remote",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start; Roku - unable to find devices on network",
-    "public": true
+    "comment": "Apps accessing lan start; Roku - unable to find devices on network"
   },
   {
     "package_name": "com.samsung.android.app.FileShareClient",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/237",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.samsung.android.app.FileShareServer",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/237",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.lge.qremote",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/245",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.playstation.remoteplay",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3181",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.gopro.smarty",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/495",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.amazon.storm.lightning.client.aosp",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "com.sonos.acr",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start; Sonos controller",
-    "public": true
+    "comment": "Apps accessing lan start; Sonos controller"
   },
   {
     "package_name": "com.verisign.mvip.main",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1670",
-    "private_issue_id": null,
-    "comment": "Apps accessing lan start",
-    "public": true
+    "comment": "Apps accessing lan start"
   },
   {
     "package_name": "jp.auone.wallet",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.msg",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.softbank.mb.plusmessage",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.mydocomo",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.co.softbank.OfficialApp",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.dcard",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.dpoint",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.dhits",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.co.nttdocomo.dtv",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.co.nttdocomo.videostoresc",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.co.nttdocomo.dtv.androidtv",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.dch",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.dmagazine",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.photocollection",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.kddi.android.smartpass",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.wowma.app",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.dmenu2",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.docomo_market",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.danimeapp",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.danimeshortcut",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.danimestb",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.uqmobile.uqmobileportalapp",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.dazn",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.co.disney.apps.gm.disneydx",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "com.nttdocomo.android.sha2.kids",
-    "public_issue_url": null,
     "private_issue_id": "AGM-318",
-    "comment": "Docomo apps",
-    "public": true
+    "comment": "Docomo apps"
   },
   {
     "package_name": "jp.au.pia.up",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "com.kddi.android.auemail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "com.kddi.android.aumail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "jp.co.nttdocomo.carriermail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "com.nttdocomo.android.docomomail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "jp.softbank.mb.mail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "jp.co.yahoo.android.ymobile.mail",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other japanese apps",
-    "public": true
+    "comment": "Other japanese apps"
   },
   {
     "package_name": "com.android.vending",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1052",
-    "private_issue_id": null,
-    "comment": "Other apps; Disabling data filtering only for Google Play, the user can enable it later",
-    "public": true
+    "comment": "Other apps; Disabling data filtering only for Google Play, the user can enable it later"
   },
   {
     "package_name": "com.pac.console",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other apps; PAC Console - ROM updater",
-    "public": true
+    "comment": "Other apps; PAC Console - ROM updater"
   },
   {
     "package_name": "com.sec.spp.push",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "org.appwork.myjdandroid",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/135",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.slimd0g.automosmetrowifi",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/246",
-    "private_issue_id": null,
-    "comment": "Other apps; Auto authorization in Mosmetro",
-    "public": true
+    "comment": "Other apps; Auto authorization in Mosmetro"
   },
   {
     "package_name": "pw.thedrhax.mosmetro",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/246",
-    "private_issue_id": null,
-    "comment": "Other apps; Auto authorization in Mosmetro",
-    "public": true
+    "comment": "Other apps; Auto authorization in Mosmetro"
   },
   {
     "package_name": "com.zoiper.android.app",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/422",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.csipsimple",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/422",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.rcreations.WebCamViewerPaid",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/321",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.dnset",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/127",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.tmobile.pr.mytmobile",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/607",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.android.providers.drm",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.samsung.syncservice",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/673",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "epic.mychart.android",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1505",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.google.android.apps.nbu.paisa.user",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1790",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.google.android.apps.searchlite",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3185",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.stackpath.cloak",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1868",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.blizzard.bma",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1868",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.samsung.android.scloud",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1891",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ua.privatbank.ap24",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1982",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ua.privatbank.ap24.old",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1982",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ca.tangerine.clients.phone",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2037",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.nest.android",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2028",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.samsung.android.samsungpay.gear",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2180",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.microsoft.appmanager",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2324",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.google.android.captiveportallogin",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2713",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.android.captiveportallogin",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2713",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.sipnetic.app",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2953",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "by.gis.gidrometweather",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3147",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.nttdocomo.keitai.payment",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.kddi.android.cmail",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "jp.videomarket.mb",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ru.rostel",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3310",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ru.sogaz.tm",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3573",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "sales.scanngo.atbapp",
-    "public_issue_url": null,
     "private_issue_id": "AG-4510",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.konylabs.capitalone",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/625",
     "private_issue_id": "AG-4348",
-    "comment": "Other apps; Previously this app was excluded from ad blocking but for now it's not enough",
-    "public": true
+    "comment": "Other apps; Previously this app was excluded from ad blocking but for now it's not enough"
   },
   {
     "package_name": "com.google.android.projection.gearhead",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3909",
     "private_issue_id": "AG-9207",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.orange.phone",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4777",
     "private_issue_id": "AG-23008",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.meross.meross",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4989",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "tv.vintera.smarttv",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "Other apps; blocking ads breaks video player",
-    "public": true
+    "comment": "Other apps; blocking ads breaks video player"
   },
   {
     "package_name": "com.bvblogic.nimbusnote",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/364",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "handasoft.mobile.divination",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4075",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "handasoft.mobile.divination_pro",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4075",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "pl.tvn.player",
-    "public_issue_url": null,
     "private_issue_id": "AG-4957",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.apple.movetoios",
-    "public_issue_url": null,
     "private_issue_id": "AG-5605",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.inpost.fresh",
-    "public_issue_url": null,
     "private_issue_id": "AG-10223",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.google.chromeremotedesktop",
-    "public_issue_url": null,
     "private_issue_id": "AG-11330",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "tv.inetcom.phone2",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4723",
-    "private_issue_id": null,
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.gpn.azs",
-    "public_issue_url": null,
     "private_issue_id": "AG-23925",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.qualcomm.qti.cne",
-    "public_issue_url": null,
     "private_issue_id": "AG-26715",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.irobot.home",
-    "public_issue_url": null,
     "private_issue_id": "AG-31981",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.keenetic.kn",
-    "public_issue_url": null,
     "private_issue_id": "AG-38533",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.carshering",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5464",
     "private_issue_id": "AG-36011",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "ru.otpbank.mobile",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5819",
     "private_issue_id": "AG-45501",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.bKash.customerapp",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5788",
     "private_issue_id": "AG-44448",
-    "comment": "Other apps",
-    "public": true
+    "comment": "Other apps"
   },
   {
     "package_name": "com.heytap.accessory",
-    "public_issue_url": null,
     "private_issue_id": "AG-36250",
-    "comment": "Other apps; the issue might be in the Quick Connect application and could be fixed in future updates",
-    "public": true
+    "comment": "Other apps; the issue might be in the Quick Connect application and could be fixed in future updates"
   },
   {
     "package_name": "com.thinkleft.eightyeightsms.mms",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.verizon.messaging.vzmsgs",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps; Some more mms apps",
-    "public": true
+    "comment": "SMS and MMS apps; Some more mms apps"
   },
   {
     "package_name": "com.android.mms",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.android.mms.service",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.motorola.messaging",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.textra",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps; Bug ID=AG-6596",
-    "public": true
+    "comment": "SMS and MMS apps; Bug ID=AG-6596"
   },
   {
     "package_name": "ru.mail.my",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps; Bug ID=AG-6569",
-    "public": true
+    "comment": "SMS and MMS apps; Bug ID=AG-6569"
   },
   {
     "package_name": "com.handcent.nextsms",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps; Blocking MMS",
-    "public": true
+    "comment": "SMS and MMS apps; Blocking MMS"
   },
   {
     "package_name": "com.handcent.app.nextsms",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/75",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.google.android.apps.messaging",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.p1.chompsms",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/49",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.project.materialmessaging",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/302",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.skt.prod.tmessage",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/412",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.disa",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/499",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.turkcell.bip",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2775",
-    "private_issue_id": null,
-    "comment": "SMS and MMS apps",
-    "public": true
+    "comment": "SMS and MMS apps"
   },
   {
     "package_name": "com.drweb",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.drweb.pro",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.drweb.pro.market",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.opera.max",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.opera.max.global",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "me.disconnect.mobile2",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.mobisoft.webguard",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "app.greyshirts.firewall",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "hotspotshield.android.vpn",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "org.hola",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.tunnelbear.android",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.avast.android.vpn",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.spotflux.android",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "net.hideman",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.aed.droidvpn",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.zenmate.android",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.exalinks.neopard",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.simplexsolutionsinc.vpn_unlimited",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.googlecode.droidwall.free",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "org.torproject.android",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.onavo.android.onavoics",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.pandasecurity.pandaav",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/740",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.globus.vpn",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/993",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "net.probki.geonet",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/995",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "cityguide.probki.net",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/962",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "ru.cardsmobile.mw3",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1068",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.cardsmobile.walletagent.common.hce",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1068",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.pcloud.pcloud",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1088",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.nextbit.constellation",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1353",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "de.blinkt.openvpn",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1183",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.zte.android.ztelink",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1687",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.cisco.webex.meetings",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2198",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.google.android.apps.walletnfcrel",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2399",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "org.codeaurora.ims",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.android.service.ims",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.android.service.ims.presence",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.google.android.ims",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.google.android.carrier",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.google.android.carriersetup",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
-    "private_issue_id": null,
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "com.ubnt.easyunifi",
-    "public_issue_url": null,
     "private_issue_id": "AG-7868",
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   },
   {
     "package_name": "de.avm.android.fritzapp",
-    "public_issue_url": null,
     "private_issue_id": "AG-7803",
-    "comment": "VPN and filtering apps",
-    "public": true
+    "comment": "VPN and filtering apps"
   }
 ]

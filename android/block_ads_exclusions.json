@@ -1,704 +1,476 @@
 [
   {
     "package_name": "maximsblog.blogspot.com.tv",
-    "public_issue_url": null,
-    "private_issue_id": "AG-6266",
-    "public": true
+    "private_issue_id": "AG-6266"
   },
   {
     "package_name": "com.livejournal.android",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/144",
-    "private_issue_id": "AG-6748",
-    "public": true
+    "private_issue_id": "AG-6748"
   },
   {
     "package_name": "ru.yandex.dictation",
-    "public_issue_url": null,
-    "private_issue_id": "AG-6787",
-    "public": true
+    "private_issue_id": "AG-6787"
   },
   {
     "package_name": "com.osp.app.signin",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/350",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/350"
   },
   {
     "package_name": "com.bvblogic.nimbusnote",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/364",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/364"
   },
   {
     "package_name": "com.nektome.talk",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/374",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/374"
   },
   {
     "package_name": "com.zynga.FarmVille2CountryEscape",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/45",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/45"
   },
   {
     "package_name": "com.google.android.apps.adwords",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/327",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/327"
   },
   {
     "package_name": "com.google.android.apps.ads.express",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/327",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/327"
   },
   {
     "package_name": "com.gameville.volleyhangout",
-    "public_issue_url": null,
-    "private_issue_id": "AG-6744",
-    "public": true
+    "private_issue_id": "AG-6744"
   },
   {
     "package_name": "com.google.android.calendar",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/658",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/658"
   },
   {
     "package_name": "com.virginmedia.tvanywhere",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/883",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/883"
   },
   {
     "package_name": "com.melodis.midomiMusicIdentifier.freemium",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/781",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/781"
   },
   {
     "package_name": "com.melodis.midomiMusicIdentifier",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/781",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/781"
   },
   {
     "package_name": "com.netmarble.sknightsgb",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1236",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1236"
   },
   {
     "package_name": "com.ftt.lostkaos",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1330",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1330"
   },
   {
     "package_name": "com.scannerradio",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2038",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2038"
   },
   {
     "package_name": "com.zing.zalo",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2186",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2186"
   },
   {
     "package_name": "com.kms.free",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2917",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2917"
   },
   {
     "package_name": "com.tomtom.speedcams.android.map",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3718",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3718"
   },
   {
     "package_name": "com.tomtom.amigo.huawei",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3767",
-    "private_issue_id": "AG-6790",
-    "public": true
+    "private_issue_id": "AG-6790"
   },
   {
     "package_name": "com.rapido.passenger",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3976",
-    "private_issue_id": "AG-10187",
-    "public": true
+    "private_issue_id": "AG-10187"
   },
   {
     "package_name": "ru.sberbankmobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169"
   },
   {
     "package_name": "ru.alfabank.mobile.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169"
   },
   {
     "package_name": "ru.alfabank.oavdo.amc",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169"
   },
   {
     "package_name": "com.idamob.tinkoff.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169"
   },
   {
     "package_name": "ru.tcsbank.wallet",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/169"
   },
   {
     "package_name": "ru.simpls.mbrd.ui.beta",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3196",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3196"
   },
   {
     "package_name": "ru.simpls.mbrd.ui",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3196",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3196"
   },
   {
     "package_name": "se.nordea.mobilebank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414"
   },
   {
     "package_name": "se.bankgirot.swish",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414"
   },
   {
     "package_name": "com.bankid.bus",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414"
   },
   {
     "package_name": "au.com.ingdirect.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414"
   },
   {
     "package_name": "com.htsu.hsbcpersonalbanking",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/414"
   },
   {
     "package_name": "com.bkm.mobil",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
     "package_name": "com.pozitron.iscep",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
     "package_name": "com.ykb.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
     "package_name": "com.paypal.android.p2pmobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
     "package_name": "com.ziraat.ziraatmobil",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
     "package_name": "tr.com.sekerbilisim.mbank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/397"
   },
   {
-    "package_name": "com.openbank",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "public": true
+    "package_name": "com.openbank"
   },
   {
-    "package_name": "subsembly.banking",
-    "public_issue_url": null,
-    "private_issue_id": null,
-    "public": true
+    "package_name": "subsembly.banking"
   },
   {
     "package_name": "de.dkb.portalapp",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702"
   },
   {
     "package_name": "com.starfinanz.mobile.android.dkbpushtan",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702"
   },
   {
     "package_name": "com.centralway.numbrs",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/702"
   },
   {
     "package_name": "kz.crystalspring.bankofastana",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/637",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/637"
   },
   {
     "package_name": "com.ally.MobileBanking",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/743",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/743"
   },
   {
     "package_name": "com.megafon.bank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/832",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/832"
   },
   {
     "package_name": "com.axabanque.fr",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/848",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/848"
   },
   {
     "package_name": "ru.raiffeisennews",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "eu.eleader.mobilebanking.raiffeisen",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.advantage.RaiffeisenBank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "ch.raiffeisen.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.isis_papyrus.raiffeisen_pay_eyewdg",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "ch.raiffeisen.phototan",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.guidance.android.apps.raiffeisen.banklet",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "cz.rb.app.smartphonebanking",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.infinum.rba",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "at.racon.ebba",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "ua.pentegy.avalbank.production",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "lu.raiffeisen.mobile.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "rs.Raiffeisen.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.raiffeisen.online.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "hr.asseco.android.jimba.rmb",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.hal.mbank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "com.evolaris.rmclub",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/851"
   },
   {
     "package_name": "uk.co.tsb.mobilebank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/852",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/852"
   },
   {
     "package_name": "ru.letobank.Prometheus",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/945",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/945"
   },
   {
     "package_name": "com.sc.danb.scbankapp",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1013",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1013"
   },
   {
     "package_name": "com.venmo",
-    "public_issue_url": "https://github.com/AdguardTeam/HttpsExclusions/issues/1",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/HttpsExclusions/issues/1"
   },
   {
     "package_name": "com.ing.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1145",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1145"
   },
   {
     "package_name": "com.ing.mobilepayments",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1145",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1145"
   },
   {
     "package_name": "de.number26.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.chase.sig.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.wf.wellsfargomobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.bnpp.easybanking",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.discoverfinancial.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "mobi.societegenerale.mobile.lappli",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "de.commerzbanking.mobil",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.db.mm.deutschebank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.usbank.mobilebanking",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.infonow.bofa",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1287"
   },
   {
     "package_name": "com.banksimple",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1361",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1361"
   },
   {
     "package_name": "com.mobicon.mbank2.belarusbank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1411",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1411"
   },
   {
     "package_name": "com.finansbank.mobile.cepsube",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638"
   },
   {
     "package_name": "com.garanti.cepsubesi",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638"
   },
   {
     "package_name": "com.freecharge.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1638"
   },
   {
     "package_name": "com.kbstar.kbbank",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1694",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1694"
   },
   {
     "package_name": "com.otsar.nativeapp",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1699",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1699"
   },
   {
     "package_name": "finansbank.enpara",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1710",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1710"
   },
   {
     "package_name": "finansbank.enpara.sirketim",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1710",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1710"
   },
   {
     "package_name": "se.entercard.remember",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777"
   },
   {
     "package_name": "com.no.entercard.coopmastercard",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777"
   },
   {
     "package_name": "be.bankvanbreda.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1777"
   },
   {
     "package_name": "wit.android.bcpBankingApp.millenniumPL",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1981",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1981"
   },
   {
     "package_name": "com.pnc.ecommerce.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2150",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2150"
   },
   {
     "package_name": "com.nordea.mobiletoken",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2945",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2945"
   },
   {
     "package_name": "com.fortuneo.android",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2957",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2957"
   },
   {
     "package_name": "com.citibank.mobile.ru",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3082",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3082"
   },
   {
     "package_name": "cz.csas.georgego",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "cz.csas.app.georgeklic",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "cz.csas.app.friends24",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "com.cleverlance.csas.servis24",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "cz.csas.app.poketka",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "cz.csas.app.mujstav",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "cz.csas.business24",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3157"
   },
   {
     "package_name": "fr.banquepopulaire.cyberplus",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3205",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3205"
   },
   {
     "package_name": "com.finanteq.finance.bgz",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3222",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3222"
   },
   {
     "package_name": "com.fd.accessplusecs.aqua",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3262",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3262"
   },
   {
     "package_name": "com.alrayanbankuk.mobile",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3263",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3263"
   },
   {
     "package_name": "ru.mkb.mobile",
-    "public_issue_url": null,
-    "private_issue_id": "AG-1138",
-    "public": true
+    "private_issue_id": "AG-1138"
   },
   {
     "package_name": "com.alseda.bapb",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3311",
-    "private_issue_id": "AG-1431",
-    "public": true
+    "private_issue_id": "AG-1431"
   },
   {
     "package_name": "com.phonepe.app",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3460",
-    "private_issue_id": "AG-2847",
-    "public": true
+    "private_issue_id": "AG-2847"
   },
   {
     "package_name": "posteitaliane.posteapp.appbpol",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3756",
-    "private_issue_id": "AG-6735",
-    "public": true
+    "private_issue_id": "AG-6735"
   },
   {
     "package_name": "com.homeretailgroup.myargoscard",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3480",
-    "private_issue_id": "AG-3049",
-    "public": true
+    "private_issue_id": "AG-3049"
   },
   {
     "package_name": "com.dkbcodefactory.banking",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3734",
-    "private_issue_id": "AG-6480",
-    "public": true
+    "private_issue_id": "AG-6480"
   },
   {
     "package_name": "com.meross.meross",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4989",
-    "private_issue_id": null,
-    "public": true
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4989"
   }
 ]
