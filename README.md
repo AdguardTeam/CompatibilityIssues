@@ -50,7 +50,7 @@ To do this, check the blocked requests of the problematic app in the Filtering l
 
 6. If the app relies on SSL pinning, it may not function correctly when its traffic is being filtered. In that case, try disabling filtering for this app in AdGuard. If that resolves the problem, let us know by creating a new issue in this repository.  
 
-> To check whether the app is using SSL pinning, route its traffic through [mitmproxy](https://www.mitmproxy.org). If, while reproducing the issue, you see entries in the mitmproxy Event Log such as:
+> To check whether the app is using SSL pinning, close AdGuard and route its traffic through [mitmproxy](https://www.mitmproxy.org). Try to reproduce the problem. If you see entries in the mitmproxy Event Log such as:
 `Client TLS handshake failed. The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))`
 — that indicates SSL pinning is in use.
 
