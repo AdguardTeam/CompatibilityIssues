@@ -25,17 +25,34 @@ When you update AdGuard, the applications filtering settings will be updated unl
 
 We deeply appreciate and value community contributions. You can contribute by creating an issue or opening a pull request in this repository.
 
-## Banking apps filtering policy
+## How to know if an app should be added to lists from this repository?
 
-AdGuard does not filter banking websites and applications due to security concerns. Many banking apps use SSL pinning, a technique to verify that the server's certificate is the one expected by the app. Filtering traffic could interfere with this process, causing banking apps to fail or detect potential security threats.
+An app is a good candidate for the filtering exclusions list when it experiences issues with AdGuard that cannot be resolved using standard filter lists from the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repo.
 
-Therefore, we exclude banking apps from filtering by default to protect your sensitive financial data and ensure their stable operation.
+This primarily includes apps that use SSL pinning, a technique to verify that the server's certificate is the one expected by the app. Filtering traffic could interfere with this process, causing these apps to malfunction or detect potential security threats.
 
-If your banking application experiences any problems and isn't yet excluded from filtering by default, please open a [new issue](https://github.com/AdguardTeam/CompatibilityIssues/issues/new) or pull request in this repository.
+Another common reason is that the problematic app relies on QUIC traffic. Filtering QUIC traffic cannot be managed by regular filter lists and requires the use of lists from this repository.
 
-#### Banking apps should be added to:
-- [block_ads_exclusions.json](android/block_ads_exclusions.json) list for AdGuard for Android
+## How to troubleshoot compatibility issues? 
 
+Here’s a simple steps to help you sort things out. 
+
+1. Make sure the traffic isn’t being blocked by one of the filters in the AdGuard app. 
+To do this, check the blocked requests of the problematic app in the Filtering log and temporarily disable all filters listed in the request details as the blocking source. Then test again: does the issue still occur with those filters disabled? If resolved, please report by creating a new issue in the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository. 
+
+2. Try temporarily disabling the Tracking Protection module and check the issue again. If that helps, you can solve it by creating an [allowing rule with the `$stealth` modifier](https://adguard.com/kb/general/ad-filtering/create-own-filters/#stealth-modifier). Then open a new issue in the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository.
+
+3. Confirm that the traffic isn’t being blocked by your filtering DNS server. Switch to `Automatic DNS` or another non-filtering DNS and see if the problem persists.
+
+4. Check whether QUIC blocking might be the cause of the compatibility issue. A common symptom of QUIC-related problems is that images or video content won’t load. Add the app to the QUIC bypass packages list in AdGuard and see if that resolves the problem. Open a new issue or pull request in this repository if it does. 
+
+5. If you’re using the Proxy module, temporarily disable it to make sure the compatibility issue isn’t caused by the proxy.
+
+6. If the app relies on SSL pinning, it may not function correctly when its traffic is being filtered. In that case, try disabling filtering for this app in AdGuard. If that resolves the problem, let us know by creating a new issue in this repository.  
+
+> To check whether the app is using SSL pinning, route its traffic through [mitmproxy](https://www.mitmproxy.org). If, while reproducing the issue, you see entries in the mitmproxy Event Log such as:
+`Client TLS handshake failed. The client does not trust the proxy's certificate for example.com (OpenSSL Error([('SSL routines', '', 'ssl/tls alert certificate unknown')]))`
+— that indicates SSL pinning is in use.
 
 &nbsp;
 
