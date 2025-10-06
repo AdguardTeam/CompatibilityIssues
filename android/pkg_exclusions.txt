@@ -1,0 +1,11 @@
+// Disable for "radio": https://github.com/AdguardTeam/AdguardForAndroid/issues/1058
+1001
+// Disable for "system": https://github.com/AdguardTeam/AdguardForAndroid/issues/2550
+1000
+// Disable Downloads Manager https://github.com/AdguardTeam/AdguardForAndroid/issues/3355
+com.android.providers.downloads
+com.android.providers.downloads.ui
+// Disable AdGuard VPN
+com.adguard.vpn
+// Realme devices have their own Download Manager https://github.com/AdguardTeam/AdGuardVPNForAndroid/issues/95
+com.coloros.providers.downloads.ui

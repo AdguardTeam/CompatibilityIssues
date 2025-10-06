@@ -1,0 +1,862 @@
+[
+  {
+    "package_name": "com.facebook.katana"
+  },
+  {
+    "package_name": "com.facebook.orca"
+  },
+  {
+    "package_name": "com.instagram.android"
+  },
+  {
+    "package_name": "com.microsoft.cortana",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1135"
+  },
+  {
+    "package_name": "ru.yandex.taxi",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/320"
+  },
+  {
+    "package_name": "com.sec.android.app.samsungapps",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/385"
+  },
+  {
+    "package_name": "com.facebook.lite",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/438"
+  },
+  {
+    "package_name": "com.ubercab",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/427"
+  },
+  {
+    "package_name": "com.americanexpress.android.acctsvcs.us",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/466"
+  },
+  {
+    "package_name": "com.payoneer.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/465"
+  },
+  {
+    "package_name": "com.snapchat.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/469"
+  },
+  {
+    "package_name": "com.twitter.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/418"
+  },
+  {
+    "package_name": "gbis.gbandroid",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/396"
+  },
+  {
+    "package_name": "com.amazon.mShop.android.shopping",
+    "public_issue_url": "https://github.com/AdguardTeam/ExperimentalFilter/issues/2008"
+  },
+  {
+    "package_name": "de.lotum.whatsinthefoto.us",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/394"
+  },
+  {
+    "package_name": "air.com.freshplanet.games.SongPop2",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/395"
+  },
+  {
+    "package_name": "com.tranzmate",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/492"
+  },
+  {
+    "package_name": "com.smartthings.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/531"
+  },
+  {
+    "package_name": "ru.rambler.mail",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/588"
+  },
+  {
+    "package_name": "ru.mts.music.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/559"
+  },
+  {
+    "package_name": "com.jet.jet.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/612"
+  },
+  {
+    "package_name": "com.amazon.kindle",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.sellermobile.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.mShop.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "uk.amazon.mShop.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.windowshop",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.drive",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.clouddrive.photos",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "com.amazon.venezia",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/676"
+  },
+  {
+    "package_name": "nl.sanomamedia.android.nu",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/655"
+  },
+  {
+    "package_name": "com.planetromeo.android.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/686"
+  },
+  {
+    "package_name": "by.euanpa.schedulegrodno",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/659"
+  },
+  {
+    "package_name": "org.coursera.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/650"
+  },
+  {
+    "package_name": "com.heetch",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/624"
+  },
+  {
+    "package_name": "com.google.android.googlequicksearchbox",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/584"
+  },
+  {
+    "package_name": "com.samsung.voiceserviceplatform",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/674"
+  },
+  {
+    "package_name": "com.grindrapp.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/710"
+  },
+  {
+    "package_name": "com.neuralprisma",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/715"
+  },
+  {
+    "package_name": "ru.yandex.yandexnavi",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/447"
+  },
+  {
+    "package_name": "com.touchtype.swiftkey",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/679"
+  },
+  {
+    "package_name": "com.lazada.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/680"
+  },
+  {
+    "package_name": "com.waze",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/733"
+  },
+  {
+    "package_name": "de.idealo.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/729"
+  },
+  {
+    "package_name": "com.touchtype.swiftkey.beta",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/679"
+  },
+  {
+    "package_name": "ru.yandex.mail",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/388"
+  },
+  {
+    "package_name": "ru.yandex.disk",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1278"
+  },
+  {
+    "package_name": "ru.yandex.market",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1296"
+  },
+  {
+    "package_name": "ru.yandex.weatherplugin",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1296"
+  },
+  {
+    "package_name": "com.apple.android.music",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/792"
+  },
+  {
+    "package_name": "com.google.android.apps.tachyon",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/753"
+  },
+  {
+    "package_name": "com.siber.roboform",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/789"
+  },
+  {
+    "package_name": "com.google.android.apps.fireball",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/804"
+  },
+  {
+    "package_name": "com.skype.raider",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/826"
+  },
+  {
+    "package_name": "ua.com.rozetka.shop",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/831"
+  },
+  {
+    "package_name": "com.sofascore.results",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/845"
+  },
+  {
+    "package_name": "com.raumfeld.android.controller",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/873"
+  },
+  {
+    "package_name": "com.dunkinbrands.otgo",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/890"
+  },
+  {
+    "package_name": "ru.beeline.services",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/895"
+  },
+  {
+    "package_name": "ua.novaposhtaa",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/900"
+  },
+  {
+    "package_name": "rg.kman.AquaMail",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/898"
+  },
+  {
+    "package_name": "com.cloudmosa.puffinFree",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/915"
+  },
+  {
+    "package_name": "com.cloudmosa.puffin",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/915"
+  },
+  {
+    "package_name": "com.samsung.android.themestore",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/916"
+  },
+  {
+    "package_name": "com.citi.citimobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/920"
+  },
+  {
+    "package_name": "com.microsoft.microsoftsolitairecollection",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/942"
+  },
+  {
+    "package_name": "com.microsoft.office.lync15",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/944"
+  },
+  {
+    "package_name": "org.cryptomator.beta",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/991"
+  },
+  {
+    "package_name": "com.poloniumarts.svyaznoy",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/987"
+  },
+  {
+    "package_name": "air.nn.mobile.app.main",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1034"
+  },
+  {
+    "package_name": "com.google.android.youtube.tv",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/965"
+  },
+  {
+    "package_name": "com.facebook.mlite",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1010"
+  },
+  {
+    "package_name": "com.ecobee.athenamobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1041"
+  },
+  {
+    "package_name": "com.nuance.swype.dtc",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1040"
+  },
+  {
+    "package_name": "com.nuance.swype.trial",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1040"
+  },
+  {
+    "package_name": "com.google.android.inputmethod.latin",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/984"
+  },
+  {
+    "package_name": "com.korbit.trader",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1093"
+  },
+  {
+    "package_name": "com.kaspersky.safekids",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1089"
+  },
+  {
+    "package_name": "ru.yota.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/762"
+  },
+  {
+    "package_name": "com.arvifox.hibiny",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1164"
+  },
+  {
+    "package_name": "com.ivideon.client",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1204"
+  },
+  {
+    "package_name": "com.nimses",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1273"
+  },
+  {
+    "package_name": "ru.mail.auth.totp",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1347"
+  },
+  {
+    "package_name": "com.google.android.apps.authenticator2",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1347"
+  },
+  {
+    "package_name": "com.authy.authy",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1347"
+  },
+  {
+    "package_name": "com.avito.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1324"
+  },
+  {
+    "package_name": "ua.slando",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1143"
+  },
+  {
+    "package_name": "com.samruston.twitter",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1389"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.wakeup",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.agent",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.es.globalaction",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.agent.dummy",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.voiceinput",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "com.samsung.android.bixby.plmsync",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1400"
+  },
+  {
+    "package_name": "jp.naver.line.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1418"
+  },
+  {
+    "package_name": "com.wealthfront",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1431"
+  },
+  {
+    "package_name": "com.viber.voip",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1103"
+  },
+  {
+    "package_name": "ru.sports",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1144"
+  },
+  {
+    "package_name": "com.google.android.apps.chromecast.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1515"
+  },
+  {
+    "package_name": "com.bemyeyes.bemyeyes",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1518"
+  },
+  {
+    "package_name": "mega.privacy.android.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1531"
+  },
+  {
+    "package_name": "com.vkontakte.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1536"
+  },
+  {
+    "package_name": "ru.ok.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1372"
+  },
+  {
+    "package_name": "ru.fourpda.client",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1591"
+  },
+  {
+    "package_name": "com.netgear.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1669"
+  },
+  {
+    "package_name": "ru.yandex.money",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1686"
+  },
+  {
+    "package_name": "com.olacabs.customer",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1672"
+  },
+  {
+    "package_name": "com.tellm.android.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1544"
+  },
+  {
+    "package_name": "nl.rijksoverheid.digid.pub",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1701"
+  },
+  {
+    "package_name": "com.droid4you.application.wallet",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1718"
+  },
+  {
+    "package_name": "com.sonymobile.androidapp.audiorecorder",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1817"
+  },
+  {
+    "package_name": "com.google.android.apps.maps",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1825"
+  },
+  {
+    "package_name": "com.google.android.apps.tasks",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1841"
+  },
+  {
+    "package_name": "com.mfoundry.mb.android.mb_031101321",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1860"
+  },
+  {
+    "package_name": "com.lsdroid.cerberus",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1866"
+  },
+  {
+    "package_name": "org.lumicall.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1899"
+  },
+  {
+    "package_name": "com.bbm",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1940"
+  },
+  {
+    "package_name": "com.myyearbook.m",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1949"
+  },
+  {
+    "package_name": "com.box.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2039"
+  },
+  {
+    "package_name": "com.alseda.ideabank",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2082"
+  },
+  {
+    "package_name": "com.gashpay.personal",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2103"
+  },
+  {
+    "package_name": "ru.sberbank.spasibo",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2106"
+  },
+  {
+    "package_name": "in.amazon.mShop.android.shopping",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2246"
+  },
+  {
+    "package_name": "com.olo.elpolloloco",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2283"
+  },
+  {
+    "package_name": "com.google.android.wearable.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2385"
+  },
+  {
+    "package_name": "widget.dd.com.overdrop.free",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2551"
+  },
+  {
+    "package_name": "ru.tinkoff.mvno",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2618"
+  },
+  {
+    "package_name": "com.bskyb.skyq.it",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2624"
+  },
+  {
+    "package_name": "gr.cosmote.whatsup",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2920"
+  },
+  {
+    "package_name": "gr.cosmote.myaccount.widget",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2920"
+  },
+  {
+    "package_name": "ch.threema.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2970"
+  },
+  {
+    "package_name": "com.automattic.simplenote",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3121"
+  },
+  {
+    "package_name": "com.udemy.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3072"
+  },
+  {
+    "package_name": "com.vodafone.selfservis",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2824"
+  },
+  {
+    "package_name": "com.amazon.avod.thirdpartyclient",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3277"
+  },
+  {
+    "package_name": "com.scee.psxandroid",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3306"
+  },
+  {
+    "package_name": "ch.protonvpn.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3321"
+  },
+  {
+    "package_name": "com.readdle.spark",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3322"
+  },
+  {
+    "package_name": "com.imdb.mobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3323"
+  },
+  {
+    "package_name": "com.vtosters.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3325"
+  },
+  {
+    "package_name": "com.x8bit.bitwarden",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3206"
+  },
+  {
+    "package_name": "com.pelmorex.WeatherEyeAndroid",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3204"
+  },
+  {
+    "package_name": "com.google.android.feedback",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3655",
+    "private_issue_id": "AG-5165"
+  },
+  {
+    "package_name": "com.kantarworldpanel.shoppix",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4706",
+    "private_issue_id": "AG-22384"
+  },
+  {
+    "package_name": "uk.co.sainsburysbank.mobile.prod",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uk.co.sainsburysbank.travelmoneycard",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "pl.bzwbk.bzwbk24",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.bancosantander.apps",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "pl.santanderconsumer",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uk.co.santander.santanderUK",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.bancosantander.empresas",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.sovereign.santander",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "de.santander.presentation",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.us.sme",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "mx.bancosantander.supermovil",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "at.santanderconsumer.oksantander",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.bancosantander.android.confirming",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "ar.com.santander.rio.mbanking",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.webbanking",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "mobile.santander.de.smartsign",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "mx.com.santander.superwallet",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.bpi",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "pt.santander.oneappparticulares",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "br.com.santander.way",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santandermovelempresarial.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.mobilenik.bsre",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "cl.santander.smartphone",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "cl.santander.santanderpasschile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.portalcliente",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "mx.com.santander.SantanderSeguros",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "cl.santander.app.empresas",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.bancosantander.android.sanwear",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.banconsantander.app.tablet",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.one.uk.live",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.selectglobal",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uy.com.Santander",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "br.com.santander.mobilebroker",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uy.com.Santander.TC",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "pt.santandertotta.mobileempresas",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.comarch.mobile.investment",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.santander.Criptocalculadora",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santanderinternational.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.tm.sanstp",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "es.bancosantander.accionistas",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.evry.android.cardcompanion.san",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uk.co.santander.corporatemobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.santander.enlace.BET",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "pl.bzwbk.ibiznes24",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uy.bancosantander.inversiones",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "br.com.santander.amex",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uy.com.banred.santander",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.tm.sanstp.nexussign",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uk.co.santander.businessbankingUK",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "cl.com.superdigital",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "com.suressedirektbank.de",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "uy.bancosantander.empresas",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5058",
+    "private_issue_id": "AG-27310"
+  },
+  {
+    "package_name": "one.belousov.wordgame",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardFilters/issues/172507"
+  },
+  {
+    "package_name": "com.klook",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5143",
+    "private_issue_id": "AG-29237"
+  },
+  {
+    "package_name": "tw.com.thsrc.enterprise",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5143",
+    "private_issue_id": "AG-29237"
+  },
+  {
+    "package_name": "com.tplink.tpm5",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5143",
+    "private_issue_id": "AG-29237"
+  },
+  {
+    "package_name": "com.tencent.mm",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5689",
+    "private_issue_id": "AG-29237"
+  }
+]

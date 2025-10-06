@@ -1,0 +1,729 @@
+[
+  {
+    "package_name": "com.roku.remote",
+    "comment": "Apps accessing lan start; Roku - unable to find devices on network"
+  },
+  {
+    "package_name": "com.samsung.android.app.FileShareClient",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/237",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.samsung.android.app.FileShareServer",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/237",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.lge.qremote",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/245",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.playstation.remoteplay",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3181",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.gopro.smarty",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/495",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.amazon.storm.lightning.client.aosp",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "com.sonos.acr",
+    "comment": "Apps accessing lan start; Sonos controller"
+  },
+  {
+    "package_name": "com.verisign.mvip.main",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1670",
+    "comment": "Apps accessing lan start"
+  },
+  {
+    "package_name": "jp.auone.wallet",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.msg",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.softbank.mb.plusmessage",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.mydocomo",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.co.softbank.OfficialApp",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.dcard",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.dpoint",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.dhits",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.co.nttdocomo.dtv",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.co.nttdocomo.videostoresc",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.co.nttdocomo.dtv.androidtv",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.dch",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.dmagazine",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.photocollection",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.kddi.android.smartpass",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.wowma.app",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.dmenu2",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.docomo_market",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.danimeapp",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.danimeshortcut",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.danimestb",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.uqmobile.uqmobileportalapp",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.dazn",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.co.disney.apps.gm.disneydx",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.sha2.kids",
+    "private_issue_id": "AGM-318",
+    "comment": "Docomo apps"
+  },
+  {
+    "package_name": "jp.au.pia.up",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "com.kddi.android.auemail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "com.kddi.android.aumail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "jp.co.nttdocomo.carriermail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "com.nttdocomo.android.docomomail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "jp.softbank.mb.mail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "jp.co.yahoo.android.ymobile.mail",
+    "comment": "Other japanese apps"
+  },
+  {
+    "package_name": "com.android.vending",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1052",
+    "comment": "Other apps; Disabling data filtering only for Google Play, the user can enable it later"
+  },
+  {
+    "package_name": "com.pac.console",
+    "comment": "Other apps; PAC Console - ROM updater"
+  },
+  {
+    "package_name": "com.sec.spp.push",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "org.appwork.myjdandroid",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/135",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.slimd0g.automosmetrowifi",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/246",
+    "comment": "Other apps; Auto authorization in Mosmetro"
+  },
+  {
+    "package_name": "pw.thedrhax.mosmetro",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/246",
+    "comment": "Other apps; Auto authorization in Mosmetro"
+  },
+  {
+    "package_name": "com.zoiper.android.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/422",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.csipsimple",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/422",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.rcreations.WebCamViewerPaid",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/321",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.dnset",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/127",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.tmobile.pr.mytmobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/607",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.android.providers.drm",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.samsung.syncservice",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/673",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "epic.mychart.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1505",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.google.android.apps.nbu.paisa.user",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1790",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.google.android.apps.searchlite",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3185",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.stackpath.cloak",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1868",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.blizzard.bma",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1868",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.samsung.android.scloud",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1891",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ua.privatbank.ap24",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1982",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ua.privatbank.ap24.old",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1982",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ca.tangerine.clients.phone",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2037",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.nest.android",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2028",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.samsung.android.samsungpay.gear",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2180",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.microsoft.appmanager",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2324",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.google.android.captiveportallogin",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2713",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.android.captiveportallogin",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2713",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.sipnetic.app",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2953",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "by.gis.gidrometweather",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3147",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.nttdocomo.keitai.payment",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.kddi.android.cmail",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "jp.videomarket.mb",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3281",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ru.rostel",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3310",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ru.sogaz.tm",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3573",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "sales.scanngo.atbapp",
+    "private_issue_id": "AG-4510",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.konylabs.capitalone",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/625",
+    "private_issue_id": "AG-4348",
+    "comment": "Other apps; Previously this app was excluded from ad blocking but for now it's not enough"
+  },
+  {
+    "package_name": "com.google.android.projection.gearhead",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/3909",
+    "private_issue_id": "AG-9207",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.orange.phone",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4777",
+    "private_issue_id": "AG-23008",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.meross.meross",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4989",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "tv.vintera.smarttv",
+    "comment": "Other apps; blocking ads breaks video player"
+  },
+  {
+    "package_name": "com.bvblogic.nimbusnote",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/364",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "handasoft.mobile.divination",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4075",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "handasoft.mobile.divination_pro",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4075",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "pl.tvn.player",
+    "private_issue_id": "AG-4957",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.apple.movetoios",
+    "private_issue_id": "AG-5605",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.inpost.fresh",
+    "private_issue_id": "AG-10223",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.google.chromeremotedesktop",
+    "private_issue_id": "AG-11330",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "tv.inetcom.phone2",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4723",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.gpn.azs",
+    "private_issue_id": "AG-23925",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.qualcomm.qti.cne",
+    "private_issue_id": "AG-26715",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.irobot.home",
+    "private_issue_id": "AG-31981",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.keenetic.kn",
+    "private_issue_id": "AG-38533",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.carshering",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5464",
+    "private_issue_id": "AG-36011",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "ru.otpbank.mobile",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5819",
+    "private_issue_id": "AG-45501",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.bKash.customerapp",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5788",
+    "private_issue_id": "AG-44448",
+    "comment": "Other apps"
+  },
+  {
+    "package_name": "com.heytap.accessory",
+    "private_issue_id": "AG-36250",
+    "comment": "Other apps; the issue might be in the Quick Connect application and could be fixed in future updates"
+  },
+  {
+    "package_name": "com.thinkleft.eightyeightsms.mms",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.verizon.messaging.vzmsgs",
+    "comment": "SMS and MMS apps; Some more mms apps"
+  },
+  {
+    "package_name": "com.android.mms",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.android.mms.service",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.motorola.messaging",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.textra",
+    "comment": "SMS and MMS apps; Bug ID=AG-6596"
+  },
+  {
+    "package_name": "ru.mail.my",
+    "comment": "SMS and MMS apps; Bug ID=AG-6569"
+  },
+  {
+    "package_name": "com.handcent.nextsms",
+    "comment": "SMS and MMS apps; Blocking MMS"
+  },
+  {
+    "package_name": "com.handcent.app.nextsms",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/75",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.google.android.apps.messaging",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.p1.chompsms",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/49",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.project.materialmessaging",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/302",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.skt.prod.tmessage",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/412",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.disa",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/499",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.turkcell.bip",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2775",
+    "comment": "SMS and MMS apps"
+  },
+  {
+    "package_name": "com.drweb",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.drweb.pro",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.drweb.pro.market",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.opera.max",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.opera.max.global",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "me.disconnect.mobile2",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.mobisoft.webguard",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "app.greyshirts.firewall",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "hotspotshield.android.vpn",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "org.hola",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.tunnelbear.android",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.avast.android.vpn",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.spotflux.android",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "net.hideman",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.aed.droidvpn",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.zenmate.android",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.exalinks.neopard",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.simplexsolutionsinc.vpn_unlimited",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.googlecode.droidwall.free",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "org.torproject.android",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.onavo.android.onavoics",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.pandasecurity.pandaav",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/740",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.globus.vpn",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/993",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "net.probki.geonet",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/995",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "cityguide.probki.net",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/962",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "ru.cardsmobile.mw3",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1068",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.cardsmobile.walletagent.common.hce",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1068",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.pcloud.pcloud",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1088",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.nextbit.constellation",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1353",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "de.blinkt.openvpn",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1183",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.zte.android.ztelink",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/1687",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.cisco.webex.meetings",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2198",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.google.android.apps.walletnfcrel",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2399",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "org.codeaurora.ims",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.android.service.ims",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.android.service.ims.presence",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.google.android.ims",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.google.android.carrier",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.google.android.carriersetup",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/2402",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "com.ubnt.easyunifi",
+    "private_issue_id": "AG-7868",
+    "comment": "VPN and filtering apps"
+  },
+  {
+    "package_name": "de.avm.android.fritzapp",
+    "private_issue_id": "AG-7803",
+    "comment": "VPN and filtering apps"
+  }
+]

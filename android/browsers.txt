@@ -1,0 +1,240 @@
+// List of browsers supported by AdGuard
+acr.browser.barebones
+acr.browser.lightning
+cn.mozilla.firefox
+com.amazon.cloud9
+com.android.browser
+com.android.chrome
+org.cyanogenmod.gello.browser
+com.apn.mobile.browser
+com.appdream.cloud
+com.asus.browser
+com.baidu.browser.inter
+com.baidu.browserhd.inter
+com.boatbrowser.free
+com.boatbrowser.license.key
+com.boatbrowser.tablet
+com.boatgo.browser
+com.chrome.beta
+com.chrome.dev
+com.chrome.canary
+com.chrome.deviceextras.samsung
+com.cleanmaster.security
+com.cloudmosa.puffin
+com.cloudmosa.puffinFree
+com.dolphin.browser
+com.dolphin.browser.android.elex
+com.dolphin.browser.engine
+com.dolphin.browser.express.web
+com.dolphin.browser.id
+com.dolphin.browser.zero
+com.dolphin.web.browser.android
+com.droid.browser
+com.explore.web.browser
+com.fevdev.nakedbrowser
+com.fevdev.nakedbrowserpro
+com.ghostery.android.ghostery
+com.google.android.apps.searchlite
+com.htc.sense.browser
+com.ilegendsoft.mercury
+com.jbak.superbrowser
+com.jiubang.browser
+com.ksmobile.cb
+com.linkbubble.playstore
+com.metalasfook.nochromo
+com.mmbox.xbrowser.pro
+com.mx.browser
+com.mx.browser.tablet
+com.nhn.android.search
+com.ninesky.browser
+com.nubelacorp.javelin
+com.opera.browser
+com.opera.browser.beta
+com.opera.browser.classic
+com.opera.browser.yandex
+com.opera.mini.android
+com.opera.mini.android.yandex
+com.opera.touch
+com.rocket.browser
+com.sec.android.app.sbrowser
+com.sec.android.app.sbrowser.beta
+com.swe.atego.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3707
+com.tencent.mtt
+com.tencent.ibibo.mtt
+com.uc.browser.en
+com.uc.browser.hd
+com.UCMobile.intl
+com.UCMobile.intl.x86
+com.vionika.firephoenix
+com.yandex.browser
+com.yandex.browser.alpha
+com.yandex.browser.beta
+explore.web.browser
+internetexplorer.browser.webexplorer
+jp.ddo.pigsty.Habit_Browser
+jp.ddo.pigsty.HabitBrowser
+me.android.browser
+mobi.browser.flashfox
+mobi.browser.flfoxpro
+mobi.mgeek.TunnyBrowser
+net.fast.web.browser
+nextapp.atlas
+nu.tommie.inbrowser
+org.adblockplus.browser
+org.easyweb.browser
+org.chromium.chrome
+org.mozilla.fennec
+org.mozilla.fennec_aurora
+org.mozilla.fennec_fdroid
+org.mozilla.firefox
+org.mozilla.firefox_beta
+org.mozilla.focus
+org.mozilla.fenix
+org.tint
+ru.mail.amigo
+ru.yandex.shell
+// Boat browser add-ons (https://github.com/AdguardTeam/AdguardForAndroid/issues/187)
+com.boatbrowser.free.addon.fb
+com.boatbrowser.free.addon.gcp
+com.boatbrowser.free.addon.th
+com.boatbrowser.free.addon.ip
+com.boatbrowser.free.addon.pm
+com.boatbrowser.free.addon.us
+com.boatbrowser.free.addon.twitter
+com.boatbrowser.free.addon.en
+com.boatgo.license.key
+// Dolphin browser add-ons (https://github.com/AdguardTeam/AdguardForAndroid/issues/187)
+com.dolphin.addons.dropbox
+com.dolphin.addons.evernotesshare
+com.dolphin.addons.pocket
+com.dolphin.battery.saver
+com.dolphin.browser.addons.box
+com.dolphin.browser.addons.skitch
+com.dolphin.theme.ocean
+mobi.mgeek.alexa
+mobi.mgeek.BookmarksWidget
+mobi.mgeek.brightness
+mobi.mgeek.browserfaster
+mobi.mgeek.DolphinFM
+mobi.mgeek.DolphinReader
+mobi.mgeek.DolphinTranslate
+mobi.mgeek.eBaySearch
+mobi.mgeek.MorningCoffee
+mobi.mgeek.mypdf
+mobi.mgeek.ScreenCut
+mobi.mgeek.shinyshake
+mobi.mgeek.showip
+mobi.mgeek.TabHistory
+mobi.mgeek.TabMixPlus
+mobi.mgeek.tabreload
+mobi.mgeek.tabswitcher
+mobi.mgeek.textadjust
+mobi.mgeek.TunnyBrowser.Theme.EnNightModeV10
+mobi.mgeek.UltimateFlag
+mobi.mgeek.whois
+mobi.mgeek.YoutubeSearch
+mark.via
+mark.via.gp
+// https://play.google.com/store/apps/details?id=com.rtsw.easydownloader
+com.rtsw.easydownloader
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/316
+jp.co.fenrir.android.sleipnir
+jp.co.fenrir.android.sleipnir_test
+jp.co.fenrir.android.sleipnir_black
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/449
+com.apusapps.browser
+com.apusapps.browser.turbo
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/488
+org.iron.srware
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/537
+com.browser.Speed
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/708
+com.opera.browser.pwa
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/757
+com.opera.browser.extension
+// http://4pda.to/forum/index.php?s=&showtopic=601691&view=findpost&p=58805939
+com.opera.browses
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/808
+com.ninnix96.pyrope.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/862
+com.cmcm.armorfly
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/922
+com.mokee.yubrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3401
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3432
+com.brave.browser
+com.brave.browser_dev
+com.brave.browser_beta
+com.brave.browser_default
+com.brave.browser_nightly
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1285
+jp.hazuki.yuzubrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1303
+com.yandex.browser.lite
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1426
+reddit.news
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1530
+com.microsoft.emmx
+com.microsoft.emmx.canary
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1660
+com.hsv.freeadblockerbrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/1821
+com.feedback.browser.wjbrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/2067
+o.o.joey
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/2416
+com.mi.globalbrowser.mini
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/2585
+com.kiwibrowser.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/2680
+org.bromite.bromite
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4997
+org.cromite.cromite
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3061
+com.vivaldi.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3400
+com.vivaldi.browser.snapshot
+com.vivaldi.browser.sopranos
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3175
+com.naver.whale
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3357
+com.callsoft.cobrabrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3333
+org.mozilla.fenix.nightly
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3424
+jp.ejimax.yuzubrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3408
+org.mozilla.reference.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3452
+org.gnu.icecat
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3495
+com.huawei.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3797
+io.github.forkmaintainers.iceraven
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3677
+com.stoutner.privacybrowser.free
+com.stoutner.privacybrowser.standard
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4040
+http://mse.360.cn/
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4202
+com.mycompany.app.soulbrowser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4454
+us.spotco.mulch
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4518
+org.chromium.thorium
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3673
+com.qihoo.contents
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/3673
+com.quark.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/4969
+net.slions.fulguris.full.fdroid
+net.slions.fulguris.full.playstore
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/5533
+com.microsoft.amp.apps.bingnews
+net.quetta.browser
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/5577
+com.lemurbrowser.exts
+// https://github.com/AdguardTeam/AdguardForAndroid/issues/5565
+mark.via.gp
+com.xbrowser.play
