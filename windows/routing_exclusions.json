@@ -1,0 +1,33 @@
+[
+  {
+    "executable_name": "iTunes.exe",
+    "private_issue_id": "AG-47576"
+  },
+  {
+    "executable_name": "AppleMusic.exe",
+    "private_issue_id": "AG-47576"
+  },
+  {
+    "executable_name": "iCloudHome.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5523",
+    "private_issue_id": "AG-43455"
+  },
+  {
+    "executable_name": "dart.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5553",
+    "private_issue_id": "AG-44280"
+  },
+  {
+    "executable_name": "Windscribe.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
+    "private_issue_id": "AG-45307"
+  },
+  {
+    "executable_name": "KakaoTalk.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "upc.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  }
+]
