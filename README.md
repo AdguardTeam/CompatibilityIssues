@@ -83,3 +83,6 @@ Here’s a simple steps to help you sort things out.
 - [`filtering_exclusions.json`](windows/filtering_exclusions.json) - A list app executables where traffic filtering is disabled (App Management -> Filter traffic).
 
 - [`routing_exclusions.json`](windows/routing_exclusions.json) - A list app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
+
+- [`browsers.txt`](windows/browsers.txt) - A list of browsers where traffic filtering is enabled by default.
+
