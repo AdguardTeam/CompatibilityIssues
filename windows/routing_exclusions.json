@@ -25,9 +25,5 @@
   {
     "executable_name": "KakaoTalk.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
-  },
-  {
-    "executable_name": "upc.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   }
 ]
