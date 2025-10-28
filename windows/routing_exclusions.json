@@ -25,5 +25,17 @@
   {
     "executable_name": "KakaoTalk.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "logioptionsplus.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "logioptionsplus_updater.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "nvcontainer.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   }
 ]
