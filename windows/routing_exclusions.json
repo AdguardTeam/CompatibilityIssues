@@ -37,5 +37,21 @@
   {
     "executable_name": "nvcontainer.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "NVIDIA app.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "GCC.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "MicrosoftEdgeUpdate.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "executable_name": "logioptionsplus_updater.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   }
 ]
