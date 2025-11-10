@@ -57,5 +57,9 @@
   {
     "executable_name": "zenserver.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5705"
+  },
+  {
+    "executable_name": "Battle.net.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5725"
   }
 ]
