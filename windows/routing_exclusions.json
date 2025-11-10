@@ -60,6 +60,18 @@
   },
   {
     "executable_name": "Battle.net.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
+  },
+  {
+    "executable_name": "Battle.net.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5725"
+  },
+  {
+    "executable_name": "devenv.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
+  },
+  {
+    "executable_name": "devenv.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
   }
 ]
