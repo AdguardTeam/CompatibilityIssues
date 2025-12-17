@@ -238,3 +238,5 @@ com.lemurbrowser.exts
 // https://github.com/AdguardTeam/AdguardForAndroid/issues/5565
 mark.via.gp
 com.xbrowser.play
+//https://github.com/AdguardTeam/CompatibilityIssues/issues/10
+com.duckduckgo.mobile.android
