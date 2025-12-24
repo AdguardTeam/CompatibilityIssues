@@ -725,7 +725,7 @@
     "package_name": "de.avm.android.fritzapp",
     "private_issue_id": "AG-7803",
     "comment": "VPN and filtering apps"
-  }
+  },
   {
     "package_name": "com.zen.application",
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/9",
