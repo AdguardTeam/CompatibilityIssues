@@ -69,5 +69,9 @@
   {
     "executable_name": "AutoUpdate.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5773"
+  },
+  {
+    "executable_name": "VirtualBoxVM.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5764"
   }
 ]
