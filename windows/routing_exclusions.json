@@ -65,5 +65,9 @@
   {
     "executable_name": "devenv.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
+  },
+  {
+    "executable_name": "AutoUpdate.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5773"
   }
 ]
