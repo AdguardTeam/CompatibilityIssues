@@ -73,5 +73,37 @@
   {
     "executable_name": "VirtualBoxVM.exe",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5764"
+  },
+  {
+    "executable_name": "steamerrorreporter64.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "steamwebhelper.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "steamwebhelper64.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "steamservice.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "steam.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "TslGame_ZK.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "TslGame.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "executable_name": "ExecPubg.exe",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   }
 ]
