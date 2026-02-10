@@ -80,9 +80,9 @@ Here’s a simple steps to help you sort things out.
 
 ## Compatibility configuration for AdGuard for Windows
 
-- [`filtering_exclusions.json`](windows/filtering_exclusions.json) - A list app executables where traffic filtering is disabled (App Management -> Filter traffic).
+- [`filtering_exclusions.json`](windows/filtering_exclusions.json) - A list of app executables where traffic filtering is disabled (App Management -> Filter traffic).
 
-- [`routing_exclusions.json`](windows/routing_exclusions.json) - A list app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
+- [`routing_exclusions.json`](windows/routing_exclusions.json) - A list of app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
 
 - [`browsers.json`](windows/browsers.json) - A list of browsers where HTTPS traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
 
