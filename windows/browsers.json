@@ -111,7 +111,7 @@
     "installed_conditions": [
       {
         "type": "FilePath",
-        "pattern": "%windir%\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"
+        "pattern": "%WINDIR%\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"
       },
       {
         "type": "FilePath",
