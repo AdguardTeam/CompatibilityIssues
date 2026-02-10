@@ -70,8 +70,8 @@
     ],
     "installed_conditions": [
       {
-        "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
+        "type": "FilePath",
+        "pattern": "%ProgramFiles%\\Internet Explorer\\iexplore.exe"
       }
     ]
   },
