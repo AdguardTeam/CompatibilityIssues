@@ -1,109 +1,174 @@
 [
   {
-    "executable_name": "iTunes.exe",
+    "name": "iTunes",
+    "file_description": "",
+    "executable_names": [
+      "iTunes.exe"
+    ],
+    "installed_conditions": [],
     "private_issue_id": "AG-47576"
   },
   {
-    "executable_name": "AppleMusic.exe",
+    "name": "Apple Music",
+    "file_description": "",
+    "executable_names": [
+      "AppleMusic.exe"
+    ],
+    "installed_conditions": [],
     "private_issue_id": "AG-47576"
   },
   {
-    "executable_name": "iCloudHome.exe",
+    "name": "iCloud",
+    "file_description": "",
+    "executable_names": [
+      "iCloudHome.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5523",
     "private_issue_id": "AG-43455"
   },
   {
-    "executable_name": "dart.exe",
+    "name": "Dart",
+    "file_description": "",
+    "executable_names": [
+      "dart.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5553",
     "private_issue_id": "AG-44280"
   },
   {
-    "executable_name": "Windscribe.exe",
+    "name": "Windscribe",
+    "file_description": "",
+    "executable_names": [
+      "Windscribe.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
     "private_issue_id": "AG-45307"
   },
   {
-    "executable_name": "KakaoTalk.exe",
+    "name": "KakaoTalk",
+    "file_description": "",
+    "executable_names": [
+      "KakaoTalk.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "logioptionsplus.exe",
+    "name": "Logi Options+",
+    "file_description": "",
+    "executable_names": [
+      "logioptionsplus.exe",
+      "logioptionsplus_updater.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "logioptionsplus_updater.exe",
+    "name": "NVIDIA Container",
+    "file_description": "",
+    "executable_names": [
+      "nvcontainer.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "nvcontainer.exe",
+    "name": "NVIDIA App",
+    "file_description": "",
+    "executable_names": [
+      "NVIDIA app.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "NVIDIA app.exe",
+    "name": "GCC",
+    "file_description": "",
+    "executable_names": [
+      "GCC.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "GCC.exe",
+    "name": "Microsoft Edge Update",
+    "file_description": "",
+    "executable_names": [
+      "MicrosoftEdgeUpdate.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
-    "executable_name": "MicrosoftEdgeUpdate.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
-  },
-  {
-    "executable_name": "logioptionsplus_updater.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
-  },
-  {
-    "executable_name": "zenserver.exe",
+    "name": "ZenServer",
+    "file_description": "",
+    "executable_names": [
+      "zenserver.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5705"
   },
   {
-    "executable_name": "Battle.net.exe",
+    "name": "Battle.net",
+    "file_description": "",
+    "executable_names": [
+      "Battle.net.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
   },
   {
-    "executable_name": "devenv.exe",
+    "name": "Visual Studio",
+    "file_description": "",
+    "executable_names": [
+      "devenv.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
   },
   {
-    "executable_name": "AutoUpdate.exe",
+    "name": "AutoUpdate",
+    "file_description": "",
+    "executable_names": [
+      "AutoUpdate.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5773"
   },
   {
-    "executable_name": "VirtualBoxVM.exe",
+    "name": "VirtualBox",
+    "file_description": "",
+    "executable_names": [
+      "VirtualBoxVM.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5764"
   },
   {
-    "executable_name": "steamerrorreporter64.exe",
+    "name": "Steam",
+    "file_description": "",
+    "executable_names": [
+      "steam.exe",
+      "steamservice.exe",
+      "steamwebhelper.exe",
+      "steamwebhelper64.exe",
+      "steamerrorreporter64.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   },
   {
-    "executable_name": "steamwebhelper.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "steamwebhelper64.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "steamservice.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "steam.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "TslGame_ZK.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "TslGame.exe",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
-  },
-  {
-    "executable_name": "ExecPubg.exe",
+    "name": "PUBG",
+    "file_description": "",
+    "executable_names": [
+      "TslGame.exe",
+      "TslGame_ZK.exe",
+      "ExecPubg.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   }
 ]

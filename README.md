@@ -84,5 +84,18 @@ Here’s a simple steps to help you sort things out.
 
 - [`routing_exclusions.json`](windows/routing_exclusions.json) - A list app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
 
-- [`browsers.txt`](windows/browsers.txt) - A list of browsers where traffic filtering is enabled by default.
+- [`browsers.json`](windows/browsers.json) - A list of browsers where https traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
+
+### Application model structure
+
+Each application entry in the JSON files uses the following structure:
+
+- `name` - Application or browser display name
+- `file_description` - File description (optional, can be empty)
+- `executable_names` - Array of executable file names associated with the application
+- `installed_conditions` - Array of conditions to detect if the application is installed. Each condition has:
+  - `type` - Type of condition: `"RegistryKey"` or `"FilePath"`
+  - `pattern` - Registry key path or file path pattern (supports environment variables like `%LOCALAPPDATA%`, `%PROGRAMFILES%`, etc.)
+- `public_issue_url` - Link to the public GitHub issue (optional)
+- `private_issue_id` - Internal issue ID (optional)
 

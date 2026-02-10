@@ -1,15 +1,30 @@
 [
   {
-    "executable_name": "Discord.exe",
+    "name": "Discord",
+    "file_description": "",
+    "executable_names": [
+      "Discord.exe"
+    ],
+    "installed_conditions": [],
     "private_issue_id": "AG-43457",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5524"
   },
   {
-    "executable_name": "atom.exe",
+    "name": "Atom",
+    "file_description": "",
+    "executable_names": [
+      "atom.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/2988"
   },
   {
-    "executable_name": "upc.exe",
+    "name": "Ubisoft Connect",
+    "file_description": "",
+    "executable_names": [
+      "upc.exe"
+    ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
     "private_issue_id": "AG-45307"
   }
