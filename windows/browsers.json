@@ -849,7 +849,7 @@
     "installed_conditions": [
       {
         "type": "FilePath",
-        "pattern": "%AppData%\\360se6\\Application\\360se.exe"
+        "pattern": "%APPDATA%\\360se6\\Application\\360se.exe"
       },
       {
         "type": "RegistryKey",
