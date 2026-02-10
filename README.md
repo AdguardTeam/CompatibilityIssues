@@ -84,7 +84,7 @@ Here’s a simple steps to help you sort things out.
 
 - [`routing_exclusions.json`](windows/routing_exclusions.json) - A list app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
 
-- [`browsers.json`](windows/browsers.json) - A list of browsers where https traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
+- [`browsers.json`](windows/browsers.json) - A list of browsers where HTTPS traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
 
 ### Application model structure
 
