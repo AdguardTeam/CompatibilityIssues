@@ -70,8 +70,8 @@
     ],
     "installed_conditions": [
       {
-        "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
+        "type": "FilePath",
+        "pattern": "%ProgramFiles%\\Internet Explorer\\iexplore.exe"
       }
     ]
   },
@@ -111,7 +111,7 @@
     "installed_conditions": [
       {
         "type": "FilePath",
-        "pattern": "%windir%\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"
+        "pattern": "%WINDIR%\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"
       },
       {
         "type": "FilePath",
@@ -849,7 +849,7 @@
     "installed_conditions": [
       {
         "type": "FilePath",
-        "pattern": "%AppData%\\360se6\\Application\\360se.exe"
+        "pattern": "%APPDATA%\\360se6\\Application\\360se.exe"
       },
       {
         "type": "RegistryKey",
