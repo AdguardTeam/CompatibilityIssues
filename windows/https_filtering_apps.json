@@ -1,0 +1,355 @@
+[
+    {
+        "name": "BitTorrent",
+        "file_description": "",
+        "executable_names": [
+            "BitTorrent.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%APPDATA%\\BitTorrent\\BitTorrent.exe"
+            }
+        ]
+    },
+    {
+        "name": "Modern UI hosted apps",
+        "file_description": "",
+        "executable_names": [
+            "WWAHost.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%systemroot%\\System32\\WWAHost.exe"
+            }
+        ]
+    },
+    {
+        "name": "Skype",
+        "file_description": "",
+        "executable_names": [
+            "skype.exe",
+            "skypebrowserhost.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Skype"
+            }
+        ]
+    },
+    {
+        "name": "uTorrent",
+        "file_description": "",
+        "executable_names": [
+            "utorrent.exe",
+            "utorrentie.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%APPDATA%\\uTorrent\\uTorrent.exe"
+            }
+        ]
+    },
+    {
+        "name": "Atom Editor",
+        "file_description": "",
+        "executable_names": [
+            "atom.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Atom\\atom.exe"
+            }
+        ]
+    },
+    {
+        "name": "MediaGet",
+        "file_description": "",
+        "executable_names": [
+            "mediaget.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\MediaGet2\\mediaget.exe"
+            }
+        ]
+    },
+    {
+        "name": "Yahoo Messenger",
+        "file_description": "",
+        "executable_names": [
+            "YahooMessenger.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Yahoo! Messenger"
+            }
+        ]
+    },
+    {
+        "name": "Zona",
+        "file_description": "",
+        "executable_names": [
+            "Zona.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Zona"
+            }
+        ]
+    },
+    {
+        "name": "Windows 10 pre-installed apps",
+        "file_description": "",
+        "executable_names": [
+            "Microsoft.Msn.Money.exe",
+            "Microsoft.Msn.News.exe",
+            "Microsoft.Msn.Sports.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "RSSOwl",
+        "file_description": "",
+        "executable_names": [
+            "RSSOwl.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RSSOwl"
+            }
+        ]
+    },
+    {
+        "name": "BitComet",
+        "file_description": "",
+        "executable_names": [
+            "BitComet.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\BitComet"
+            }
+        ]
+    },
+    {
+        "name": "The Weather Channel",
+        "file_description": "",
+        "executable_names": [
+            "TWC.WindowsUniversal.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "Microsoft Solitaire Collection",
+        "file_description": "",
+        "executable_names": [
+            "Solitaire.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "Microsoft Mahjong",
+        "file_description": "",
+        "executable_names": [
+            "Mahjong.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "freda epub ebook reader",
+        "file_description": "",
+        "executable_names": [
+            "Freda_W10.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "Messages for web",
+        "file_description": "",
+        "executable_names": [
+            "Android Messages.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "EasyMail for Gmail",
+        "file_description": "",
+        "executable_names": [
+            "EasyMailReLaunch.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "GOM Player",
+        "file_description": "",
+        "executable_names": [
+            "GOM.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\GOM Player"
+            }
+        ]
+    },
+    {
+        "name": "PotPlayer",
+        "file_description": "",
+        "executable_names": [
+            "PotPlayer.exe",
+            "PotPlayerMini.exe",
+            "PotPlayer64.exe",
+            "PotPlayerMini64.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\DAUM\\PotPlayer"
+            },
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\DAUM\\PotPlayer64"
+            }
+        ]
+    },
+    {
+        "name": "Steam",
+        "file_description": "",
+        "executable_names": [
+            "steamwebhelper.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam"
+            },
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Valve\\Steam"
+            }
+        ]
+    },
+    {
+        "name": "KMPlayer",
+        "file_description": "",
+        "executable_names": [
+            "KMPlayer.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_CURRENT_USER\\Software\\KMPlayer"
+            }
+        ]
+    },
+    {
+        "name": "ACEStream",
+        "file_description": "",
+        "executable_names": [
+            "ace_engine.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%APPDATA%\\ACEStream\\engine\\ace_engine.exe"
+            }
+        ]
+    },
+    {
+        "name": "Alyac",
+        "file_description": "",
+        "executable_names": [
+            "ALYac.aye"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\ESTsoft\\ALYac"
+            },
+            {
+                "type": "FilePath",
+                "pattern": "%PROGRAMFILES%\\ESTsoft\\ALYac\\ALYac.aye"
+            }
+        ]
+    },
+    {
+        "name": "Bandizip",
+        "file_description": "Bandizip",
+        "executable_names": [
+            "Bandizip.exe",
+            "Updater.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "Viber",
+        "file_description": "Viber",
+        "executable_names": [
+            "Viber.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Viber\\Viber.exe"
+            },
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_CURRENT_USER\\Software\\Viber\\Viber"
+            }
+        ]
+    },
+    {
+        "name": "SafeVisit",
+        "file_description": "",
+        "executable_names": [
+            "safevisit.exe",
+            "safevisits.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\safevisit"
+            },
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\safevisit"
+            }
+        ]
+    },
+    {
+        "name": "Edge WebView",
+        "file_description": "Microsoft Edge WebView2",
+        "executable_names": [
+            "msedgewebview2.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\EdgeWebView\\Application"
+            }
+        ]
+    },
+    {
+        "name": "Discord",
+        "file_description": "",
+        "executable_names": [
+            "Discord.exe"
+        ],
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
+            }
+        ]
+    }
+]
