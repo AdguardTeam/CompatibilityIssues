@@ -472,5 +472,10 @@
   {
     "package_name": "com.meross.meross",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/4989"
+  },
+  {
+    "package_name": "com.enflick.android.tn2ndLine",
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForAndroid/issues/5116",
+    "private_issue_id": "AG-29005"
   }
 ]
