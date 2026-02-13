@@ -1,7 +1,6 @@
 [
   {
     "name": "Discord",
-    "file_description": "",
     "executable_names": [
       "Discord.exe"
     ],
@@ -11,7 +10,6 @@
   },
   {
     "name": "Atom",
-    "file_description": "",
     "executable_names": [
       "atom.exe"
     ],
@@ -20,7 +18,6 @@
   },
   {
     "name": "Ubisoft Connect",
-    "file_description": "",
     "executable_names": [
       "upc.exe"
     ],

@@ -90,10 +90,9 @@ Here’s a simple steps to help you sort things out.
 
 ### Application model structure
 
-Each application entry in the JSON files uses the following structure:
+Each application entry in the JSON files (`browsers.json`, `http_filtering_exclusions_apps.json`, `route_exclusions_apps.json`, `https_filtering_apps.json`) uses the following structure:
 
 - `name` - Application or browser display name
-- `file_description` - File description (optional, can be empty)
 - `executable_names` - Array of executable file names associated with the application
 - `installed_conditions` - Array of conditions to detect if the application is installed. Each condition has:
   - `type` - Type of condition: `"RegistryKey"` or `"FilePath"`

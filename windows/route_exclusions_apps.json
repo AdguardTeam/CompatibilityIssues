@@ -1,7 +1,6 @@
 [
   {
     "name": "iTunes",
-    "file_description": "",
     "executable_names": [
       "iTunes.exe"
     ],
@@ -10,7 +9,6 @@
   },
   {
     "name": "Apple Music",
-    "file_description": "",
     "executable_names": [
       "AppleMusic.exe"
     ],
@@ -19,7 +17,6 @@
   },
   {
     "name": "iCloud",
-    "file_description": "",
     "executable_names": [
       "iCloudHome.exe"
     ],
@@ -29,7 +26,6 @@
   },
   {
     "name": "Dart",
-    "file_description": "",
     "executable_names": [
       "dart.exe"
     ],
@@ -39,7 +35,6 @@
   },
   {
     "name": "Windscribe",
-    "file_description": "",
     "executable_names": [
       "Windscribe.exe"
     ],
@@ -49,7 +44,6 @@
   },
   {
     "name": "KakaoTalk",
-    "file_description": "",
     "executable_names": [
       "KakaoTalk.exe"
     ],
@@ -58,7 +52,6 @@
   },
   {
     "name": "Logi Options+",
-    "file_description": "",
     "executable_names": [
       "logioptionsplus.exe",
       "logioptionsplus_updater.exe"
@@ -68,7 +61,6 @@
   },
   {
     "name": "NVIDIA Container",
-    "file_description": "",
     "executable_names": [
       "nvcontainer.exe"
     ],
@@ -77,7 +69,6 @@
   },
   {
     "name": "NVIDIA App",
-    "file_description": "",
     "executable_names": [
       "NVIDIA app.exe"
     ],
@@ -86,7 +77,6 @@
   },
   {
     "name": "GCC",
-    "file_description": "",
     "executable_names": [
       "GCC.exe"
     ],
@@ -95,7 +85,6 @@
   },
   {
     "name": "Microsoft Edge Update",
-    "file_description": "",
     "executable_names": [
       "MicrosoftEdgeUpdate.exe"
     ],
@@ -104,7 +93,6 @@
   },
   {
     "name": "ZenServer",
-    "file_description": "",
     "executable_names": [
       "zenserver.exe"
     ],
@@ -113,7 +101,6 @@
   },
   {
     "name": "Battle.net",
-    "file_description": "",
     "executable_names": [
       "Battle.net.exe"
     ],
@@ -122,7 +109,6 @@
   },
   {
     "name": "Visual Studio",
-    "file_description": "",
     "executable_names": [
       "devenv.exe"
     ],
@@ -131,7 +117,6 @@
   },
   {
     "name": "AutoUpdate",
-    "file_description": "",
     "executable_names": [
       "AutoUpdate.exe"
     ],
@@ -140,7 +125,6 @@
   },
   {
     "name": "VirtualBox",
-    "file_description": "",
     "executable_names": [
       "VirtualBoxVM.exe"
     ],
@@ -149,7 +133,6 @@
   },
   {
     "name": "Steam",
-    "file_description": "",
     "executable_names": [
       "steam.exe",
       "steamservice.exe",
@@ -162,7 +145,6 @@
   },
   {
     "name": "PUBG",
-    "file_description": "",
     "executable_names": [
       "TslGame.exe",
       "TslGame_ZK.exe",

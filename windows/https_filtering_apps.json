@@ -1,7 +1,6 @@
 [
     {
         "name": "BitTorrent",
-        "file_description": "",
         "executable_names": [
             "BitTorrent.exe"
         ],
@@ -14,7 +13,6 @@
     },
     {
         "name": "Modern UI hosted apps",
-        "file_description": "",
         "executable_names": [
             "WWAHost.exe"
         ],
@@ -27,7 +25,6 @@
     },
     {
         "name": "Skype",
-        "file_description": "",
         "executable_names": [
             "skype.exe",
             "skypebrowserhost.exe"
@@ -41,7 +38,6 @@
     },
     {
         "name": "uTorrent",
-        "file_description": "",
         "executable_names": [
             "utorrent.exe",
             "utorrentie.exe"
@@ -55,7 +51,6 @@
     },
     {
         "name": "Atom Editor",
-        "file_description": "",
         "executable_names": [
             "atom.exe"
         ],
@@ -68,7 +63,6 @@
     },
     {
         "name": "MediaGet",
-        "file_description": "",
         "executable_names": [
             "mediaget.exe"
         ],
@@ -81,7 +75,6 @@
     },
     {
         "name": "Yahoo Messenger",
-        "file_description": "",
         "executable_names": [
             "YahooMessenger.exe"
         ],
@@ -94,7 +87,6 @@
     },
     {
         "name": "Zona",
-        "file_description": "",
         "executable_names": [
             "Zona.exe"
         ],
@@ -107,7 +99,6 @@
     },
     {
         "name": "Windows 10 pre-installed apps",
-        "file_description": "",
         "executable_names": [
             "Microsoft.Msn.Money.exe",
             "Microsoft.Msn.News.exe",
@@ -117,7 +108,6 @@
     },
     {
         "name": "RSSOwl",
-        "file_description": "",
         "executable_names": [
             "RSSOwl.exe"
         ],
@@ -130,7 +120,6 @@
     },
     {
         "name": "BitComet",
-        "file_description": "",
         "executable_names": [
             "BitComet.exe"
         ],
@@ -143,7 +132,6 @@
     },
     {
         "name": "The Weather Channel",
-        "file_description": "",
         "executable_names": [
             "TWC.WindowsUniversal.exe"
         ],
@@ -151,7 +139,6 @@
     },
     {
         "name": "Microsoft Solitaire Collection",
-        "file_description": "",
         "executable_names": [
             "Solitaire.exe"
         ],
@@ -159,7 +146,6 @@
     },
     {
         "name": "Microsoft Mahjong",
-        "file_description": "",
         "executable_names": [
             "Mahjong.exe"
         ],
@@ -167,7 +153,6 @@
     },
     {
         "name": "freda epub ebook reader",
-        "file_description": "",
         "executable_names": [
             "Freda_W10.exe"
         ],
@@ -175,7 +160,6 @@
     },
     {
         "name": "Messages for web",
-        "file_description": "",
         "executable_names": [
             "Android Messages.exe"
         ],
@@ -183,7 +167,6 @@
     },
     {
         "name": "EasyMail for Gmail",
-        "file_description": "",
         "executable_names": [
             "EasyMailReLaunch.exe"
         ],
@@ -191,7 +174,6 @@
     },
     {
         "name": "GOM Player",
-        "file_description": "",
         "executable_names": [
             "GOM.exe"
         ],
@@ -204,7 +186,6 @@
     },
     {
         "name": "PotPlayer",
-        "file_description": "",
         "executable_names": [
             "PotPlayer.exe",
             "PotPlayerMini.exe",
@@ -224,7 +205,6 @@
     },
     {
         "name": "Steam",
-        "file_description": "",
         "executable_names": [
             "steamwebhelper.exe"
         ],
@@ -241,7 +221,6 @@
     },
     {
         "name": "KMPlayer",
-        "file_description": "",
         "executable_names": [
             "KMPlayer.exe"
         ],
@@ -254,7 +233,6 @@
     },
     {
         "name": "ACEStream",
-        "file_description": "",
         "executable_names": [
             "ace_engine.exe"
         ],
@@ -267,7 +245,6 @@
     },
     {
         "name": "Alyac",
-        "file_description": "",
         "executable_names": [
             "ALYac.aye"
         ],
@@ -284,7 +261,6 @@
     },
     {
         "name": "Bandizip",
-        "file_description": "Bandizip",
         "executable_names": [
             "Bandizip.exe",
             "Updater.exe"
@@ -293,7 +269,6 @@
     },
     {
         "name": "Viber",
-        "file_description": "Viber",
         "executable_names": [
             "Viber.exe"
         ],
@@ -310,7 +285,6 @@
     },
     {
         "name": "SafeVisit",
-        "file_description": "",
         "executable_names": [
             "safevisit.exe",
             "safevisits.exe"
@@ -328,7 +302,6 @@
     },
     {
         "name": "Edge WebView",
-        "file_description": "Microsoft Edge WebView2",
         "executable_names": [
             "msedgewebview2.exe"
         ],
@@ -341,7 +314,6 @@
     },
     {
         "name": "Discord",
-        "file_description": "",
         "executable_names": [
             "Discord.exe"
         ],
