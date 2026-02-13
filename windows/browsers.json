@@ -1,0 +1,942 @@
+[
+  {
+    "name": "Google Chrome",
+    "file_description": "Google Chrome",
+    "executable_names": [
+      "chrome.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Google Chrome"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Google\\Chrome SxS\\Application\\chrome.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Google\\Chrome"
+      }
+    ]
+  },
+  {
+    "name": "Chromium",
+    "file_description": "Chromium",
+    "executable_names": [
+      "chrome.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Chromium"
+      }
+    ]
+  },
+  {
+    "name": "Mozilla Firefox",
+    "file_description": "Firefox",
+    "executable_names": [
+      "firefox.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Mozilla Firefox"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Nightly"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Mozilla\\Firefox Developer Edition"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%APPDATA%\\Mozilla\\Firefox"
+      }
+    ]
+  },
+  {
+    "name": "Internet Explorer",
+    "file_description": "",
+    "executable_names": [
+      "iexplore.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%ProgramFiles%\\Internet Explorer\\iexplore.exe"
+      }
+    ]
+  },
+  {
+    "name": "Safari",
+    "file_description": "",
+    "executable_names": [
+      "safari.exe",
+      "webkit2webprocess.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Opera",
+    "file_description": "",
+    "executable_names": [
+      "opera.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Opera"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%APPDATA%\\Opera Software\\Opera Stable"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Edge Legacy",
+    "file_description": "",
+    "executable_names": [
+      "microsoftedgecp.exe",
+      "microsoftedge.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%WINDIR%\\SystemApps\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Microsoft\\Edge\\Application"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Edge",
+    "file_description": "",
+    "executable_names": [
+      "msedge.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Microsoft\\Edge Beta\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\Edge Beta\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Microsoft\\Edge Dev\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Microsoft\\Edge\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\Edge Dev\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\Edge\\Application"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Microsoft\\Edge SxS\\Application"
+      }
+    ]
+  },
+  {
+    "name": "Maxthon",
+    "file_description": "",
+    "executable_names": [
+      "maxthon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Maxthon"
+      }
+    ]
+  },
+  {
+    "name": "Yandex with voice assistant Alice",
+    "file_description": "Yandex with voice assistant Alice",
+    "executable_names": [
+      "browser.exe",
+      "yabrowser.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Yandex\\YandexBrowser\\Application\\browser.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\YandexBrowserService"
+      }
+    ]
+  },
+  {
+    "name": "Sputnik",
+    "file_description": "Sputnik",
+    "executable_names": [
+      "browser.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Sputnik\\Sputnik\\Application\\browser.exe"
+      }
+    ]
+  },
+  {
+    "name": "Avira Scout",
+    "file_description": "",
+    "executable_names": [
+      "Avira-Scout.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Netscape Navigator",
+    "file_description": "",
+    "executable_names": [
+      "netscape.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Flock",
+    "file_description": "",
+    "executable_names": [
+      "flock.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "SRWare Iron",
+    "file_description": "SRWare Iron",
+    "executable_names": [
+      "chrome.exe",
+      "iron.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Lunascape",
+    "file_description": "",
+    "executable_names": [
+      "lunascape.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "K-Meleon",
+    "file_description": "",
+    "executable_names": [
+      "kmeleon.exe",
+      "k-meleon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\K-Meleon"
+      }
+    ]
+  },
+  {
+    "name": "GreenBrowser",
+    "file_description": "",
+    "executable_names": [
+      "greenbrowser.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Orca",
+    "file_description": "",
+    "executable_names": [
+      "orca.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "MyIE",
+    "file_description": "",
+    "executable_names": [
+      "myie.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Comodo Dragon",
+    "file_description": "",
+    "executable_names": [
+      "dragon.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Chromodo",
+    "file_description": "",
+    "executable_names": [
+      "chromodo.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "SeaMonkey",
+    "file_description": "",
+    "executable_names": [
+      "seamonkey.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Pale Moon",
+    "file_description": "",
+    "executable_names": [
+      "palemoon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Pale Moon"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Pale Moon\\palemoon.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\PaleMoonURL"
+      }
+    ]
+  },
+  {
+    "name": "Avant",
+    "file_description": "",
+    "executable_names": [
+      "avant.exe",
+      "ybrowser.exe",
+      "xbrowser.exe",
+      "webkit.exe",
+      "gecko.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Nichrome",
+    "file_description": "",
+    "executable_names": [
+      "nichrome.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "FlashPeak SlimBrowser",
+    "file_description": "",
+    "executable_names": [
+      "SBRender.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Waterfox",
+    "file_description": "",
+    "executable_names": [
+      "waterfox.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%APPDATA%\\Waterfox"
+      }
+    ]
+  },
+  {
+    "name": "Sleipnir",
+    "file_description": "",
+    "executable_names": [
+      "sleipnir_engine_cv.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "QtWeb Internet Browser",
+    "file_description": "",
+    "executable_names": [
+      "QtWeb.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Comodo IceDragon",
+    "file_description": "",
+    "executable_names": [
+      "icedragon.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "CyberFox Browser",
+    "file_description": "",
+    "executable_names": [
+      "cyberfox.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\8pecxstudios\\Cyberfox"
+      }
+    ]
+  },
+  {
+    "name": "Tor",
+    "file_description": "",
+    "executable_names": [
+      "tor.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Tor Browser",
+    "file_description": "Tor Browser",
+    "executable_names": [
+      "tbb-firefox.exe",
+      "firefox.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Amigo",
+    "file_description": "",
+    "executable_names": [
+      "amigo.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Superbird",
+    "file_description": "",
+    "executable_names": [
+      "superbird.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "360Browser",
+    "file_description": "",
+    "executable_names": [
+      "360browser.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Maxthon Nitro",
+    "file_description": "",
+    "executable_names": [
+      "MxNitro.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Vivaldi",
+    "file_description": "",
+    "executable_names": [
+      "vivaldi.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Vivaldi\\Application\\vivaldi.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Vivaldi"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Vivaldi"
+      }
+    ]
+  },
+  {
+    "name": "Kinza",
+    "file_description": "",
+    "executable_names": [
+      "kinza.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Kinza"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Kinza\\Application\\kinza.exe"
+      }
+    ]
+  },
+  {
+    "name": "Atom",
+    "file_description": "",
+    "executable_names": [
+      "atom.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Mail.Ru Atom"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Mail.Ru\\Atom\\Application\\atom.exe"
+      }
+    ]
+  },
+  {
+    "name": "Epic",
+    "file_description": "",
+    "executable_names": [
+      "epic.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Epic Privacy Browser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Epic Privacy Browser\\Application\\epic.exe"
+      }
+    ]
+  },
+  {
+    "name": "Iridium",
+    "file_description": "",
+    "executable_names": [
+      "iridium.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Slimjet",
+    "file_description": "",
+    "executable_names": [
+      "slimjet.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "7 Star Browser",
+    "file_description": "",
+    "executable_names": [
+      "7chrome.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "360 Chrome",
+    "file_description": "",
+    "executable_names": [
+      "360chrome.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "UC Browser",
+    "file_description": "",
+    "executable_names": [
+      "UCBrowser.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Midori",
+    "file_description": "",
+    "executable_names": [
+      "midori.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Midori"
+      }
+    ]
+  },
+  {
+    "name": "Cent Browser",
+    "file_description": "Cent Browser",
+    "executable_names": [
+      "chrome.exe",
+      "centbrowser.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\CentBrowser\\Application\\chrome.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\CentBrowser\\Application\\centbrowser.exe"
+      }
+    ]
+  },
+  {
+    "name": "Uran",
+    "file_description": "",
+    "executable_names": [
+      "uran.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\uCozMedia\\Uran\\Application\\uran.exe"
+      }
+    ]
+  },
+  {
+    "name": "Otter Browser",
+    "file_description": "",
+    "executable_names": [
+      "otter-browser.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "AOL Shield",
+    "file_description": "",
+    "executable_names": [
+      "AOLShield.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Telekom-Browser 7.0",
+    "file_description": "",
+    "executable_names": [
+      "Browser7.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\Browser7.exe"
+      }
+    ]
+  },
+  {
+    "name": "Brave",
+    "file_description": "",
+    "executable_names": [
+      "Brave.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Brave"
+      }
+    ]
+  },
+  {
+    "name": "Sidekick",
+    "file_description": "",
+    "executable_names": [
+      "sidekick.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Sidekick"
+      }
+    ]
+  },
+  {
+    "name": "HAL",
+    "file_description": "",
+    "executable_names": [
+      "Hal.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Salam Browser",
+    "file_description": "Salam",
+    "executable_names": [
+      "chrome.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\SBRO\\Update\\proxy\\source"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\SBRO\\Salam\\User Data\\Default\\databases\\Databases.db"
+      }
+    ]
+  },
+  {
+    "name": "Orbitum",
+    "file_description": "",
+    "executable_names": [
+      "orbitum.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Orbitum\\Update\\path"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Orbitum\\Application\\OrbitumUpdater\\OrbitumUpdater.exe"
+      }
+    ]
+  },
+  {
+    "name": "Opera Neon",
+    "file_description": "",
+    "executable_names": [
+      "neon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\OperaSoftware"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Opera Software\\Opera Neon"
+      }
+    ]
+  },
+  {
+    "name": "Cliqz",
+    "file_description": "",
+    "executable_names": [
+      "cliqz.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%APPDATA%\\CLIQZ"
+      }
+    ]
+  },
+  {
+    "name": "Torch",
+    "file_description": "",
+    "executable_names": [
+      "torch.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Torch\\Uninstall.exe"
+      }
+    ]
+  },
+  {
+    "name": "Whale",
+    "file_description": "",
+    "executable_names": [
+      "whale.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Naver\\Naver Whale\\User Data\\First Run"
+      }
+    ]
+  },
+  {
+    "name": "Swing browser",
+    "file_description": "",
+    "executable_names": [
+      "swing.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\SwingBrowser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\SwingBrowser\\Application\\starter.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\SwingBrowser\\Application\\swing.exe"
+      }
+    ]
+  },
+  {
+    "name": "CCleaner Browser",
+    "file_description": "CCleaner Browser",
+    "executable_names": [
+      "CCleanerBrowser.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\CCleaner Browser\\Application\\CCleanerBrowser.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\CCleaner Browser\\Application\\CCleanerBrowser.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\CCleanerHTML"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Piriform\\Browser"
+      }
+    ]
+  },
+  {
+    "name": "Thorium",
+    "file_description": "Thorium",
+    "executable_names": [
+      "thorium.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Thorium\\Application\\thorium.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Thorium"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Thorium"
+      }
+    ]
+  },
+  {
+    "name": "Catsxp",
+    "file_description": "Catsxp",
+    "executable_names": [
+      "catsxp.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\CatsxpSoftware\\Catsxp-Browser\\Application\\catsxp.exe"
+      }
+    ]
+  },
+  {
+    "name": "360 Browser",
+    "file_description": "",
+    "executable_names": [
+      "360se.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%APPDATA%\\360se6\\Application\\360se.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\360seURL"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\360"
+      }
+    ]
+  },
+  {
+    "name": "Arc",
+    "file_description": "",
+    "executable_names": [
+      "Arc.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\Arc.exe"
+      }
+    ]
+  },
+  {
+    "name": "Floorp",
+    "file_description": "",
+    "executable_names": [
+      "Floorp.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Applications\\floorp.exe"
+      }
+    ]
+  },
+  {
+    "name": "Comet",
+    "file_description": "",
+    "executable_names": [
+      "comet.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Perplexity\\Comet\\Application\\comet.exe"
+      }
+    ]
+  },
+  {
+    "name": "Zen Browser",
+    "file_description": "",
+    "executable_names": [
+      "zen.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Mozilla\\Zen"
+      }
+    ]
+  },
+  {
+    "name": "IceWeasel",
+    "file_description": "",
+    "executable_names": [
+      "iceweasel.exe"
+    ],
+    "installed_conditions": []
+  },
+  {
+    "name": "Helium",
+    "file_description": "Helium",
+    "executable_names": [
+      "chrome.exe",
+      "helium.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\imput\\Helium\\Application\\chrome.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\imput Helium"
+      }
+    ]
+  }
+]

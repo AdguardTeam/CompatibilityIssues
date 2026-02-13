@@ -1,0 +1,156 @@
+[
+  {
+    "name": "iTunes",
+    "executable_names": [
+      "iTunes.exe"
+    ],
+    "installed_conditions": [],
+    "private_issue_id": "AG-47576"
+  },
+  {
+    "name": "Apple Music",
+    "executable_names": [
+      "AppleMusic.exe"
+    ],
+    "installed_conditions": [],
+    "private_issue_id": "AG-47576"
+  },
+  {
+    "name": "iCloud",
+    "executable_names": [
+      "iCloudHome.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5523",
+    "private_issue_id": "AG-43455"
+  },
+  {
+    "name": "Dart",
+    "executable_names": [
+      "dart.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5553",
+    "private_issue_id": "AG-44280"
+  },
+  {
+    "name": "Windscribe",
+    "executable_names": [
+      "Windscribe.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
+    "private_issue_id": "AG-45307"
+  },
+  {
+    "name": "KakaoTalk",
+    "executable_names": [
+      "KakaoTalk.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "Logi Options+",
+    "executable_names": [
+      "logioptionsplus.exe",
+      "logioptionsplus_updater.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "NVIDIA Container",
+    "executable_names": [
+      "nvcontainer.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "NVIDIA App",
+    "executable_names": [
+      "NVIDIA app.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "GCC",
+    "executable_names": [
+      "GCC.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "Microsoft Edge Update",
+    "executable_names": [
+      "MicrosoftEdgeUpdate.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
+  },
+  {
+    "name": "ZenServer",
+    "executable_names": [
+      "zenserver.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5705"
+  },
+  {
+    "name": "Battle.net",
+    "executable_names": [
+      "Battle.net.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
+  },
+  {
+    "name": "Visual Studio",
+    "executable_names": [
+      "devenv.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
+  },
+  {
+    "name": "AutoUpdate",
+    "executable_names": [
+      "AutoUpdate.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5773"
+  },
+  {
+    "name": "VirtualBox",
+    "executable_names": [
+      "VirtualBoxVM.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5764"
+  },
+  {
+    "name": "Steam",
+    "executable_names": [
+      "steam.exe",
+      "steamservice.exe",
+      "steamwebhelper.exe",
+      "steamwebhelper64.exe",
+      "steamerrorreporter64.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "name": "PUBG",
+    "executable_names": [
+      "TslGame.exe",
+      "TslGame_ZK.exe",
+      "ExecPubg.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  }
+]

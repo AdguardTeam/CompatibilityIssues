@@ -11,7 +11,7 @@ Although we strive to maintain a high quality of filtering primarily through rul
 
 ## What AdGuard applications use these filtering lists?
 
-Currently, they apply to AdGuard for Android.
+Currently, they apply to AdGuard for Android and AdGuard for Windows.
 
 ## How do these lists get updated in the AdGuard apps?
 
@@ -77,3 +77,26 @@ Here’s a simple steps to help you sort things out.
 - [`ipv4_routes_exclusions_fujitsu.txt`](android/routes_exclusions/ipv4_routes_exclusions_fujitsu.txt) - A list of IPv4 ranges excluded from routing on problematic devices. This list applies on Fujitsu devices: F-01J, F-01K, F-01L, F-02H, F-03H, F-03K, F-04H, F-04K.
 
 - [`ipv6_routes_exclusions.txt`](android/routes_exclusions/ipv6_routes_exclusions.txt) - A list of IPv6 ranges excluded from routing.
+
+## Compatibility configuration for AdGuard for Windows
+
+- [`http_filtering_exclusions_apps.json`](windows/http_filtering_exclusions_apps.json) - A list of app executables where traffic filtering is disabled (App Management -> Filter traffic).
+
+- [`route_exclusions_apps.json`](windows/route_exclusions_apps.json) - A list of app executables where routing through AdGuard is disabled (App Management -> Route traffic through AdGuard).
+
+- [`browsers.json`](windows/browsers.json) - A list of browsers where HTTPS traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
+
+- [`https_filtering_apps.json`](windows/https_filtering_apps.json) - A list of non-browser apps where HTTPS traffic filtering is enabled by default (App Management -> Filter HTTPS traffic).
+
+### Application model structure
+
+Each application entry in the JSON files (`browsers.json`, `http_filtering_exclusions_apps.json`, `route_exclusions_apps.json`, `https_filtering_apps.json`) uses the following structure:
+
+- `name` - Application or browser display name
+- `executable_names` - Array of executable file names associated with the application
+- `installed_conditions` - Array of conditions to detect if the application is installed. Each condition has:
+  - `type` - Type of condition: `"RegistryKey"` or `"FilePath"`
+  - `pattern` - Registry key path or file path pattern (supports environment variables like `%LOCALAPPDATA%`, `%PROGRAMFILES%`, etc.)
+- `public_issue_url` - Link to the public GitHub issue (optional)
+- `private_issue_id` - Internal issue ID (optional)
+
