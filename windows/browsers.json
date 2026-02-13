@@ -1,6 +1,7 @@
 [
   {
     "name": "Google Chrome",
+    "file_description": "Google Chrome",
     "executable_names": [
       "chrome.exe"
     ],
@@ -25,6 +26,7 @@
   },
   {
     "name": "Chromium",
+    "file_description": "Chromium",
     "executable_names": [
       "chrome.exe"
     ],
@@ -37,6 +39,7 @@
   },
   {
     "name": "Mozilla Firefox",
+    "file_description": "Firefox",
     "executable_names": [
       "firefox.exe"
     ],
@@ -61,6 +64,7 @@
   },
   {
     "name": "Internet Explorer",
+    "file_description": "",
     "executable_names": [
       "iexplore.exe"
     ],
@@ -73,6 +77,7 @@
   },
   {
     "name": "Safari",
+    "file_description": "",
     "executable_names": [
       "safari.exe",
       "webkit2webprocess.exe"
@@ -81,6 +86,7 @@
   },
   {
     "name": "Opera",
+    "file_description": "",
     "executable_names": [
       "opera.exe"
     ],
@@ -97,6 +103,7 @@
   },
   {
     "name": "Microsoft Edge Legacy",
+    "file_description": "",
     "executable_names": [
       "microsoftedgecp.exe",
       "microsoftedge.exe"
@@ -114,6 +121,7 @@
   },
   {
     "name": "Microsoft Edge",
+    "file_description": "",
     "executable_names": [
       "msedge.exe"
     ],
@@ -150,6 +158,7 @@
   },
   {
     "name": "Maxthon",
+    "file_description": "",
     "executable_names": [
       "maxthon.exe"
     ],
@@ -162,6 +171,7 @@
   },
   {
     "name": "Yandex with voice assistant Alice",
+    "file_description": "Yandex with voice assistant Alice",
     "executable_names": [
       "browser.exe",
       "yabrowser.exe"
@@ -179,6 +189,7 @@
   },
   {
     "name": "Sputnik",
+    "file_description": "Sputnik",
     "executable_names": [
       "browser.exe"
     ],
@@ -191,6 +202,7 @@
   },
   {
     "name": "Avira Scout",
+    "file_description": "",
     "executable_names": [
       "Avira-Scout.exe"
     ],
@@ -198,6 +210,7 @@
   },
   {
     "name": "Netscape Navigator",
+    "file_description": "",
     "executable_names": [
       "netscape.exe"
     ],
@@ -205,6 +218,7 @@
   },
   {
     "name": "Flock",
+    "file_description": "",
     "executable_names": [
       "flock.exe"
     ],
@@ -212,6 +226,7 @@
   },
   {
     "name": "SRWare Iron",
+    "file_description": "SRWare Iron",
     "executable_names": [
       "chrome.exe",
       "iron.exe"
@@ -220,6 +235,7 @@
   },
   {
     "name": "Lunascape",
+    "file_description": "",
     "executable_names": [
       "lunascape.exe"
     ],
@@ -227,6 +243,7 @@
   },
   {
     "name": "K-Meleon",
+    "file_description": "",
     "executable_names": [
       "kmeleon.exe",
       "k-meleon.exe"
@@ -240,6 +257,7 @@
   },
   {
     "name": "GreenBrowser",
+    "file_description": "",
     "executable_names": [
       "greenbrowser.exe"
     ],
@@ -247,6 +265,7 @@
   },
   {
     "name": "Orca",
+    "file_description": "",
     "executable_names": [
       "orca.exe"
     ],
@@ -254,6 +273,7 @@
   },
   {
     "name": "MyIE",
+    "file_description": "",
     "executable_names": [
       "myie.exe"
     ],
@@ -261,6 +281,7 @@
   },
   {
     "name": "Comodo Dragon",
+    "file_description": "",
     "executable_names": [
       "dragon.exe"
     ],
@@ -268,6 +289,7 @@
   },
   {
     "name": "Chromodo",
+    "file_description": "",
     "executable_names": [
       "chromodo.exe"
     ],
@@ -275,6 +297,7 @@
   },
   {
     "name": "SeaMonkey",
+    "file_description": "",
     "executable_names": [
       "seamonkey.exe"
     ],
@@ -282,6 +305,7 @@
   },
   {
     "name": "Pale Moon",
+    "file_description": "",
     "executable_names": [
       "palemoon.exe"
     ],
@@ -302,6 +326,7 @@
   },
   {
     "name": "Avant",
+    "file_description": "",
     "executable_names": [
       "avant.exe",
       "ybrowser.exe",
@@ -313,6 +338,7 @@
   },
   {
     "name": "Nichrome",
+    "file_description": "",
     "executable_names": [
       "nichrome.exe"
     ],
@@ -320,6 +346,7 @@
   },
   {
     "name": "FlashPeak SlimBrowser",
+    "file_description": "",
     "executable_names": [
       "SBRender.exe"
     ],
@@ -327,6 +354,7 @@
   },
   {
     "name": "Waterfox",
+    "file_description": "",
     "executable_names": [
       "waterfox.exe"
     ],
@@ -339,6 +367,7 @@
   },
   {
     "name": "Sleipnir",
+    "file_description": "",
     "executable_names": [
       "sleipnir_engine_cv.exe"
     ],
@@ -346,6 +375,7 @@
   },
   {
     "name": "QtWeb Internet Browser",
+    "file_description": "",
     "executable_names": [
       "QtWeb.exe"
     ],
@@ -353,6 +383,7 @@
   },
   {
     "name": "Comodo IceDragon",
+    "file_description": "",
     "executable_names": [
       "icedragon.exe"
     ],
@@ -360,6 +391,7 @@
   },
   {
     "name": "CyberFox Browser",
+    "file_description": "",
     "executable_names": [
       "cyberfox.exe"
     ],
@@ -372,6 +404,7 @@
   },
   {
     "name": "Tor",
+    "file_description": "",
     "executable_names": [
       "tor.exe"
     ],
@@ -379,6 +412,7 @@
   },
   {
     "name": "Tor Browser",
+    "file_description": "Tor Browser",
     "executable_names": [
       "tbb-firefox.exe",
       "firefox.exe"
@@ -387,6 +421,7 @@
   },
   {
     "name": "Amigo",
+    "file_description": "",
     "executable_names": [
       "amigo.exe"
     ],
@@ -394,6 +429,7 @@
   },
   {
     "name": "Superbird",
+    "file_description": "",
     "executable_names": [
       "superbird.exe"
     ],
@@ -401,6 +437,7 @@
   },
   {
     "name": "360Browser",
+    "file_description": "",
     "executable_names": [
       "360browser.exe"
     ],
@@ -408,6 +445,7 @@
   },
   {
     "name": "Maxthon Nitro",
+    "file_description": "",
     "executable_names": [
       "MxNitro.exe"
     ],
@@ -415,6 +453,7 @@
   },
   {
     "name": "Vivaldi",
+    "file_description": "",
     "executable_names": [
       "vivaldi.exe"
     ],
@@ -435,6 +474,7 @@
   },
   {
     "name": "Kinza",
+    "file_description": "",
     "executable_names": [
       "kinza.exe"
     ],
@@ -451,6 +491,7 @@
   },
   {
     "name": "Atom",
+    "file_description": "",
     "executable_names": [
       "atom.exe"
     ],
@@ -467,6 +508,7 @@
   },
   {
     "name": "Epic",
+    "file_description": "",
     "executable_names": [
       "epic.exe"
     ],
@@ -483,6 +525,7 @@
   },
   {
     "name": "Iridium",
+    "file_description": "",
     "executable_names": [
       "iridium.exe"
     ],
@@ -490,6 +533,7 @@
   },
   {
     "name": "Slimjet",
+    "file_description": "",
     "executable_names": [
       "slimjet.exe"
     ],
@@ -497,6 +541,7 @@
   },
   {
     "name": "7 Star Browser",
+    "file_description": "",
     "executable_names": [
       "7chrome.exe"
     ],
@@ -504,6 +549,7 @@
   },
   {
     "name": "360 Chrome",
+    "file_description": "",
     "executable_names": [
       "360chrome.exe"
     ],
@@ -511,6 +557,7 @@
   },
   {
     "name": "UC Browser",
+    "file_description": "",
     "executable_names": [
       "UCBrowser.exe"
     ],
@@ -518,6 +565,7 @@
   },
   {
     "name": "Midori",
+    "file_description": "",
     "executable_names": [
       "midori.exe"
     ],
@@ -530,6 +578,7 @@
   },
   {
     "name": "Cent Browser",
+    "file_description": "Cent Browser",
     "executable_names": [
       "chrome.exe",
       "centbrowser.exe"
@@ -547,6 +596,7 @@
   },
   {
     "name": "Uran",
+    "file_description": "",
     "executable_names": [
       "uran.exe"
     ],
@@ -559,6 +609,7 @@
   },
   {
     "name": "Otter Browser",
+    "file_description": "",
     "executable_names": [
       "otter-browser.exe"
     ],
@@ -566,6 +617,7 @@
   },
   {
     "name": "AOL Shield",
+    "file_description": "",
     "executable_names": [
       "AOLShield.exe"
     ],
@@ -573,6 +625,7 @@
   },
   {
     "name": "Telekom-Browser 7.0",
+    "file_description": "",
     "executable_names": [
       "Browser7.exe"
     ],
@@ -585,6 +638,7 @@
   },
   {
     "name": "Brave",
+    "file_description": "",
     "executable_names": [
       "Brave.exe"
     ],
@@ -597,6 +651,7 @@
   },
   {
     "name": "Sidekick",
+    "file_description": "",
     "executable_names": [
       "sidekick.exe"
     ],
@@ -609,6 +664,7 @@
   },
   {
     "name": "HAL",
+    "file_description": "",
     "executable_names": [
       "Hal.exe"
     ],
@@ -616,6 +672,7 @@
   },
   {
     "name": "Salam Browser",
+    "file_description": "Salam",
     "executable_names": [
       "chrome.exe"
     ],
@@ -632,6 +689,7 @@
   },
   {
     "name": "Orbitum",
+    "file_description": "",
     "executable_names": [
       "orbitum.exe"
     ],
@@ -648,6 +706,7 @@
   },
   {
     "name": "Opera Neon",
+    "file_description": "",
     "executable_names": [
       "neon.exe"
     ],
@@ -664,6 +723,7 @@
   },
   {
     "name": "Cliqz",
+    "file_description": "",
     "executable_names": [
       "cliqz.exe"
     ],
@@ -676,6 +736,7 @@
   },
   {
     "name": "Torch",
+    "file_description": "",
     "executable_names": [
       "torch.exe"
     ],
@@ -688,6 +749,7 @@
   },
   {
     "name": "Whale",
+    "file_description": "",
     "executable_names": [
       "whale.exe"
     ],
@@ -700,6 +762,7 @@
   },
   {
     "name": "Swing browser",
+    "file_description": "",
     "executable_names": [
       "swing.exe"
     ],
@@ -720,6 +783,7 @@
   },
   {
     "name": "CCleaner Browser",
+    "file_description": "CCleaner Browser",
     "executable_names": [
       "CCleanerBrowser.exe"
     ],
@@ -744,6 +808,7 @@
   },
   {
     "name": "Thorium",
+    "file_description": "Thorium",
     "executable_names": [
       "thorium.exe"
     ],
@@ -764,6 +829,7 @@
   },
   {
     "name": "Catsxp",
+    "file_description": "Catsxp",
     "executable_names": [
       "catsxp.exe"
     ],
@@ -776,6 +842,7 @@
   },
   {
     "name": "360 Browser",
+    "file_description": "",
     "executable_names": [
       "360se.exe"
     ],
@@ -796,6 +863,7 @@
   },
   {
     "name": "Arc",
+    "file_description": "",
     "executable_names": [
       "Arc.exe"
     ],
@@ -808,6 +876,7 @@
   },
   {
     "name": "Floorp",
+    "file_description": "",
     "executable_names": [
       "Floorp.exe"
     ],
@@ -820,6 +889,7 @@
   },
   {
     "name": "Comet",
+    "file_description": "",
     "executable_names": [
       "comet.exe"
     ],
@@ -832,6 +902,7 @@
   },
   {
     "name": "Zen Browser",
+    "file_description": "",
     "executable_names": [
       "zen.exe"
     ],
@@ -844,6 +915,7 @@
   },
   {
     "name": "IceWeasel",
+    "file_description": "",
     "executable_names": [
       "iceweasel.exe"
     ],
@@ -851,6 +923,7 @@
   },
   {
     "name": "Helium",
+    "file_description": "Helium",
     "executable_names": [
       "chrome.exe",
       "helium.exe"
