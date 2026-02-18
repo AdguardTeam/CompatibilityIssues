@@ -104,7 +104,12 @@
             "Microsoft.Msn.News.exe",
             "Microsoft.Msn.Sports.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_CLASSES_ROOT\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\msnfinance"
+            }
+        ]
     },
     {
         "name": "RSSOwl",
@@ -135,42 +140,76 @@
         "executable_names": [
             "TWC.WindowsUniversal.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Packages\\TheWeatherChannel.TheWeatherChannelforWindows10_5pcz9bfxs58p2"
+            }
+        ]
     },
     {
         "name": "Microsoft Solitaire Collection",
         "executable_names": [
             "Solitaire.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\microsoftsolitairecollection"
+            }
+        ]
     },
     {
         "name": "Microsoft Mahjong",
         "executable_names": [
             "Mahjong.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Packages\\Microsoft.MicrosoftMahjong_8wekyb3d8bbwe"
+            }
+        ]
     },
     {
         "name": "freda epub ebook reader",
         "executable_names": [
             "Freda_W10.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Packages\\Freda_4gxnv7j3xt3jy"
+            }
+        ]
     },
     {
         "name": "Messages for web",
         "executable_names": [
             "Android Messages.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\AnyDesk\\Android Messages.exe"
+            },
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Programs\\AnyDesk\\Android Messages.exe"
+            }
+        ]
     },
     {
         "name": "EasyMail for Gmail",
         "executable_names": [
             "EasyMailReLaunch.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\easymail"
+            }
+        ]
     },
     {
         "name": "GOM Player",
@@ -265,7 +304,12 @@
             "Bandizip.exe",
             "Updater.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\bandizip.exe"
+            }
+        ]
     },
     {
         "name": "Viber",
