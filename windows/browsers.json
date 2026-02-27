@@ -938,5 +938,30 @@
         "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\imput Helium"
       }
     ]
+  },
+  {
+    "name": "LibreWolf",
+    "file_description": "LibreWolf",
+    "executable_names": [
+      "librewolf.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\LibreWolf LibreWolf"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\LibreWolfHTM"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Mozilla\\LibreWolf"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\LibreWolf\\librewolf.exe"
+      }
+    ]
   }
 ]
