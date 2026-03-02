@@ -47,10 +47,10 @@ body:
       label: Suggested Configuration List
       description: Based on your findings, which list should be updated?
       options:
-        - "https_filtering_apps.json (Disable HTTPS filtering)"
+        - "https_filtering_apps.json (Apps with HTTPS filtering enabled by default)"
         - "http_filtering_exclusions_apps.json (Disable HTTP filtering)"
         - "route_exclusions_apps.json (Disable traffic routing)"
-        - "browsers.json (Add a browser support)"
+        - "browsers.json (Add browser support)"
         - "I am not sure, please investigate"
     validations:
       required: true
