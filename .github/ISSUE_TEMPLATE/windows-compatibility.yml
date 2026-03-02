@@ -36,7 +36,7 @@ body:
       options:
         - "Disabling HTTPS filtering (Suggests SSL/Certificate or connection/protocol issues)"
         - "Disabling 'Route traffic' (Suggests low-level network conflict)"
-        - "Adding to browser exclusions (Browser-specific issue)"
+        - "Adding to browsers.json (Browser-specific issue)"
         - "Other / Not sure"
     validations:
       required: true
