@@ -1,0 +1,78 @@
+name: "🪟 Windows Compatibility Report"
+description: Report an issue with a Windows application that happens only when AdGuard is ON
+title: "[Windows]: <App Name>"
+labels: ["windows", "compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Submission Guidelines
+        Please ensure you have followed the [Troubleshooting Guide](https://github.com/your-repo#how-to-troubleshoot).
+        * Use this form only if the application malfunctions due to AdGuard's interception (e.g., connection errors, SSL issues).
+        * For missed ads or website breakage, please use the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository.
+
+  - type: input
+    id: app_name
+    attributes:
+      label: Application Name
+      placeholder: "e.g., Discord, Steam, Visual Studio"
+    validations:
+      required: true
+
+  - type: input
+    id: executable_name
+    attributes:
+      label: Application Executable Name
+      placeholder: "e.g., Discord.exe, steam.exe, devenv.exe"
+      description: "You can find this in Task Manager or the application's installation directory."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: diagnosis_result
+    attributes:
+      label: Troubleshooting Result
+      description: Which step resolved the issue during your testing?
+      options:
+        - "Disabling HTTPS filtering (Suggests SSL/Certificate or connection/protocol issues)"
+        - "Disabling 'Route traffic' (Suggests low-level network conflict)"
+        - "Adding to browser exclusions (Browser-specific issue)"
+        - "Other / Not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suggested_list
+    attributes:
+      label: Suggested Configuration List
+      description: Based on your findings, which list should be updated?
+      options:
+        - "https_filtering_apps.json (Disable HTTPS filtering)"
+        - "http_filtering_exclusions_apps.json (Disable HTTP filtering)"
+        - "route_exclusions_apps.json (Disable traffic routing)"
+        - "browsers.json (Add a browser support)"
+        - "I am not sure, please investigate"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of the Problem
+      placeholder: "Describe what happens (e.g., 'App says No Internet Connection', 'Application crashes on startup', 'Cannot connect to servers', etc.)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Final Checks
+      options:
+        - label: "I have confirmed that disabling the Tracking Protection or specific filters did NOT fix the issue."
+          required: true
+        - label: "I am using the default filtering settings for this application."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: "Thank you for your report! Our team will review the compatibility status for this application."
