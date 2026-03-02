@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ### Submission Guidelines
-        Please ensure you have followed the [Troubleshooting Guide](https://github.com/your-repo#how-to-troubleshoot).
+        Please ensure you have followed the [Troubleshooting Guide](https://github.com/AdguardTeam/CompatibilityIssues#how-to-troubleshoot-compatibility-issues).
         * Use this form only if the application malfunctions due to AdGuard's interception (e.g., connection errors, SSL issues).
         * For missed ads or website breakage, please use the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository.
 
