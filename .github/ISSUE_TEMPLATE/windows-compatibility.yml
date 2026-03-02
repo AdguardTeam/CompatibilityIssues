@@ -1,30 +1,30 @@
-name: "📱 Android Compatibility Report"
-description: Report an issue with an Android app that happens only when AdGuard is ON
-title: "[Android]: <App Name>"
-labels: ["android", "compatibility"]
+name: "🪟 Windows Compatibility Report"
+description: Report an issue with a Windows application that happens only when AdGuard is ON
+title: "[Windows]: <App Name>"
+labels: ["windows", "compatibility"]
 body:
   - type: markdown
     attributes:
       value: |
         ### Submission Guidelines
         Please ensure you have followed the [Troubleshooting Guide](https://github.com/AdguardTeam/CompatibilityIssues#how-to-troubleshoot-compatibility-issues).
-        * Use this form only if the app malfunctions due to AdGuard's interception (e.g., connection errors, SSL issues).
+        * Use this form only if the application malfunctions due to AdGuard's interception (e.g., connection errors, SSL issues).
         * For missed ads or website breakage, please use the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository.
 
   - type: input
     id: app_name
     attributes:
       label: Application Name
-      placeholder: "e.g., Netflix, WhatsApp, PayPal"
+      placeholder: "e.g., Discord, Steam, Visual Studio"
     validations:
       required: true
 
   - type: input
-    id: package_id
+    id: executable_name
     attributes:
-      label: Application Package ID
-      placeholder: "e.g., com.netflix.mediaclient"
-      description: "You can find this in AdGuard App Management or on the Play Store URL."
+      label: Application Executable Name
+      placeholder: "e.g., Discord.exe, steam.exe, devenv.exe"
+      description: "You can find this in Task Manager or the application's installation directory."
     validations:
       required: true
 
@@ -34,10 +34,9 @@ body:
       label: Troubleshooting Result
       description: Which step resolved the issue during your testing?
       options:
-        - "Disabling HTTPS filtering (Suggests SSL Pinning)"
-        - "Adding to QUIC bypass (Suggests QUIC-related playback/loading issues)"
-        - "Disabling 'Route traffic' (Suggests low-level conflict)"
-        - "Excluding IP ranges (Suggests connection/gateway issues)"
+        - "Disabling HTTPS filtering (Suggests SSL/Certificate or connection/protocol issues)"
+        - "Disabling 'Route traffic' (Suggests low-level network conflict)"
+        - "Adding to browsers.json (Browser-specific issue)"
         - "Other / Not sure"
     validations:
       required: true
@@ -48,12 +47,10 @@ body:
       label: Suggested Configuration List
       description: Based on your findings, which list should be updated?
       options:
-        - "filter_traffic_exclusions.json (Disable routing)"
-        - "block_ads_exclusions.json (Disable ad blocking)"
-        - "filter_https_traffic_exclusions.json (Disable HTTPS filtering)"
-        - "quic_pkg_exclusions.txt (Allow QUIC traffic)"
-        - "pkg_exclusions.txt (Low-level exclusion)"
-        - "ipv4_routes_exclusions.txt (IP exclusion)"
+        - "https_filtering_apps.json (Apps with HTTPS filtering enabled by default)"
+        - "http_filtering_exclusions_apps.json (Disable HTTP filtering)"
+        - "route_exclusions_apps.json (Disable traffic routing)"
+        - "browsers.json (Add browser support)"
         - "I am not sure, please investigate"
     validations:
       required: true
@@ -62,7 +59,7 @@ body:
     id: issue_description
     attributes:
       label: Description of the Problem
-      placeholder: "Describe what happens (e.g., 'App says No Internet Connection', 'Videos won't play', etc.)"
+      placeholder: "Describe what happens (e.g., 'App says No Internet Connection', 'Application crashes on startup', 'Cannot connect to servers', etc.)"
     validations:
       required: true
 
@@ -78,4 +75,4 @@ body:
 
   - type: markdown
     attributes:
-      value: "Thank you for your report! Our team will review the compatibility status for this Package ID."
+      value: "Thank you for your report! Our team will review the compatibility status for this application."
