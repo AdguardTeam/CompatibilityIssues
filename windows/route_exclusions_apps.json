@@ -144,10 +144,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\NVIDIA Corporation\\NVIDIA app"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES%\\NVIDIA Corporation\\NVIDIA app\\NVIDIA app.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
