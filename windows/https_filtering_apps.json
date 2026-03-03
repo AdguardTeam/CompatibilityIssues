@@ -104,7 +104,12 @@
             "Microsoft.Msn.News.exe",
             "Microsoft.Msn.Sports.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_CLASSES_ROOT\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\msnfinance"
+            }
+        ]
     },
     {
         "name": "RSSOwl",
@@ -142,7 +147,12 @@
         "executable_names": [
             "Solitaire.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\microsoftsolitairecollection"
+            }
+        ]
     },
     {
         "name": "Microsoft Mahjong",
@@ -163,14 +173,28 @@
         "executable_names": [
             "Android Messages.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\AnyDesk\\Android Messages.exe"
+            },
+            {
+                "type": "FilePath",
+                "pattern": "%LOCALAPPDATA%\\Programs\\AnyDesk\\Android Messages.exe"
+            }
+        ]
     },
     {
         "name": "EasyMail for Gmail",
         "executable_names": [
             "EasyMailReLaunch.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\Local Settings\\Software\\Microsoft\\Windows\\CurrentVersion\\AppModel\\PackageRepository\\Extensions\\windows.protocol\\easymail"
+            }
+        ]
     },
     {
         "name": "GOM Player",
@@ -265,7 +289,12 @@
             "Bandizip.exe",
             "Updater.exe"
         ],
-        "installed_conditions": []
+        "installed_conditions": [
+            {
+                "type": "RegistryKey",
+                "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths\\bandizip.exe"
+            }
+        ]
     },
     {
         "name": "Viber",
@@ -305,12 +334,7 @@
         "executable_names": [
             "msedgewebview2.exe"
         ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\EdgeWebView\\Application"
-            }
-        ]
+        "installed_conditions": []
     },
     {
         "name": "Discord",

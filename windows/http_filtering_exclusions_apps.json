@@ -4,7 +4,16 @@
     "executable_names": [
       "Discord.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Discord\\Update.exe"
+      }
+    ],
     "private_issue_id": "AG-43457",
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5524"
   },
@@ -13,7 +22,12 @@
     "executable_names": [
       "atom.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\atom\\atom.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/2988"
   },
   {
@@ -21,7 +35,16 @@
     "executable_names": [
       "upc.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Uplay"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Uplay"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
     "private_issue_id": "AG-45307"
   }

@@ -82,7 +82,16 @@
       "safari.exe",
       "webkit2webprocess.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Apple Inc.\\Safari"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Safari\\Safari.exe"
+      }
+    ]
   },
   {
     "name": "Opera",
@@ -206,7 +215,16 @@
     "executable_names": [
       "Avira-Scout.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Avira"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Avira"
+      }
+    ]
   },
   {
     "name": "Netscape Navigator",
@@ -214,7 +232,16 @@
     "executable_names": [
       "netscape.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Netscape\\Netscape Navigator"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Netscape\\Navigator\\netscape.exe"
+      }
+    ]
   },
   {
     "name": "Flock",
@@ -222,7 +249,16 @@
     "executable_names": [
       "flock.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Flock"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Flock\\flock.exe"
+      }
+    ]
   },
   {
     "name": "SRWare Iron",
@@ -231,7 +267,16 @@
       "chrome.exe",
       "iron.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\SRWare Iron"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\SRWare Iron\\Application\\iron.exe"
+      }
+    ]
   },
   {
     "name": "Lunascape",
@@ -239,7 +284,16 @@
     "executable_names": [
       "lunascape.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Lunascape"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Lunascape\\Lunascape.exe"
+      }
+    ]
   },
   {
     "name": "K-Meleon",
@@ -261,7 +315,16 @@
     "executable_names": [
       "greenbrowser.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\GreenBrowser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\GreenBrowser\\GreenBrowser.exe"
+      }
+    ]
   },
   {
     "name": "Orca",
@@ -269,7 +332,12 @@
     "executable_names": [
       "orca.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Orca\\orca.exe"
+      }
+    ]
   },
   {
     "name": "MyIE",
@@ -277,7 +345,16 @@
     "executable_names": [
       "myie.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MyIE"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\MyIE\\myie.exe"
+      }
+    ]
   },
   {
     "name": "Comodo Dragon",
@@ -285,7 +362,16 @@
     "executable_names": [
       "dragon.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\ComodoGroup\\Dragon"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Comodo\\Dragon\\Application\\dragon.exe"
+      }
+    ]
   },
   {
     "name": "Chromodo",
@@ -293,7 +379,16 @@
     "executable_names": [
       "chromodo.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\ComodoGroup\\Chromodo"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Chromodo\\Application\\chromodo.exe"
+      }
+    ]
   },
   {
     "name": "SeaMonkey",
@@ -301,7 +396,16 @@
     "executable_names": [
       "seamonkey.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\SeaMonkey"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\SeaMonkey\\seamonkey.exe"
+      }
+    ]
   },
   {
     "name": "Pale Moon",
@@ -334,7 +438,16 @@
       "webkit.exe",
       "gecko.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Avant Browser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Avant Browser\\avant.exe"
+      }
+    ]
   },
   {
     "name": "Nichrome",
@@ -342,7 +455,12 @@
     "executable_names": [
       "nichrome.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Nichrome\\Application\\nichrome.exe"
+      }
+    ]
   },
   {
     "name": "FlashPeak SlimBrowser",
@@ -350,7 +468,16 @@
     "executable_names": [
       "SBRender.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\SlimBrowser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\SlimBrowser\\SBRender.exe"
+      }
+    ]
   },
   {
     "name": "Waterfox",
@@ -371,7 +498,16 @@
     "executable_names": [
       "sleipnir_engine_cv.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Fenrir Inc\\Sleipnir"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Fenrir Inc\\Sleipnir\\sleipnir_engine_cv.exe"
+      }
+    ]
   },
   {
     "name": "QtWeb Internet Browser",
@@ -379,7 +515,12 @@
     "executable_names": [
       "QtWeb.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\QtWeb\\QtWeb.exe"
+      }
+    ]
   },
   {
     "name": "Comodo IceDragon",
@@ -387,7 +528,16 @@
     "executable_names": [
       "icedragon.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\ComodoGroup\\IceDragon"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Comodo\\IceDragon\\icedragon.exe"
+      }
+    ]
   },
   {
     "name": "CyberFox Browser",
@@ -408,7 +558,12 @@
     "executable_names": [
       "tor.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Tor\\tor.exe"
+      }
+    ]
   },
   {
     "name": "Tor Browser",
@@ -417,7 +572,16 @@
       "tbb-firefox.exe",
       "firefox.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%USERPROFILE%\\Desktop\\Tor Browser\\Browser\\firefox.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Tor Browser\\Browser\\firefox.exe"
+      }
+    ]
   },
   {
     "name": "Amigo",
@@ -425,7 +589,16 @@
     "executable_names": [
       "amigo.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Amigo"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Amigo\\Application\\amigo.exe"
+      }
+    ]
   },
   {
     "name": "Superbird",
@@ -433,7 +606,12 @@
     "executable_names": [
       "superbird.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Superbird\\Application\\superbird.exe"
+      }
+    ]
   },
   {
     "name": "360Browser",
@@ -441,7 +619,16 @@
     "executable_names": [
       "360browser.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\360"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\360\\360Browser\\360browser.exe"
+      }
+    ]
   },
   {
     "name": "Maxthon Nitro",
@@ -449,7 +636,12 @@
     "executable_names": [
       "MxNitro.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Maxthon\\MxNitro\\MxNitro.exe"
+      }
+    ]
   },
   {
     "name": "Vivaldi",
@@ -529,7 +721,16 @@
     "executable_names": [
       "iridium.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Iridium"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Iridium\\Application\\iridium.exe"
+      }
+    ]
   },
   {
     "name": "Slimjet",
@@ -537,7 +738,16 @@
     "executable_names": [
       "slimjet.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Slimjet"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Slimjet\\Application\\slimjet.exe"
+      }
+    ]
   },
   {
     "name": "7 Star Browser",
@@ -545,7 +755,12 @@
     "executable_names": [
       "7chrome.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\7Star\\7Star\\Application\\7chrome.exe"
+      }
+    ]
   },
   {
     "name": "360 Chrome",
@@ -553,7 +768,16 @@
     "executable_names": [
       "360chrome.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\360Chrome"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\360Chrome\\Chrome\\Application\\360chrome.exe"
+      }
+    ]
   },
   {
     "name": "UC Browser",
@@ -561,7 +785,16 @@
     "executable_names": [
       "UCBrowser.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\UCBrowser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\UCBrowser\\Application\\UCBrowser.exe"
+      }
+    ]
   },
   {
     "name": "Midori",
@@ -613,7 +846,16 @@
     "executable_names": [
       "otter-browser.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Otter Browser"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Otter Browser\\otter-browser.exe"
+      }
+    ]
   },
   {
     "name": "AOL Shield",
@@ -621,7 +863,12 @@
     "executable_names": [
       "AOLShield.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\AOL Shield\\Application\\AOLShield.exe"
+      }
+    ]
   },
   {
     "name": "Telekom-Browser 7.0",
@@ -668,7 +915,12 @@
     "executable_names": [
       "Hal.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\HAL\\Application\\Hal.exe"
+      }
+    ]
   },
   {
     "name": "Salam Browser",
@@ -919,7 +1171,12 @@
     "executable_names": [
       "iceweasel.exe"
     ],
-    "installed_conditions": []
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\IceWeasel\\iceweasel.exe"
+      }
+    ]
   },
   {
     "name": "Helium",

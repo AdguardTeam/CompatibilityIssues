@@ -4,7 +4,16 @@
     "executable_names": [
       "iTunes.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Apple Inc.\\iTunes"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\iTunes\\iTunes.exe"
+      }
+    ],
     "private_issue_id": "AG-47576"
   },
   {
@@ -12,7 +21,16 @@
     "executable_names": [
       "AppleMusic.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Apple Inc.\\Apple Music"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Apple\\Apple Music\\AppleMusic.exe"
+      }
+    ],
     "private_issue_id": "AG-47576"
   },
   {
@@ -20,7 +38,16 @@
     "executable_names": [
       "iCloudHome.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Apple Inc.\\iCloud"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Common Files\\Apple\\Internet Services\\iCloudHome.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5523",
     "private_issue_id": "AG-43455"
   },
@@ -29,7 +56,16 @@
     "executable_names": [
       "dart.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Pub\\Cache\\bin\\dart.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Dart\\dart-sdk\\bin\\dart.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5553",
     "private_issue_id": "AG-44280"
   },
@@ -38,7 +74,16 @@
     "executable_names": [
       "Windscribe.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Windscribe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Windscribe\\Windscribe.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
     "private_issue_id": "AG-45307"
   },
@@ -47,7 +92,12 @@
     "executable_names": [
       "KakaoTalk.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\KakaoTalk"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -56,7 +106,16 @@
       "logioptionsplus.exe",
       "logioptionsplus_updater.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Logitech\\LogiOptionsPlus"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\LogiOptionsPlus\\logioptionsplus.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -64,7 +123,16 @@
     "executable_names": [
       "nvcontainer.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\NVIDIA Corporation"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\NVIDIA Corporation\\NvContainer\\nvcontainer.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -72,7 +140,12 @@
     "executable_names": [
       "NVIDIA app.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\NVIDIA Corporation\\NVIDIA app"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -80,7 +153,12 @@
     "executable_names": [
       "GCC.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MinGW"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -88,7 +166,12 @@
     "executable_names": [
       "MicrosoftEdgeUpdate.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\EdgeUpdate"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
   },
   {
@@ -96,7 +179,16 @@
     "executable_names": [
       "zenserver.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Zen"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Zen\\zenserver.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5705"
   },
   {
@@ -104,7 +196,12 @@
     "executable_names": [
       "Battle.net.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Blizzard Entertainment\\Battle.net"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
   },
   {
@@ -112,7 +209,16 @@
     "executable_names": [
       "devenv.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\VisualStudio"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\VisualStudio"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5719"
   },
   {
@@ -120,7 +226,12 @@
     "executable_names": [
       "AutoUpdate.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Common Files\\microsoft shared\\ClickToRun\\AutoUpdate.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5773"
   },
   {
@@ -128,7 +239,16 @@
     "executable_names": [
       "VirtualBoxVM.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Oracle\\VirtualBox"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Oracle\\VirtualBox\\VirtualBoxVM.exe"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5764"
   },
   {
@@ -140,7 +260,16 @@
       "steamwebhelper64.exe",
       "steamerrorreporter64.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Valve\\Steam"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   },
   {
@@ -150,7 +279,12 @@
       "TslGame_ZK.exe",
       "ExecPubg.exe"
     ],
-    "installed_conditions": [],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 578080"
+      }
+    ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   }
 ]
