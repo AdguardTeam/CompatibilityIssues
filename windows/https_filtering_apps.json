@@ -140,12 +140,7 @@
         "executable_names": [
             "TWC.WindowsUniversal.exe"
         ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%LOCALAPPDATA%\\Packages\\TheWeatherChannel.TheWeatherChannelforWindows10_5pcz9bfxs58p2"
-            }
-        ]
+        "installed_conditions": []
     },
     {
         "name": "Microsoft Solitaire Collection",
@@ -164,24 +159,14 @@
         "executable_names": [
             "Mahjong.exe"
         ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%LOCALAPPDATA%\\Packages\\Microsoft.MicrosoftMahjong_8wekyb3d8bbwe"
-            }
-        ]
+        "installed_conditions": []
     },
     {
         "name": "freda epub ebook reader",
         "executable_names": [
             "Freda_W10.exe"
         ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%LOCALAPPDATA%\\Packages\\Freda_4gxnv7j3xt3jy"
-            }
-        ]
+        "installed_conditions": []
     },
     {
         "name": "Messages for web",
@@ -349,12 +334,7 @@
         "executable_names": [
             "msedgewebview2.exe"
         ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\EdgeWebView\\Application"
-            }
-        ]
+        "installed_conditions": []
     },
     {
         "name": "Discord",

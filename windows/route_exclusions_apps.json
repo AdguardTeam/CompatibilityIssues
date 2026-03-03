@@ -96,10 +96,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\KakaoTalk"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Kakao\\KakaoTalk\\KakaoTalk.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
@@ -165,10 +161,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\MinGW"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES%\\mingw-w64\\bin\\gcc.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
@@ -182,10 +174,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\EdgeUpdate"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611"
@@ -216,10 +204,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Blizzard Entertainment\\Battle.net"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Battle.net\\Battle.net.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
@@ -288,10 +272,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Valve\\Steam"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Steam\\steam.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
@@ -307,10 +287,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 578080"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Steam\\steamapps\\common\\PUBG\\TslGame\\Binaries\\Win64\\TslGame.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
