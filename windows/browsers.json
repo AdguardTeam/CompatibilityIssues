@@ -1220,5 +1220,26 @@
         "pattern": "%PROGRAMFILES%\\LibreWolf\\librewolf.exe"
       }
     ]
+  },
+  {
+    "name": "Tabbit Browser",
+    "file_description": "Tabbit Browser",
+    "executable_names": [
+      "Tabbit.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CLASSES_ROOT\\tabbit"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\Tabbit.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Tabbit\\Application\\Tabbit.exe"
+      }
+    ]
   }
 ]
