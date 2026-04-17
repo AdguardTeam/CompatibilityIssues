@@ -1241,5 +1241,23 @@
         "pattern": "%LOCALAPPDATA%\\Tabbit\\Application\\Tabbit.exe"
       }
     ]
+  },
+  {
+    "name": "DuckDuckGo",
+    "file_description": "DuckDuckGo",
+    "executable_names": [
+      "DuckDuckGo.exe",
+      "DuckDuckGo.WebView.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\DuckDuckGo.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\WindowsApps\\DuckDuckGo.DesktopBrowser_*\\WindowsBrowser\\DuckDuckGo.exe"
+      }
+    ]
   }
 ]
