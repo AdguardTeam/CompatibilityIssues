@@ -78,6 +78,10 @@ Here’s a simple steps to help you sort things out.
 
 - [`ipv6_routes_exclusions.txt`](android/routes_exclusions/ipv6_routes_exclusions.txt) - A list of IPv6 ranges excluded from routing.
 
+## Compatibility configuration for AdGuard for Mac
+
+- [`FilteringProcesses.json`](mac/FilteringProcesses.json) - A list of known processes that can be filtered using AdGuard for Mac.
+
 ## Compatibility configuration for AdGuard for Windows
 
 - [`http_filtering_exclusions_apps.json`](windows/http_filtering_exclusions_apps.json) - A list of app executables where traffic filtering is disabled (App Management -> Filter traffic).
