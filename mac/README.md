@@ -4,7 +4,6 @@
 
 This file defines the list of applications whose traffic AdGuard should filter.
 
----
 
 ## Top Level
 
@@ -14,7 +13,6 @@ A **JSON array** of objects, each describing a single application:
 [ { ... }, { ... }, ... ]
 ```
 
----
 
 ## Object Fields
 
@@ -26,7 +24,6 @@ A **JSON array** of objects, each describing a single application:
 | `filteringProcessNames` | `[String]` | -        | Process names to filter in the kernel extension filtering mode                                                                                    |
 | `filteringHosts`        | `[String]` | -        | List of `"ip:port"` destination hosts, if set, only **specific hosts** are filtered for the given Bundle ID (rather than all application traffic) |
 
----
 
 ## Example Entry
 
