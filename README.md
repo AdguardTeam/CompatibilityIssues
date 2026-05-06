@@ -11,7 +11,7 @@ Although we strive to maintain a high quality of filtering primarily through rul
 
 ## What AdGuard applications use these filtering lists?
 
-Currently, they apply to AdGuard for Android and AdGuard for Windows.
+Currently, they apply to AdGuard for Android, AdGuard for Windows, and AdGuard for Mac.
 
 ## How do these lists get updated in the AdGuard apps?
 
@@ -80,7 +80,7 @@ Here’s a simple steps to help you sort things out.
 
 ## Compatibility configuration for AdGuard for Mac
 
-- [`FilteringProcesses.json`](mac/FilteringProcesses.json) - A list of known processes that can be filtered using AdGuard for Mac.
+- [`processes.json`](mac/processes.json) - A list of known processes that can be filtered using AdGuard for Mac.
 
 ## Compatibility configuration for AdGuard for Windows
 
