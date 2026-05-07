@@ -21,7 +21,7 @@ A **JSON array** of objects, each describing a single application:
 | `bundleId`              | `String`   | ✓        | Bundle ID of the main application — unique identifier for the record                                                                              |
 | `enabled`               | `Bool`     | ✓        | Whether filtering is enabled by default for this application                                                                                      |
 | `filteringBundleIds`    | `[String]` | ✗        | Bundle IDs of **all processes** of the application to filter (main + helper, renderer, plugin, GPU, etc.)                                         |
-| `filteringProcessNames` | `[String]` | ✗        | Process names to filter in the kernel extension filtering mode                                                                                    |
+| `filteringProcessNames` | `[String]` | ✗        | Process names to filter in the kernel extension filtering mode (it is going to be deprecated, maybe)                                              |
 | `filteringHosts`        | `[String]` | ✗        | List of `"ip:port"` destination hosts, if set, only **specific hosts** are filtered for the given Bundle ID (rather than all application traffic) |
 
 
