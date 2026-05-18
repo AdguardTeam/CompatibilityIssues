@@ -1259,5 +1259,22 @@
         "pattern": "%PROGRAMFILES%\\WindowsApps\\DuckDuckGo.DesktopBrowser_*\\WindowsBrowser\\DuckDuckGo.exe"
       }
     ]
+  },
+  {
+    "name": "Falkon",
+    "file_description": "Falkon",
+    "executable_names": [
+      "falkon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Falkon\\bin\\falkon.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\KDE e.V.\\Falkon\\Start Menu Folder\\Falkon"
+      }
+    ]
   }
 ]
