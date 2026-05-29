@@ -1,0 +1,146 @@
+[
+    {
+        "bundleId" : "com.openai.atlas",
+        "kind" : "chrome",
+        "profilesFolder" : "com.openai.atlas/browser-data/host",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "ai.perplexity.comet",
+        "kind" : "chrome",
+        "profilesFolder" : "Comet",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "app.zen-browser.zen",
+        "kind" : "gecko",
+        "profilesFolder" : "zen",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.mozilla.floorp",
+        "kind" : "gecko",
+        "profilesFolder" : "Floorp/Profiles",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.pushplaylabs.sidekick",
+        "kind" : "chrome",
+        "profilesFolder" : "Sidekick/",
+        "nativeMessaging" : "Sidekick/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.vivaldi.Vivaldi",
+        "kind" : "chrome",
+        "profilesFolder" : "Vivaldi",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "company.thebrowser.Browser",
+        "kind" : "chrome",
+        "profilesFolder" : "Arc/User Data/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "company.thebrowser.dia",
+        "kind" : "chrome",
+        "profilesFolder" : "Dia/User Data/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.google.Chrome",
+        "kind" : "chrome",
+        "profilesFolder" : "Google/Chrome/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.google.Chrome.beta",
+        "kind" : "chrome",
+        "profilesFolder" : "Google/Chrome Beta/",
+        "nativeMessaging" : "Google/Chrome Beta/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.google.Chrome.dev",
+        "kind" : "chrome",
+        "profilesFolder" : "Google/Chrome Dev/",
+        "nativeMessaging" : "Google/Chrome Dev/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.google.Chrome.canary",
+        "kind" : "chrome",
+        "profilesFolder" : "Google/Chrome Canary/",
+        "nativeMessaging" : "Google/Chrome Canary/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.microsoft.edgemac",
+        "kind" : "edge",
+        "profilesFolder" : "Microsoft Edge/",
+        "nativeMessaging" : "Microsoft Edge/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.microsoft.edgemac.Beta",
+        "kind" : "edge",
+        "profilesFolder" : "Microsoft Edge Beta/",
+        "nativeMessaging" : "Microsoft Edge Beta/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.microsoft.edgemac.Dev",
+        "kind" : "edge",
+        "profilesFolder" : "Microsoft Edge Dev/",
+        "nativeMessaging" : "Microsoft Edge Dev/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.microsoft.edgemac.Canary",
+        "kind" : "edge",
+        "profilesFolder" : "Microsoft Edge Canary/",
+        "nativeMessaging" : "Microsoft Edge Canary/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "ru.yandex.desktop.yandex-browser",
+        "kind" : "chrome",
+        "profilesFolder" : "Yandex/YandexBrowser/",
+        "nativeMessaging" : "Yandex/YandexBrowser/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.brave.Browser",
+        "kind" : "chrome",
+        "profilesFolder" : "BraveSoftware/Brave-Browser/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "com.operasoftware.Opera",
+        "kind" : "chrome",
+        "profilesFolder" : "com.operasoftware.Opera/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.mozilla.firefox",
+        "kind" : "gecko",
+        "profilesFolder" : "Firefox/Profiles",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.mozilla.nightly",
+        "kind" : "gecko",
+        "profilesFolder" : "Firefox/Profiles",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.mozilla.firefoxdeveloperedition",
+        "kind" : "gecko",
+        "profilesFolder" : "Firefox/Profiles",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.mozilla.cliqz",
+        "kind" : "gecko",
+        "profilesFolder" : "CLIQZ/Profiles",
+        "nativeMessaging" : "CLIQZ/NativeMessagingHosts"
+    },
+    {
+        "bundleId" : "org.torproject.torbrowser",
+        "kind" : "gecko",
+        "profilesFolder" : "TorBrowser-Data/Browser",
+        "nativeMessaging" : "TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts"
+    }
+]

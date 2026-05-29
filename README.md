@@ -82,6 +82,8 @@ Here’s a simple steps to help you sort things out.
 
 - [`processes.json`](mac/processes.json) - A list of known processes that can be filtered using AdGuard for Mac.
 
+- [`browsers.json`](mac/browsers.json) - An array of browser entries used by AdGuard for Mac.
+
 ## Compatibility configuration for AdGuard for Windows
 
 - [`http_filtering_exclusions_apps.json`](windows/http_filtering_exclusions_apps.json) - A list of app executables where traffic filtering is disabled (App Management -> Filter traffic).

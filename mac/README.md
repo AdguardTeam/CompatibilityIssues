@@ -42,3 +42,41 @@ A **JSON array** of objects, each describing a single application:
   ]
 }
 ```
+
+# browsers.json File Format
+
+## Purpose
+
+This file defines the list of browsers known to AdGuard for Mac, along with the metadata needed to locate browser profiles and native messaging host directories.
+
+
+## Top Level
+
+A **JSON array** of objects, each describing a single browser:
+
+```json
+[ { ... }, { ... }, ... ]
+```
+
+
+## Object Fields
+
+| Field             | Type     | Required | Description                                                                                    |
+|-------------------|----------|----------|------------------------------------------------------------------------------------------------|
+| `bundleId`        | `String` | ✓        | Browser application bundle ID                                                                  |
+| `kind`            | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                            |
+| `profilesFolder`  | `String` | ✓        | Path to the browser profile data directory relative to ~/Library/Application Support           |
+| `nativeMessaging` | `String` | ✓        | Path to the browser native messaging hosts directory relative to ~/Library/Application Support |
+
+
+
+## Example Entry
+
+```json
+{
+  "bundleId": "com.google.Chrome",
+  "kind": "chrome",
+  "profilesFolder": "Google/Chrome/",
+  "nativeMessaging": "Google/Chrome/NativeMessagingHosts"
+}
+```
