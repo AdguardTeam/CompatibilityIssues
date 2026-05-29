@@ -61,12 +61,13 @@ A **JSON array** of objects, each describing a single browser:
 
 ## Object Fields
 
-| Field             | Type     | Required | Description                                                                                    |
-|-------------------|----------|----------|------------------------------------------------------------------------------------------------|
-| `bundleId`        | `String` | ✓        | Browser application bundle ID                                                                  |
-| `kind`            | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                            |
-| `profilesFolder`  | `String` | ✓        | Path to the browser profile data directory relative to ~/Library/Application Support           |
-| `nativeMessaging` | `String` | ✓        | Path to the browser native messaging hosts directory relative to ~/Library/Application Support |
+| Field             | Type     | Required | Description                                                                                      |
+|-------------------|----------|----------|--------------------------------------------------------------------------------------------------|
+| `bundleId`        | `String` | ✓        | Browser application bundle ID                                                                    |
+| `kind`            | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                              |
+| `profilesFolder`  | `String` | ✓        | Path to the browser profile data directory relative to `~/Library/Application Support`           |
+| `nativeMessaging` | `String` | ✓        | Path to the browser native messaging hosts directory relative to `~/Library/Application Support` |
+
 
 
 
