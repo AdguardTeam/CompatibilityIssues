@@ -149,7 +149,7 @@
     {
         "bundleId" : "org.mozilla.firefoxdeveloperedition",
         "kind" : "gecko",
-        "name" : "Firefox Dev",
+        "name" : "Firefox Developer Edition",
         "profilesFolder" : "Firefox/Profiles",
         "nativeMessaging" : "Mozilla/NativeMessagingHosts"
     },
