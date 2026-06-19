@@ -61,15 +61,16 @@ A **JSON array** of objects, each describing a single browser:
 
 ## Object Fields
 
-| Field             | Type     | Required | Description                                                                                      |
-|-------------------|----------|----------|--------------------------------------------------------------------------------------------------|
-| `bundleId`        | `String` | ✓        | Browser application bundle ID                                                                    |
-| `kind`            | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                              |
-| `name`            | `String` | ✓        | Browser application name                                                                         |
-| `profilesFolder`  | `String` | ✓        | Path to the browser profile data directory relative to `~/Library/Application Support`           |
-| `nativeMessaging` | `String` | ✓        | Path to the browser native messaging hosts directory relative to `~/Library/Application Support` |
+| Field                  | Type     | Required | Description                                                                                      |
+|------------------------|----------|----------|--------------------------------------------------------------------------------------------------|
+| `bundleId`             | `String` | ✓        | Browser application bundle ID                                                                    |
+| `kind`                 | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                              |
+| `name`                 | `String` | ✓        | Browser application name                                                                         |
+| `profilesFolder`       | `String` | ✓        | Path to the browser profile data directory relative to `~/Library/Application Support`           |
+| `nativeMessaging`      | `String` | ✓        | Path to the browser native messaging hosts directory relative to `~/Library/Application Support` |
+| `needsHttpsWorkaround` | `Bool`   |          | Does HTTPS support need a workaround? [1]                                                        |
 
-
+[1]: For now, this flag is only relevant for Gecko-like browsers. Some of them (e.g. Tor Browser) require `security.enterprise_roots.enabled` and `security.cert_pinning.enforcement_level` to be set to allow AdGuard for Mac to handle HTTPS connections.
 
 
 ## Example Entry

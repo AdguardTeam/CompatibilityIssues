@@ -149,7 +149,7 @@
     {
         "bundleId" : "org.mozilla.firefoxdeveloperedition",
         "kind" : "gecko",
-        "name" : "Firefox Dev",
+        "name" : "Firefox Developer Edition",
         "profilesFolder" : "Firefox/Profiles",
         "nativeMessaging" : "Mozilla/NativeMessagingHosts"
     },
@@ -165,6 +165,7 @@
         "kind" : "gecko",
         "name" : "Tor Browser",
         "profilesFolder" : "TorBrowser-Data/Browser",
-        "nativeMessaging" : "TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts"
+        "nativeMessaging" : "TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts",
+        "needsHttpsWorkaround" : true
     }
 ]
