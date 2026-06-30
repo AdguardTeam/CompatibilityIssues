@@ -1,6 +1,6 @@
-The `mac` folder contains the `processes.json` and `browsers.json` files, which configure application filtering and contain a list of browsers for which AdGuard supports the browser extension.
-AdGuard for Mac loads these files from its application bundle, but for testing purposes, you can place them in the same folder as the DevConfig.json file (i.e. `/Library/Application Support/AdGuard Software/<APP_BUNDLE_ID>`) and the application will use them instead.
-This feature is available starting from version 2.20.0 of AdGuard for Mac.
+The `mac` folder contains the `processes.json` and `browsers.json` files, which configure application filtering and list the browsers supported by the AdGuard browser extension.
+AdGuard for Mac loads these files from its application bundle, but for testing purposes, you can place them in the same folder as the `DevConfig.json` file (i.e. `/Library/Application Support/AdGuard Software/<APP_BUNDLE_ID>`) and AdGuard for Mac will use those copies instead.
+This feature is available starting with AdGuard for Mac version 2.20.0.
 
 # processes.json File Format
 
