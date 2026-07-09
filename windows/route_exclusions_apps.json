@@ -286,5 +286,18 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
+  },
+  {
+    "name": "GitHub Desktop",
+    "executable_names": [
+      "GitHubDesktop.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\GitHubDesktop"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/37"
   }
 ]
