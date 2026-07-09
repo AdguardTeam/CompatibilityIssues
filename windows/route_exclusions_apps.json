@@ -288,6 +288,20 @@
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5794"
   },
   {
+    "name": "ADB AppControl",
+    "executable_names": [
+      "ADBAppControl.exe",
+      "adb.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\ADB AppControl\\ADBAppControl.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/36"
+  },
+  {
     "name": "GitHub Desktop",
     "executable_names": [
       "GitHubDesktop.exe"
