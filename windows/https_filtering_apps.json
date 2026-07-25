@@ -347,5 +347,53 @@
                 "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
             }
         ]
+    },
+    {
+        "name": "Dolby Access",
+        "executable_names": ["DolbyAccess.exe"],
+        "installed_conditions": []
+    },
+    {
+        "name": "Mozilla Thunderbird (Main EXE)",
+        "executable_names": ["thunderbird.exe"],
+        "installed_conditions": []
+    },
+    {
+        "name": "AOMEI Partition Assistant (Main EXEs)",
+        "executable_names": [
+            "PartAssist.exe",
+            "panotify.exe",
+            "amanhlp.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "NVIDIA driver updates' temp .exe",
+        "executable_names": ["nvcontainer.exe"],
+        "installed_conditions": []
+    },
+    {
+        "name": "NVIDIA App",
+        "executable_names": [
+            "NVIDIA App.exe",
+            "NVIDIA Overlay.exe",
+            "NVIDIA App Permission.exe"
+        ],
+        "installed_conditions": []
+    },
+    {
+        "name": "Lovense Remote",
+        "executable_names": ["Lovense_Remote.exe"],
+        "installed_conditions": []
+    },
+    {
+        "name": "CyberLink Ultra HD Blu-Ray Advisor",
+        "executable_names": ["BD_Advisor.exe"],
+        "installed_conditions": []
+    },
+    {
+        "name": "MSN Weather",
+        "executable_names": ["Microsoft.Msn.Weather.exe"],
+        "installed_conditions": []
     }
 ]
