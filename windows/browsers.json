@@ -683,7 +683,7 @@
   },
   {
     "name": "Atom",
-    "file_description": "",
+    "file_description": "Atom Browser",
     "executable_names": [
       "atom.exe"
     ],

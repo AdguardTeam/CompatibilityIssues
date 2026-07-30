@@ -50,18 +50,6 @@
         ]
     },
     {
-        "name": "Atom Editor",
-        "executable_names": [
-            "atom.exe"
-        ],
-        "installed_conditions": [
-            {
-                "type": "FilePath",
-                "pattern": "%LOCALAPPDATA%\\Atom\\atom.exe"
-            }
-        ]
-    },
-    {
         "name": "MediaGet",
         "executable_names": [
             "mediaget.exe"
@@ -335,17 +323,5 @@
             "msedgewebview2.exe"
         ],
         "installed_conditions": []
-    },
-    {
-        "name": "Discord",
-        "executable_names": [
-            "Discord.exe"
-        ],
-        "installed_conditions": [
-            {
-                "type": "RegistryKey",
-                "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
-            }
-        ]
     }
 ]
