@@ -885,16 +885,74 @@
   },
   {
     "name": "Brave",
-    "file_description": "",
+    "file_description": "Brave",
     "executable_names": [
-      "Brave.exe"
+      "brave.exe"
     ],
     "installed_conditions": [
       {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+      },
+      {
         "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Brave"
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\BraveSoftware\\Brave-Browser"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\BraveSoftware\\Brave-Browser"
       }
     ]
+  },
+  {
+    "name": "Brave Origin",
+    "file_description": "Brave Origin",
+    "executable_names": [
+      "brave.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\BraveSoftware\\Brave-Origin\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\BraveSoftware\\Brave-Origin-Beta\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\BraveSoftware\\Brave-Origin-Nightly\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\BraveSoftware\\Brave-Origin\\Application\\brave.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\BraveSoftware\\Brave-Origin\\Application\\brave.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\BraveSoftware\\Brave-Origin"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\BraveSoftware\\Brave-Origin"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\BraveSoftware\\Update\\ClientState\\{F1EF32DE-F987-4289-81D2-6C4780027F9B}"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/42"
   },
   {
     "name": "Sidekick",
