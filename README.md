@@ -99,6 +99,10 @@ Here’s a simple steps to help you sort things out.
 Each application entry in the JSON files (`browsers.json`, `http_filtering_exclusions_apps.json`, `route_exclusions_apps.json`, `https_filtering_apps.json`) uses the following structure:
 
 - `name` - Application or browser display name
+- `file_description` - Windows only, used in `windows/browsers.json`. The value is matched against the `FileDescription` string from the executable's PE version info (the "File description" field on the Details tab of the file Properties window in Windows Explorer). AdGuard identifies a running process as this browser when its executable name (see `executable_names`) AND its `FileDescription` both match. Matching rules:
+  - The value must be the executable's exact `FileDescription` string, case-insensitive. For example, Google Chrome's `chrome.exe` reports `"Google Chrome"`, Brave's `brave.exe` reports `"Brave"`.
+  - An empty string (`""`) matches ANY executable with the given name, regardless of its `FileDescription`. Avoid this unless the executable name is unique to a single product — otherwise unrelated apps may be wrongly treated as the browser (for example, many Chromium forks share `chrome.exe`, and both Brave and Brave Origin use `brave.exe`).
+  - Always set a non-empty value when several distinct products share the same executable name; leave it empty only for executables that are unambiguous (for example, `firefox.exe`).
 - `executable_names` - Array of executable file names associated with the application
 - `installed_conditions` - Array of conditions to detect if the application is installed. Each condition has:
   - `type` - Type of condition: `"RegistryKey"` or `"FilePath"`
