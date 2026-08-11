@@ -1342,5 +1342,27 @@
         "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\KDE e.V.\\Falkon\\Start Menu Folder\\Falkon"
       }
     ]
+  },
+  {
+    "name": "Doubao Browser",
+    "file_description": "Doubao",
+    "executable_names": [
+      "Doubao_browser_proxy.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Doubao\\Doubao_browser_proxy.exe"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Doubao"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Doubao"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5866"
   }
 ]
