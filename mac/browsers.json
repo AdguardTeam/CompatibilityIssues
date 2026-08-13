@@ -1,5 +1,12 @@
 [
     {
+        "bundleId" : "com.naver.Whale",
+        "kind" : "chrome",
+        "name" : "Whale",
+        "profilesFolder" : "Naver/Whale/",
+        "nativeMessaging" : "Naver/Whale/NativeMessagingHosts"
+    },
+    {
         "bundleId" : "net.imput.helium",
         "kind" : "chrome",
         "name" : "Helium",
