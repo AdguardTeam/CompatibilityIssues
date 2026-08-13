@@ -1,5 +1,22 @@
 [
   {
+    "bundleId": "com.naver.Whale",
+    "enabled": true,
+    "filteringBundleIds": [
+      "com.naver.Whale",
+      "com.naver.Whale.helper",
+      "com.naver.Whale.helper.renderer",
+      "com.naver.Whale.framework.AlertNotificationService"
+    ],
+    "filteringProcessNames": [
+      "Whale",
+      "Whale Helper",
+      "Whale Helper (Renderer)",
+      "Whale Helper (GPU)",
+      "Whale Helper (Alerts)"
+    ]
+  },
+  {
     "bundleId": "net.imput.helium",
     "enabled": true,
     "filteringBundleIds": [
