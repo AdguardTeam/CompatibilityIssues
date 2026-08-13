@@ -466,6 +466,23 @@
     ]
   },
   {
+    "bundleId": "com.brave.Browser.origin",
+    "enabled": true,
+    "filteringBundleIds": [
+      "com.brave.Browser.origin.helper",
+      "com.brave.Browser.origin.helper.plugin",
+      "com.brave.Browser.origin.helper.renderer",
+      "com.brave.Browser.origin"
+    ],
+    "filteringProcessNames": [
+      "Brave Origin Helper (Plugin)",
+      "Brave Origin",
+      "Brave Origin Helper",
+      "Brave Origin Helper (GPU)",
+      "Brave Origin Helper (Renderer)"
+    ]
+  },
+  {
     "bundleId": "org.mozilla.cliqz",
     "enabled": true,
     "filteringBundleIds": [

@@ -126,6 +126,13 @@
         "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
     },
     {
+        "bundleId" : "com.brave.Browser.origin",
+        "kind" : "chrome",
+        "name" : "Brave Origin",
+        "profilesFolder" : "BraveSoftware/Brave-Origin/",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
         "bundleId" : "com.operasoftware.Opera",
         "kind" : "chrome",
         "name" : "Opera",
