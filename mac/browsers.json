@@ -1,5 +1,12 @@
 [
     {
+        "bundleId" : "net.imput.helium",
+        "kind" : "chrome",
+        "name" : "Helium",
+        "profilesFolder" : "net.imput.helium",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+    },
+    {
         "bundleId" : "com.openai.atlas",
         "kind" : "chrome",
         "name" : "Atlas",

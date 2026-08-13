@@ -1,5 +1,24 @@
 [
   {
+    "bundleId": "net.imput.helium",
+    "enabled": true,
+    "filteringBundleIds": [
+      "net.imput.helium",
+      "net.imput.helium.helper",
+      "net.imput.helium.helper.renderer",
+      "net.imput.helium.helper.plugin",
+      "net.imput.helium.framework.AlertNotificationService"
+    ],
+    "filteringProcessNames": [
+      "Helium",
+      "Helium Helper",
+      "Helium Helper (Renderer)",
+      "Helium Helper (GPU)",
+      "Helium Helper (Plugin)",
+      "Helium Helper (Alerts)"
+    ]
+  },
+  {
     "bundleId": "com.duckduckgo.macos.browser",
     "enabled": true,
     "filteringBundleIds": [
