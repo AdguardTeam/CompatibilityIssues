@@ -1,5 +1,12 @@
 [
     {
+        "bundleId" : "com.coccoc.Coccoc",
+        "kind" : "chrome",
+        "name" : "CocCoc",
+        "profilesFolder" : "CocCoc/Browser/",
+        "nativeMessaging" : "CocCoc/Browser/NativeMessagingHosts"
+    },
+    {
         "bundleId" : "com.naver.Whale",
         "kind" : "chrome",
         "name" : "Whale",

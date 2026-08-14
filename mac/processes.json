@@ -1,5 +1,24 @@
 [
   {
+    "bundleId": "com.coccoc.Coccoc",
+    "enabled": true,
+    "filteringBundleIds": [
+      "com.coccoc.Coccoc",
+      "com.coccoc.Coccoc.helper",
+      "com.coccoc.Coccoc.helper.renderer",
+      "com.coccoc.Coccoc.helper.torrent",
+      "com.coccoc.Coccoc.framework.AlertNotificationService"
+    ],
+    "filteringProcessNames": [
+      "CocCoc",
+      "CocCoc Helper",
+      "CocCoc Helper (Renderer)",
+      "CocCoc Helper (GPU)",
+      "CocCoc Helper (Torrent)",
+      "CocCoc Helper (Alerts)"
+    ]
+  },
+  {
     "bundleId": "com.naver.Whale",
     "enabled": true,
     "filteringBundleIds": [
