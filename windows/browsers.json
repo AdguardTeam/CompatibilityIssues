@@ -1281,9 +1281,9 @@
   },
   {
     "name": "Tabbit Browser",
-    "file_description": "Tabbit Browser",
+    "file_description": "",
     "executable_names": [
-      "Tabbit.exe"
+      "Tabbit Browser.exe"
     ],
     "installed_conditions": [
       {
@@ -1292,11 +1292,11 @@
       },
       {
         "type": "RegistryKey",
-        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\Tabbit.exe"
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\App Paths\\Tabbit Browser.exe"
       },
       {
         "type": "FilePath",
-        "pattern": "%LOCALAPPDATA%\\Tabbit\\Application\\Tabbit.exe"
+        "pattern": "%LOCALAPPDATA%\\Tabbit\\Application\\Tabbit Browser.exe"
       }
     ]
   },
