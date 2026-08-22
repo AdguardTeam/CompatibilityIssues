@@ -1,7 +1,7 @@
 name: "🪟 Windows Compatibility Report"
 description: Report an issue with a Windows application that happens only when AdGuard is ON
 title: "[Windows]: <App Name>"
-labels: ["windows", "compatibility"]
+labels: ["Windows", "Compatibility"]
 body:
   - type: markdown
     attributes:

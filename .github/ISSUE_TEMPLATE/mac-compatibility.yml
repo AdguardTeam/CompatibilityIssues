@@ -1,7 +1,7 @@
 name: "🍎 macOS Compatibility Report"
 description: Report an issue with a macOS application that happens only when AdGuard is ON
 title: "[macOS]: <App Name>"
-labels: ["mac", "compatibility"]
+labels: ["macOS", "Compatibility"]
 body:
   - type: markdown
     attributes:
