@@ -1,0 +1,75 @@
+name: "🍎 macOS Compatibility Report"
+description: Report an issue with a macOS application that happens only when AdGuard is ON
+title: "[macOS]: <App Name>"
+labels: ["mac", "compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Submission Guidelines
+        Please ensure you have followed the [Troubleshooting Guide](https://github.com/AdguardTeam/CompatibilityIssues#how-to-troubleshoot-compatibility-issues).
+        * Use this form only if the application malfunctions due to AdGuard's interception (e.g., connection errors, SSL issues).
+        * For missed ads or website breakage, please use the [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) repository.
+
+  - type: input
+    id: app_name
+    attributes:
+      label: Application Name
+      placeholder: "e.g., Telegram, Slack, 1Password"
+    validations:
+      required: true
+
+  - type: input
+    id: bundle_id
+    attributes:
+      label: Application Bundle ID
+      placeholder: "e.g., ru.keepcoder.Telegram, com.tinyspeck.slackmacgap, com.agilebits.onepassword"
+      description: "You can find this in AdGuard App Management, or by running `mdls -name kMDItemCFBundleIdentifier /Applications/<App>.app` in Terminal."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: diagnosis_result
+    attributes:
+      label: Troubleshooting Result
+      description: Which step resolved the issue during your testing?
+      options:
+        - "Disabling HTTPS filtering (Suggests SSL/Certificate or SSL Pinning issues)"
+        - "Disabling traffic filtering (Suggests filtering breaks the app)"
+        - "Other / Not sure"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suggested_list
+    attributes:
+      label: Suggested Configuration List
+      description: Based on your findings, which list should be updated?
+      options:
+        - "processes.json (Filtering isn't performed for the application)"
+        - "browsers.json (Add Assistant extension support for a browser)"
+        - "I am not sure, please investigate"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Description of the Problem
+      placeholder: "Describe what happens (e.g., 'App says No Internet Connection', 'Application fails to sync', 'Cannot connect to servers', etc.)"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Final Checks
+      options:
+        - label: "I have confirmed that disabling the Tracking Protection or specific filters did NOT fix the issue."
+          required: true
+        - label: "I am using the default filtering settings for this application."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: "Thank you for your report! Our team will review the compatibility status for this application."
