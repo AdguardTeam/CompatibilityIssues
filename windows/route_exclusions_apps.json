@@ -326,6 +326,14 @@
       {
         "type": "FilePath",
         "pattern": "%USERPROFILE%\\scoop\\apps\\nekoray\\current\\nekobox.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\nekoray\\nekobox.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%USERPROFILE%\\nekoray\\nekobox.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/55"
