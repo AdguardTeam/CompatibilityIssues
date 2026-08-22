@@ -47,5 +47,32 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5611",
     "private_issue_id": "AG-45307"
+  },
+  {
+    "name": "Karing",
+    "executable_names": [
+      "karing.exe",
+      "karingService.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{74F1C307-2E21-4951-BB25-763C3A2AE98F}_is1"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{74F1C307-2E21-4951-BB25-763C3A2AE98F}_is1"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Karing\\karing.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\Karing\\karing.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/58",
+    "private_issue_id": "AG-57970"
   }
 ]
