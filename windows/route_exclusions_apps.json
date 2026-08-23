@@ -318,9 +318,7 @@
     "name": "NekoBox",
     "executable_names": [
       "nekobox.exe",
-      "nekobox_core.exe",
-      "nekoray.exe",
-      "nekoray_core.exe"
+      "nekoray.exe"
     ],
     "installed_conditions": [
       {
