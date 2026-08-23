@@ -313,5 +313,28 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/37"
+  },
+  {
+    "name": "Arknights: Endfield",
+    "executable_names": [
+      "Endfield.exe",
+      "EM-Win64-Shipping.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 2254770"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\GRYPHLINK\\games\\Arknights Endfield\\Endfield.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\GRYPHLINK\\Launcher.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/56",
+    "private_issue_id": "AG-57963"
   }
 ]
