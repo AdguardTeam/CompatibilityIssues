@@ -192,9 +192,28 @@
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5705"
   },
   {
+    "name": "EA",
+    "executable_names": [
+      "EAUpdater.exe",
+      "EALaunchHelper.exe",
+      "EADesktop.exe",
+      "EALocalHostSvc.exe",
+      "EACefSubProcess.exe",
+      "EABackgroundService.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Electronic Arts"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/62"
+  },
+  {
     "name": "Battle.net",
     "executable_names": [
-      "Battle.net.exe"
+      "Battle.net.exe",
+      "Agent.exe"
     ],
     "installed_conditions": [
       {
