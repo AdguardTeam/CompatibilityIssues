@@ -215,7 +215,10 @@
     "executable_names": [
       "EADesktop.exe",
       "EABackgroundService.exe",
-      "EACefSubProcess.exe"
+      "EACefSubProcess.exe",
+      "EAUpdater.exe",
+      "EALaunchHelper.exe",
+      "EALocalHostSvc.exe"
     ],
     "installed_conditions": [
       {
