@@ -194,15 +194,39 @@
   {
     "name": "Battle.net",
     "executable_names": [
-      "Battle.net.exe"
+      "Battle.net.exe",
+      "Agent.exe",
+      "Battle.net Helper.exe"
     ],
     "installed_conditions": [
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Blizzard Entertainment\\Battle.net"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Blizzard Entertainment\\Battle.net"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
+  },
+  {
+    "name": "EA app",
+    "executable_names": [
+      "EADesktop.exe",
+      "EABackgroundService.exe",
+      "EACefSubProcess.exe",
+      "EAUpdater.exe",
+      "EALaunchHelper.exe",
+      "EALocalHostSvc.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\EABackgroundService"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/62"
   },
   {
     "name": "Visual Studio",
@@ -336,5 +360,27 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/56",
     "private_issue_id": "AG-57963"
+  },
+  {
+    "name": "NekoBox",
+    "executable_names": [
+      "nekobox.exe",
+      "nekoray.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%USERPROFILE%\\scoop\\apps\\nekoray\\current\\nekobox.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\nekoray\\nekobox.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%USERPROFILE%\\nekoray\\nekobox.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/55"
   }
 ]
