@@ -56,14 +56,6 @@
     ],
     "installed_conditions": [
       {
-        "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{74F1C307-2E21-4951-BB25-763C3A2AE98F}_is1"
-      },
-      {
-        "type": "RegistryKey",
-        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{74F1C307-2E21-4951-BB25-763C3A2AE98F}_is1"
-      },
-      {
         "type": "FilePath",
         "pattern": "%PROGRAMFILES%\\Karing\\karing.exe"
       },
