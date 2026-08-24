@@ -382,5 +382,18 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/55"
+  },
+  {
+    "name": "Affinity",
+    "executable_names": [
+      "Affinity.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\WindowsApps\\Canva.Affinity_*\\App\\Affinity.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/65"
   }
 ]
