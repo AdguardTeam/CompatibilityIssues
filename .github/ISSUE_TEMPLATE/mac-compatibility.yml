@@ -24,7 +24,7 @@ body:
     attributes:
       label: Application Bundle ID
       placeholder: "e.g., ru.keepcoder.Telegram, com.tinyspeck.slackmacgap, com.agilebits.onepassword"
-      description: "You can find this in AdGuard App Management, or by running `mdls -name kMDItemCFBundleIdentifier /Applications/<App>.app` in Terminal."
+      description: "You can find this by running `mdls -name kMDItemCFBundleIdentifier /Applications/<App>.app` in Terminal, or in AdGuard's Filtering Log."
     validations:
       required: true
 
