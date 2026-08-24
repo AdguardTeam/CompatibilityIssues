@@ -323,7 +323,7 @@
     "installed_conditions": [
       {
         "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 2254770"
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 4732690"
       },
       {
         "type": "FilePath",
