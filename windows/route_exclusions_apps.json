@@ -413,10 +413,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Riot Game valorant.live"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%PROGRAMFILES(x86)%\\Riot Games\\Riot Client\\RiotClientServices.exe"
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/68"
@@ -436,10 +432,6 @@
       },
       {
         "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Riot Games, Inc\\League of Legends"
-      },
-      {
-        "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Riot Games, Inc\\League of Legends"
       }
     ],
@@ -455,10 +447,6 @@
       {
         "type": "RegistryKey",
         "pattern": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\vgc"
-      },
-      {
-        "type": "RegistryKey",
-        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Riot Vanguard"
       },
       {
         "type": "FilePath",
