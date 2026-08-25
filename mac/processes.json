@@ -3,7 +3,7 @@
     "bundleId": "net.librewolf.librewolf",
     "enabled": true,
     "filteringBundleIds": [
-      "net.librewolf.librewolf"
+      "librewolf"
     ],
     "filteringProcessNames": [
       "librewolf"
