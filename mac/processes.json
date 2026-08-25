@@ -1,6 +1,16 @@
 [
   {
-    "bundleId": "com.coccoc.Coccoc",
+    "bundleId": "net.librewolf.librewolf",
+    "enabled": true,
+    "filteringBundleIds": [
+      "librewolf"
+    ],
+    "filteringProcessNames": [
+      "librewolf"
+    ]
+  },
+  {
+    "bundleId": "com.coccoc.CocCoc",
     "enabled": true,
     "filteringBundleIds": [
       "com.coccoc.Coccoc",

@@ -1,6 +1,14 @@
 [
     {
-        "bundleId" : "com.coccoc.Coccoc",
+        "bundleId" : "net.librewolf.librewolf",
+        "kind" : "gecko",
+        "name" : "LibreWolf",
+        "profilesFolder" : "LibreWolf/Profiles",
+        "nativeMessaging" : "Mozilla/NativeMessagingHosts",
+        "needsHttpsWorkaround" : true
+    },
+    {
+        "bundleId" : "com.coccoc.CocCoc",
         "kind" : "chrome",
         "name" : "CocCoc",
         "profilesFolder" : "CocCoc/Browser/",
