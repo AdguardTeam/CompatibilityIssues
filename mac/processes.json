@@ -1,7 +1,7 @@
 [
   {
     "bundleId": "net.librewolf.librewolf",
-    "enabled": true,
+    "enabled": false,
     "filteringBundleIds": [
       "librewolf"
     ],
