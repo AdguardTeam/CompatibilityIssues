@@ -66,5 +66,20 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/58",
     "private_issue_id": "AG-57970"
+  },
+  {
+    "name": "Wand",
+    "executable_names": [
+      "Wand.exe",
+      "WandAuxiliaryService.exe",
+      "WeMod.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Wand\\Update.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/73"
   }
 ]
