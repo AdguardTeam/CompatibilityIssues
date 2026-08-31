@@ -399,6 +399,19 @@
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/65"
   },
   {
+    "name": "Affinity Photo 2",
+    "executable_names": [
+      "Photo.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Affinity\\Photo 2\\Photo.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/75"
+  },
+  {
     "name": "Riot Client",
     "executable_names": [
       "RiotClientServices.exe",
