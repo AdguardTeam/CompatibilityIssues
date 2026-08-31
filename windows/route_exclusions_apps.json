@@ -195,8 +195,25 @@
     "name": "Battle.net",
     "executable_names": [
       "Battle.net.exe",
-      "Agent.exe",
       "Battle.net Helper.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Blizzard Entertainment\\Battle.net"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Blizzard Entertainment\\Battle.net"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5721"
+  },
+  {
+    "name": "Battle.net Update Agent",
+    "file_description": "Battle.net Update Agent",
+    "executable_names": [
+      "Agent.exe"
     ],
     "installed_conditions": [
       {
@@ -397,6 +414,20 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/65"
+  },
+  {
+    "name": "Affinity Photo 2",
+    "file_description": "Affinity Photo 2",
+    "executable_names": [
+      "Photo.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Affinity\\Photo 2\\Photo.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/75"
   },
   {
     "name": "Riot Client",
