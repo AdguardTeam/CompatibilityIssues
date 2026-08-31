@@ -400,6 +400,7 @@
   },
   {
     "name": "Affinity Photo 2",
+    "file_description": "Affinity Photo 2",
     "executable_names": [
       "Photo.exe"
     ],
