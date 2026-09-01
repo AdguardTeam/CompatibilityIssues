@@ -485,5 +485,36 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/68"
+  },
+  {
+    "name": "RStudio",
+    "executable_names": [
+      "rstudio.exe",
+      "rsession.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RStudio"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\RStudio"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/77"
+  },
+  {
+    "name": "Forza Horizon 6",
+    "executable_names": [
+      "forzahorizon6.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Steam App 2483190"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/77"
   }
 ]
