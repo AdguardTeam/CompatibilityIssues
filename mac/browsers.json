@@ -26,14 +26,14 @@
         "kind" : "chrome",
         "name" : "Helium",
         "profilesFolder" : "net.imput.helium",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "net.imput.helium/NativeMessagingHosts"
     },
     {
         "bundleId" : "com.openai.atlas",
         "kind" : "chrome",
         "name" : "Atlas",
         "profilesFolder" : "com.openai.atlas/browser-data/host",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "com.openai.atlas/browser-data/host/NativeMessagingHosts"
     },
     {
         "bundleId" : "ai.perplexity.comet",
@@ -68,7 +68,7 @@
         "kind" : "chrome",
         "name" : "Vivaldi",
         "profilesFolder" : "Vivaldi",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "Vivaldi/NativeMessagingHosts"
     },
     {
         "bundleId" : "company.thebrowser.Browser",
@@ -82,7 +82,7 @@
         "kind" : "chrome",
         "name" : "Dia",
         "profilesFolder" : "Dia/User Data/",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "Dia/User Data/NativeMessagingHosts"
     },
     {
         "bundleId" : "com.google.Chrome",
@@ -152,14 +152,14 @@
         "kind" : "chrome",
         "name" : "Brave",
         "profilesFolder" : "BraveSoftware/Brave-Browser/",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "BraveSoftware/Brave-Browser/NativeMessagingHosts"
     },
     {
         "bundleId" : "com.brave.Browser.origin",
         "kind" : "chrome",
         "name" : "Brave Origin",
         "profilesFolder" : "BraveSoftware/Brave-Origin/",
-        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
+        "nativeMessaging" : "BraveSoftware/Brave-Origin/NativeMessagingHosts"
     },
     {
         "bundleId" : "com.operasoftware.Opera",
