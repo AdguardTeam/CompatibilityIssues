@@ -530,5 +530,27 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/79"
+  },
+  {
+    "name": "Plex Media Server",
+    "executable_names": [
+      "Plex Media Server.exe",
+      "Plex Media Scanner.exe",
+      "Plex Relay.exe",
+      "Plex Tuner Service.exe",
+      "PlexScriptHost.exe",
+      "Plex Transcoder.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Plex\\Plex Media Server\\Plex Media Server.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\Plex\\Plex Media Server\\Plex Media Server.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/85"
   }
 ]
