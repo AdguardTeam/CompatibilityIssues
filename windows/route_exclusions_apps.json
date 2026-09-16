@@ -565,5 +565,26 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/87"
+  },
+  {
+    "name": "王者万象棋",
+    "executable_names": [
+      "王者万象棋.exe",
+      "WXQ.exe",
+      "downloader_hdiff.exe",
+      "upgrader.exe",
+      "TASLogin64.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\王者万象棋"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\王者万象棋"
+      }
+    ],
+    "private_issue_id": "AG-59092"
   }
 ]
