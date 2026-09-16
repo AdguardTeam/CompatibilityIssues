@@ -568,6 +568,7 @@
   },
   {
     "name": "王者万象棋",
+    "file_description": "王者万象棋",
     "executable_names": [
       "王者万象棋.exe",
       "WXQ.exe",
