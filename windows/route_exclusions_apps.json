@@ -587,5 +587,28 @@
       }
     ],
     "private_issue_id": "AG-59092"
+  },
+  {
+    "name": "Arduino IDE",
+    "executable_names": [
+      "Arduino IDE.exe",
+      "arduino-cli.exe",
+      "arduino-language-server.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\Arduino IDE\\Arduino IDE.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Arduino IDE\\Arduino IDE.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\arduino-ide\\Arduino IDE.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/83"
   }
 ]
