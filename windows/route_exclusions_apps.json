@@ -619,7 +619,10 @@
       "AppleMobileBackup.exe",
       "AppleMobileDeviceProcess.exe",
       "AppleMobileDeviceHelper.exe",
-      "AMPDevicesAgent.exe"
+      "AMPDevicesAgent.exe",
+      "distnoted.exe",
+      "mDNSResponder.exe",
+      "APSDaemon.exe"
     ],
     "installed_conditions": [
       {
