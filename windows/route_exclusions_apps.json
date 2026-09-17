@@ -621,7 +621,6 @@
       "AppleMobileDeviceHelper.exe",
       "AMPDevicesAgent.exe",
       "distnoted.exe",
-      "mDNSResponder.exe",
       "APSDaemon.exe"
     ],
     "installed_conditions": [
