@@ -610,5 +610,30 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/83"
+  },
+  {
+    "name": "Apple Devices",
+    "executable_names": [
+      "AppleDevices.exe",
+      "AppleMobileDeviceService.exe",
+      "AppleMobileBackup.exe",
+      "AppleMobileDeviceProcess.exe",
+      "AppleMobileDeviceHelper.exe",
+      "AMPDevicesAgent.exe",
+      "distnoted.exe",
+      "APSDaemon.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\Common Files\\Apple\\Mobile Device Support\\AppleMobileDeviceService.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES(x86)%\\Common Files\\Apple\\Mobile Device Support\\AppleMobileBackup.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/91",
+    "private_issue_id": "AG-59139"
   }
 ]
