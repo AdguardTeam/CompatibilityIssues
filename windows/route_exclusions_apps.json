@@ -635,5 +635,31 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/91",
     "private_issue_id": "AG-59139"
+  },
+  {
+    "name": "Antigravity Studio",
+    "executable_names": [
+      "Antigravity Studio.exe",
+      "app_detector.exe",
+      "quick-look.exe",
+      "quick-look-daemon.exe",
+      "studio-exporter-service.exe",
+      "studio-thumbnail-service.exe",
+      "studio_utility.exe"
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/95"
+  },
+  {
+    "name": "Insta360 Studio",
+    "executable_names": [
+      "Insta360 Studio.exe",
+      "app_detector.exe",
+      "quick-look.exe",
+      "quick-look-daemon.exe",
+      "studio-exporter-service.exe",
+      "studio-thumbnail-service.exe",
+      "studio_utility.exe"
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/95"
   }
 ]
