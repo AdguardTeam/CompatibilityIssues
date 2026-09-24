@@ -647,6 +647,7 @@
       "studio-thumbnail-service.exe",
       "studio_utility.exe"
     ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/95"
   },
   {
@@ -660,6 +661,7 @@
       "studio-thumbnail-service.exe",
       "studio_utility.exe"
     ],
+    "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/95"
   }
 ]
