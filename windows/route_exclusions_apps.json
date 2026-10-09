@@ -36,7 +36,27 @@
   {
     "name": "iCloud",
     "executable_names": [
-      "iCloudHome.exe"
+      "iCloudHome.exe",
+      "iCloudDrive.exe",
+      "iCloudPhotos.exe",
+      "iCloudPhotoViewer.exe",
+      "ApplePhotoStreams.exe",
+      "ApplePhotoStreamsDownloader.exe",
+      "iCloudCKKS.exe",
+      "iCloudPasswords.exe",
+      "iCloudPasswordsExtensionHelper.exe",
+      "PwdMgrBridge.exe",
+      "iCloudChrome.exe",
+      "iCloudFirefox.exe",
+      "iCloudIE.exe",
+      "iCloudOutlookConfig.exe",
+      "iCloudOutlookConfig64.exe",
+      "iCloudMigrate.exe",
+      "iCloudServices.exe",
+      "iCloudPrefs.exe",
+      "EReporter.exe",
+      "secd.exe",
+      "APSDaemon.exe"
     ],
     "installed_conditions": [
       {
@@ -45,10 +65,14 @@
       },
       {
         "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\WindowsApps\\AppleInc.iCloud_*\\iCloud\\iCloudDrive.exe"
+      },
+      {
+        "type": "FilePath",
         "pattern": "%PROGRAMFILES%\\Common Files\\Apple\\Internet Services\\iCloudHome.exe"
       }
     ],
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5523",
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/99",
     "private_issue_id": "AG-43455"
   },
   {
