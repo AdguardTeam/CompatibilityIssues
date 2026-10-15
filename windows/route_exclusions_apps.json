@@ -687,5 +687,20 @@
     ],
     "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/95"
+  },
+  {
+    "name": "Ollama",
+    "executable_names": [
+      "ollama.exe",
+      "ollama app.exe",
+      "llama-server.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\Ollama\\ollama.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/102"
   }
 ]
