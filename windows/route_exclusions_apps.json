@@ -697,10 +697,6 @@
     ],
     "installed_conditions": [
       {
-        "type": "RegistryKey",
-        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{44E83376-CE68-45EB-8FC1-393500EB558C}_is1"
-      },
-      {
         "type": "FilePath",
         "pattern": "%LOCALAPPDATA%\\Programs\\Ollama\\ollama.exe"
       }
