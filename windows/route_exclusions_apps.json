@@ -704,5 +704,35 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/102"
+  },
+  {
+    "name": "pgAdmin 4",
+    "executable_names": [
+      "pgAdmin4.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\pgAdmin 4"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\pgAdmin 4"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\pgAdmin 4\\runtime\\pgAdmin4.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Programs\\pgAdmin 4\\runtime\\pgAdmin4.exe"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%PROGRAMFILES%\\PostgreSQL\\*\\pgAdmin 4\\runtime\\pgAdmin4.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/109",
+    "private_issue_id": "AG-61025"
   }
 ]
