@@ -706,6 +706,381 @@
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/102"
   },
   {
+    "name": "Counter-Strike 2",
+    "executable_names": [
+      "cs2.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "WARDOGS",
+    "executable_names": [
+      "WardogsClient-Win64-Shipping.exe",
+      "WardogsLauncher-Shipping.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Dota 2",
+    "executable_names": [
+      "dota2.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Palworld",
+    "executable_names": [
+      "Palworld-Win64-Shipping.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Fortnite",
+    "executable_names": [
+      "FortniteClient-Win64-Shipping.exe",
+      "FortniteLauncher.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Roblox",
+    "executable_names": [
+      "RobloxPlayerBeta.exe",
+      "RobloxPlayerLauncher.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Minecraft",
+    "executable_names": [
+      "MinecraftLauncher.exe",
+      "Minecraft.Windows.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Valorant",
+    "executable_names": [
+      "VALORANT.exe",
+      "VALORANT-Win64-Shipping.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Riot Game valorant.live"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Genshin Impact",
+    "executable_names": [
+      "GenshinImpact.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Honkai: Star Rail",
+    "executable_names": [
+      "StarRail.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Epic Games Launcher",
+    "executable_names": [
+      "EpicGamesLauncher.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Xbox",
+    "executable_names": [
+      "XboxPCApp.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "HoYoPlay",
+    "file_description": "HoYoPlay",
+    "executable_names": [
+      "launcher.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "THE FINALS",
+    "executable_names": [
+      "Discovery.exe",
+      "Discovery-d.exe",
+      "Discovery-e.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Marvel Rivals",
+    "executable_names": [
+      "Marvel-Win64-Shipping.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Overwatch",
+    "executable_names": [
+      "Overwatch.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "World of Warcraft",
+    "executable_names": [
+      "Wow.exe",
+      "WowClassic.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Call of Duty",
+    "executable_names": [
+      "cod.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Battlefield 6",
+    "executable_names": [
+      "bf6.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Rust",
+    "executable_names": [
+      "RustClient.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Escape from Tarkov",
+    "executable_names": [
+      "EscapeFromTarkov.exe",
+      "BsgLauncher.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Rainbow Six Siege X",
+    "executable_names": [
+      "RainbowSix.exe",
+      "RainbowSix_BE.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Apex Legends",
+    "executable_names": [
+      "r5apex.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Rocket League",
+    "executable_names": [
+      "RocketLeague.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Grand Theft Auto V",
+    "executable_names": [
+      "GTA5.exe",
+      "GTAVLauncher.exe",
+      "PlayGTAV.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Rockstar Games Launcher",
+    "file_description": "Rockstar Games Launcher",
+    "executable_names": [
+      "Launcher.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Rockstar Games Launcher"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Rockstar Games Launcher"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Final Fantasy XIV",
+    "executable_names": [
+      "ffxiv_dx11.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "War Thunder",
+    "executable_names": [
+      "aces.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Zenless Zone Zero",
+    "executable_names": [
+      "ZenlessZoneZero.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Dead by Daylight",
+    "executable_names": [
+      "DeadByDaylight-Win64-Shipping.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Destiny 2",
+    "executable_names": [
+      "destiny2.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Diablo IV",
+    "executable_names": [
+      "Diablo IV.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Ubisoft Connect",
+    "executable_names": [
+      "upc.exe",
+      "UbisoftConnect.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Uplay"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Uplay"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "BattlEye",
+    "executable_names": [
+      "BEService.exe",
+      "BEService_x64.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "Easy Anti-Cheat",
+    "executable_names": [
+      "EasyAntiCheat.exe",
+      "EasyAntiCheat_EOS.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "EA AntiCheat",
+    "executable_names": [
+      "EAAntiCheat.GameService.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
+    "name": "nProtect GameGuard",
+    "executable_names": [
+      "GameGuard.des",
+      "GameMon.des",
+      "GameMon64.des"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
+    "private_issue_id": "AG-58897"
+  },
+  {
     "name": "pgAdmin 4",
     "executable_names": [
       "pgAdmin4.exe"
