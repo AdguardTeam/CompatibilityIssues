@@ -825,8 +825,9 @@
   },
   {
     "name": "HoYoPlay",
+    "file_description": "HoYoPlay",
     "executable_names": [
-      "HoYoPlay.exe"
+      "launcher.exe"
     ],
     "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/pull/112",
