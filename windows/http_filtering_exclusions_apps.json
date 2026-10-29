@@ -1,23 +1,5 @@
 [
   {
-    "name": "Discord",
-    "executable_names": [
-      "Discord.exe"
-    ],
-    "installed_conditions": [
-      {
-        "type": "RegistryKey",
-        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
-      },
-      {
-        "type": "FilePath",
-        "pattern": "%LOCALAPPDATA%\\Discord\\Update.exe"
-      }
-    ],
-    "private_issue_id": "AG-43457",
-    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/5524"
-  },
-  {
     "name": "Atom",
     "executable_names": [
       "atom.exe"

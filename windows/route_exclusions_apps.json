@@ -1109,5 +1109,23 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/109",
     "private_issue_id": "AG-61025"
+  },
+  {
+    "name": "Discord",
+    "executable_names": [
+      "Discord.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Discord"
+      },
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Discord\\Update.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/6286",
+    "private_issue_id": "AG-43457"
   }
 ]
