@@ -1127,5 +1127,18 @@
     ],
     "public_issue_url": "https://github.com/AdguardTeam/AdguardForWindows/issues/6286",
     "private_issue_id": "AG-43457"
+  },
+  {
+    "name": "LG Gram Chat",
+    "executable_names": [
+      "gramchat.exe",
+      "gramchatService.exe",
+      "ondevice_sllm_agent.exe",
+      "gramchat_stt.exe",
+      "GSearchManager.exe"
+    ],
+    "installed_conditions": [],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/114",
+    "private_issue_id": "AG-61152"
   }
 ]
