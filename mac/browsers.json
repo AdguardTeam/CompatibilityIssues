@@ -31,7 +31,7 @@
     {
         "bundleId" : "com.openai.atlas",
         "kind" : "chrome",
-        "name" : "Atlas",
+        "name" : "ChatGPT Atlas",
         "profilesFolder" : "com.openai.atlas/browser-data/host",
         "nativeMessaging" : "com.openai.atlas/browser-data/host/NativeMessagingHosts"
     },
@@ -73,7 +73,7 @@
     {
         "bundleId" : "company.thebrowser.Browser",
         "kind" : "chrome",
-        "name" : "The Browser",
+        "name" : "Arc",
         "profilesFolder" : "Arc/User Data/",
         "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
     },
@@ -143,14 +143,14 @@
     {
         "bundleId" : "ru.yandex.desktop.yandex-browser",
         "kind" : "chrome",
-        "name" : "Yandex Browser",
+        "name" : "Yandex",
         "profilesFolder" : "Yandex/YandexBrowser/",
         "nativeMessaging" : "Yandex/YandexBrowser/NativeMessagingHosts"
     },
     {
         "bundleId" : "com.brave.Browser",
         "kind" : "chrome",
-        "name" : "Brave",
+        "name" : "Brave Browser",
         "profilesFolder" : "BraveSoftware/Brave-Browser/",
         "nativeMessaging" : "BraveSoftware/Brave-Browser/NativeMessagingHosts"
     },
@@ -192,7 +192,7 @@
     {
         "bundleId" : "org.mozilla.cliqz",
         "kind" : "gecko",
-        "name" : "CLIQZ",
+        "name" : "Cliqz",
         "profilesFolder" : "CLIQZ/Profiles",
         "nativeMessaging" : "CLIQZ/NativeMessagingHosts"
     },
