@@ -1,0 +1,57 @@
+name: Validate compatibility lists
+
+on:
+  pull_request_target:
+    paths:
+      - 'windows/**'
+      - 'mac/**'
+  push:
+    branches: [master]
+    paths:
+      - 'windows/**'
+      - 'mac/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate compatibility lists
+    runs-on: [team-filters]
+    steps:
+      - name: Check builder token
+        env:
+          BUILDER_TOKEN: ${{ secrets.FILTERS_COMPATIBILITY_BUILDER_TOKEN }}
+        run: |
+          if [ -z "$BUILDER_TOKEN" ]; then
+            echo '::error::FILTERS_COMPATIBILITY_BUILDER_TOKEN is not configured'
+            exit 1
+          fi
+
+      - name: Checkout source
+        uses: actions/checkout@v5
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          path: source
+          persist-credentials: false
+
+      - name: Checkout builder
+        uses: actions/checkout@v5
+        with:
+          repository: AdGuardSoftwareLimited/filters-compatibility-lists-builder
+          ref: master
+          path: builder
+          token: ${{ secrets.FILTERS_COMPATIBILITY_BUILDER_TOKEN }}
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install builder dependencies
+        run: npm ci --prefix builder
+
+      - name: Validate
+        run: node builder/src/index.js --source source --validate-only

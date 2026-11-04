@@ -15,9 +15,13 @@ Currently, they apply to AdGuard for Android, AdGuard for Windows, and AdGuard f
 
 ## How do these lists get updated in the AdGuard apps?
 
-The lists get updated automatically when a new version of the app is released. For the new version, current filtering lists from this repository are fetched and set as default.
+The lists are published to `https://filters.adtidy.org/compatibility/<platform>/index.json` together with the filters. Windows and Mac clients can check that index periodically and apply a new version without an app release. The index contains the exact file paths, SHA-256 hashes, and a content-based version so clients only download what changed.
 
-When you update AdGuard, the applications filtering settings will be updated unless you modified them before. If you have made changes to them, you won't get any updates.
+When the lists are updated, the applications filtering settings will be updated unless you modified them before. If you have made changes to them, you won't get any updates. Android currently receives these lists with the app release.
+
+## Validation
+
+Pull requests and commits to `master` that change `windows/` or `mac/` run the validator from [`filters-compatibility-lists-builder`](https://github.com/AdGuardSoftwareLimited/filters-compatibility-lists-builder). Invalid lists fail the check and are not published. The workflow uses the `FILTERS_COMPATIBILITY_BUILDER_TOKEN` secret to read the builder repository.
 
 ## Can I contribute to these lists?
 
