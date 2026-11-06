@@ -69,7 +69,6 @@ A **JSON array** of objects, each describing a single browser:
 |------------------------|----------|----------|--------------------------------------------------------------------------------------------------|
 | `bundleId`             | `String` | ✓        | Browser application bundle ID                                                                    |
 | `kind`                 | `String` | ✓        | Browser engine family: `chrome`, `edge`, or `gecko`                                              |
-| `name`                 | `String` | ✓        | Browser application name                                                                         |
 | `profilesFolder`       | `String` | ✓        | Path to the browser profile data directory relative to `~/Library/Application Support`           |
 | `nativeMessaging`      | `String` | ✓        | Path to the browser native messaging hosts directory relative to `~/Library/Application Support` |
 | `needsHttpsWorkaround` | `Bool`   |          | Does HTTPS support need a workaround? [1]                                                        |
@@ -83,7 +82,6 @@ A **JSON array** of objects, each describing a single browser:
 {
   "bundleId": "com.google.Chrome",
   "kind": "chrome",
-  "name": "Google Chrome",
   "profilesFolder": "Google/Chrome/",
   "nativeMessaging": "Google/Chrome/NativeMessagingHosts"
 }
