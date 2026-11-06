@@ -23,6 +23,7 @@ A **JSON array** of objects, each describing a single application:
 | Field                   | Type       | Required | Description                                                                                                                                       |
 |-------------------------|------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | `bundleId`              | `String`   | ✓        | Bundle ID of the main application — unique identifier for the record                                                                              |
+| `name`                  | `String`   | ✓        | Application name to display in the UI                                                                                                             |
 | `enabled`               | `Bool`     | ✓        | Whether filtering is enabled by default for this application                                                                                      |
 | `filteringBundleIds`    | `[String]` | ✗        | Bundle IDs of **all processes** of the application to filter (main + helper, renderer, plugin, GPU, etc.)                                         |
 | `filteringProcessNames` | `[String]` | ✗        | Process names to filter in the kernel extension filtering mode (it is going to be deprecated, maybe)                                              |
@@ -34,6 +35,7 @@ A **JSON array** of objects, each describing a single application:
 ```json
 {
   "bundleId": "org.torproject.torbrowser",
+  "name": "Tor Browser",
   "enabled": false,
   "filteringBundleIds": [
     "org.torproject.torbrowser"
