@@ -1,6 +1,7 @@
 [
   {
     "bundleId": "net.librewolf.librewolf",
+    "name": "LibreWolf",
     "enabled": false,
     "filteringBundleIds": [
       "net.librewolf.librewolf"
@@ -11,6 +12,7 @@
   },
   {
     "bundleId": "com.coccoc.CocCoc",
+    "name": "CocCoc",
     "enabled": true,
     "filteringBundleIds": [
       "com.coccoc.Coccoc",
@@ -30,6 +32,7 @@
   },
   {
     "bundleId": "com.naver.Whale",
+    "name": "Whale",
     "enabled": true,
     "filteringBundleIds": [
       "com.naver.Whale",
@@ -47,6 +50,7 @@
   },
   {
     "bundleId": "net.imput.helium",
+    "name": "Helium",
     "enabled": true,
     "filteringBundleIds": [
       "net.imput.helium",
@@ -66,6 +70,7 @@
   },
   {
     "bundleId": "com.duckduckgo.macos.browser",
+    "name": "DuckDuckGo",
     "enabled": true,
     "filteringBundleIds": [
       "com.duckduckgo.macos.browser",
@@ -80,6 +85,7 @@
   },
   {
     "bundleId": "com.openai.atlas",
+    "name": "ChatGPT Atlas",
     "enabled": true,
     "filteringBundleIds": [
       "com.openai.atlas",
@@ -100,6 +106,7 @@
   },
   {
     "bundleId": "ai.perplexity.comet",
+    "name": "Comet",
     "enabled": true,
     "filteringBundleIds": [
       "ai.perplexity.comet.helper",
@@ -117,6 +124,7 @@
   },
   {
     "bundleId": "com.kagi.kagimacOS",
+    "name": "Orion",
     "enabled": true,
     "filteringBundleIds": [
       "com.kagi.kagimacOS"
@@ -127,6 +135,7 @@
   },
   {
     "bundleId": "app.zen-browser.zen",
+    "name": "Zen",
     "enabled": true,
     "filteringBundleIds": [
       "app.zen-browser.zen"
@@ -137,6 +146,7 @@
   },
   {
     "bundleId": "org.mozilla.floorp",
+    "name": "Floorp",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.floorp"
@@ -148,6 +158,7 @@
   },
   {
     "bundleId": "company.thebrowser.Browser",
+    "name": "Arc",
     "enabled": true,
     "filteringBundleIds": [
       "company.thebrowser.Browser"
@@ -158,6 +169,7 @@
   },
   {
     "bundleId": "company.thebrowser.dia",
+    "name": "Dia",
     "enabled": true,
     "filteringBundleIds": [
       "company.thebrowser.dia"
@@ -168,6 +180,7 @@
   },
   {
     "bundleId": "org.torproject.torbrowser",
+    "name": "Tor Browser",
     "enabled": false,
     "filteringBundleIds": [
       "org.torproject.torbrowser"
@@ -181,6 +194,7 @@
   },
   {
     "bundleId": "org.chromium.Chromium",
+    "name": "Chromium",
     "enabled": true,
     "filteringBundleIds": [
       "org.chromium.Chromium.helper",
@@ -203,6 +217,7 @@
   },
   {
     "bundleId": "com.google.Chrome",
+    "name": "Google Chrome",
     "enabled": true,
     "filteringBundleIds": [
       "com.google.Chrome",
@@ -215,6 +230,7 @@
   },
   {
     "bundleId": "com.google.Chrome.beta",
+    "name": "Google Chrome Beta",
     "enabled": true,
     "filteringBundleIds": [
       "com.google.Chrome.beta",
@@ -227,6 +243,7 @@
   },
   {
     "bundleId": "com.google.Chrome.dev",
+    "name": "Google Chrome Dev",
     "enabled": true,
     "filteringBundleIds": [
       "com.google.Chrome.dev",
@@ -239,6 +256,7 @@
   },
   {
     "bundleId": "com.google.Chrome.canary",
+    "name": "Google Chrome Canary",
     "enabled": true,
     "filteringBundleIds": [
       "com.google.Chrome.canary",
@@ -251,6 +269,7 @@
   },
   {
     "bundleId": "com.apple.Safari",
+    "name": "Safari",
     "enabled": true,
     "filteringBundleIds": [
       "com.apple.Safari"
@@ -263,6 +282,7 @@
   },
   {
     "bundleId": "com.apple.SafariTechnologyPreview",
+    "name": "Safari Technology Preview",
     "enabled": true,
     "filteringBundleIds": [
       "com.apple.SafariTechnologyPreview"
@@ -275,19 +295,21 @@
   },
   {
     "bundleId": "com.apple.mail",
+    "name": "Mail",
     "enabled": true,
     "filteringBundleIds": [
       "com.apple.mail"
     ],
     "filteringProcessNames": [
+      "Mail",
       "com.apple.WebKit",
       "com.apple.WebKit.WebContent",
-      "Mail",
       "com.apple.WebKit.Networking"
     ]
   },
   {
     "bundleId": "org.mozilla.firefox",
+    "name": "Firefox",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.firefox"
@@ -299,6 +321,7 @@
   },
   {
     "bundleId": "org.mozilla.nightly",
+    "name": "Firefox Nightly",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.nightly"
@@ -310,6 +333,7 @@
   },
   {
     "bundleId": "org.mozilla.firefoxdeveloperedition",
+    "name": "Firefox Developer Edition",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.firefoxdeveloperedition"
@@ -321,6 +345,7 @@
   },
   {
     "bundleId": "ru.yandex.desktop.yandex-browser",
+    "name": "Yandex",
     "enabled": true,
     "filteringBundleIds": [
       "ru.yandex.desktop.yandex-browser",
@@ -333,6 +358,7 @@
   },
   {
     "bundleId": "com.operasoftware.Opera",
+    "name": "Opera",
     "enabled": true,
     "filteringBundleIds": [
       "com.operasoftware.Opera",
@@ -345,6 +371,7 @@
   },
   {
     "bundleId": "com.operasoftware.OperaNext",
+    "name": "Opera Beta",
     "enabled": true,
     "filteringBundleIds": [
       "com.operasoftware.OperaNext",
@@ -357,6 +384,7 @@
   },
   {
     "bundleId": "com.operasoftware.OperaDeveloper",
+    "name": "Opera Developer",
     "enabled": true,
     "filteringBundleIds": [
       "com.operasoftware.OperaDeveloper",
@@ -369,6 +397,7 @@
   },
   {
     "bundleId": "com.whitehatsec.aviator",
+    "name": "Aviator",
     "enabled": true,
     "filteringBundleIds": [
       "com.whitehatsec.aviator"
@@ -379,6 +408,7 @@
   },
   {
     "bundleId": "com.catalinagroup.Citrio",
+    "name": "Citrio",
     "enabled": true,
     "filteringBundleIds": [
       "com.catalinagroup.Citrio"
@@ -389,6 +419,7 @@
   },
   {
     "bundleId": "com.AlphaOmegaSoftware.DesktopWebBrowser",
+    "name": "Desktop Web Browser",
     "enabled": true,
     "filteringBundleIds": [
       "com.AlphaOmegaSoftware.DesktopWebBrowser"
@@ -399,6 +430,7 @@
   },
   {
     "bundleId": "de.icab.iCab",
+    "name": "iCab",
     "enabled": true,
     "filteringBundleIds": [
       "de.icab.iCab"
@@ -409,6 +441,7 @@
   },
   {
     "bundleId": "com.omnigroup.OmniWeb6",
+    "name": "OmniWeb",
     "enabled": true,
     "filteringBundleIds": [
       "com.omnigroup.OmniWeb6"
@@ -419,6 +452,7 @@
   },
   {
     "bundleId": "com.polysuite.polybrowser",
+    "name": "PolyBrowser",
     "enabled": true,
     "filteringBundleIds": [
       "com.polysuite.polybrowser"
@@ -429,6 +463,7 @@
   },
   {
     "bundleId": "org.Runecats.Roccat",
+    "name": "Roccat",
     "enabled": true,
     "filteringBundleIds": [
       "org.Runecats.Roccat"
@@ -439,6 +474,7 @@
   },
   {
     "bundleId": "org.mozilla.SeaMonkey",
+    "name": "SeaMonkey",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.SeaMonkey"
@@ -449,6 +485,7 @@
   },
   {
     "bundleId": "jp.co.fenrir.sleipnir",
+    "name": "Sleipnir",
     "enabled": true,
     "filteringBundleIds": [
       "jp.co.fenrir.sleipnir"
@@ -459,6 +496,7 @@
   },
   {
     "bundleId": "com.flashpeak.SlimBoat",
+    "name": "SlimBoat",
     "enabled": true,
     "filteringBundleIds": [
       "com.flashpeak.SlimBoat"
@@ -469,6 +507,7 @@
   },
   {
     "bundleId": "com.vivaldi.Vivaldi",
+    "name": "Vivaldi",
     "enabled": true,
     "filteringBundleIds": [
       "com.vivaldi.Vivaldi",
@@ -482,6 +521,7 @@
   },
   {
     "bundleId": "org.Waterfoxproject.waterfox",
+    "name": "Waterfox",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.waterfox",
@@ -493,6 +533,7 @@
   },
   {
     "bundleId": "com.maxthon.mac.Maxthon",
+    "name": "Maxthon",
     "enabled": true,
     "filteringBundleIds": [
       "com.maxthon.mac.Maxthon",
@@ -505,6 +546,7 @@
   },
   {
     "bundleId": "com.electron.brave",
+    "name": "Brave",
     "enabled": true,
     "filteringBundleIds": [
       "com.electron.brave"
@@ -515,6 +557,7 @@
   },
   {
     "bundleId": "com.brave.Browser",
+    "name": "Brave Browser",
     "enabled": true,
     "filteringBundleIds": [
       "com.brave.Browser.helper",
@@ -523,15 +566,16 @@
       "com.brave.Browser"
     ],
     "filteringProcessNames": [
-      "Brave Browser Helper (Plugin)",
       "Brave Browser",
       "Brave Browser Helper",
       "Brave Browser Helper (GPU)",
+      "Brave Browser Helper (Plugin)",
       "Brave Browser Helper (Renderer)"
     ]
   },
   {
     "bundleId": "com.brave.Browser.origin",
+    "name": "Brave Origin",
     "enabled": true,
     "filteringBundleIds": [
       "com.brave.Browser.origin.helper",
@@ -540,15 +584,16 @@
       "com.brave.Browser.origin"
     ],
     "filteringProcessNames": [
-      "Brave Origin Helper (Plugin)",
       "Brave Origin",
       "Brave Origin Helper",
       "Brave Origin Helper (GPU)",
+      "Brave Origin Helper (Plugin)",
       "Brave Origin Helper (Renderer)"
     ]
   },
   {
     "bundleId": "org.mozilla.cliqz",
+    "name": "Cliqz",
     "enabled": true,
     "filteringBundleIds": [
       "org.mozilla.cliqz"
@@ -560,6 +605,7 @@
   },
   {
     "bundleId": "com.opera.Neon",
+    "name": "Opera Neon",
     "enabled": true,
     "filteringBundleIds": [
       "com.opera.Neon",
@@ -572,6 +618,7 @@
   },
   {
     "bundleId": "com.microsoft.edgemac.Canary",
+    "name": "Microsoft Edge Canary",
     "enabled": true,
     "filteringBundleIds": [
       "com.microsoft.edgemac.Canary",
@@ -584,6 +631,7 @@
   },
   {
     "bundleId": "com.microsoft.edgemac.Dev",
+    "name": "Microsoft Edge Dev",
     "enabled": true,
     "filteringBundleIds": [
       "com.microsoft.edgemac.Dev",
@@ -596,6 +644,7 @@
   },
   {
     "bundleId": "com.flashpeak.Slimjet",
+    "name": "Slimjet",
     "enabled": true,
     "filteringBundleIds": [
       "com.flashpeak.Slimjet",
@@ -608,6 +657,7 @@
   },
   {
     "bundleId": "com.microsoft.edgemac.Beta",
+    "name": "Microsoft Edge Beta",
     "enabled": true,
     "filteringBundleIds": [
       "com.microsoft.edgemac.Beta",
@@ -620,6 +670,7 @@
   },
   {
     "bundleId": "com.microsoft.edgemac",
+    "name": "Microsoft Edge",
     "enabled": true,
     "filteringBundleIds": [
       "com.microsoft.edgemac",
@@ -632,6 +683,7 @@
   },
   {
     "bundleId": "com.valvesoftware.steam",
+    "name": "Steam",
     "enabled": true,
     "filteringBundleIds": [
       "com.valvesoftware.steam"
@@ -642,6 +694,7 @@
   },
   {
     "bundleId": "com.hnc.Discord",
+    "name": "Discord",
     "enabled": true,
     "filteringBundleIds": [
       "com.hnc.Discord"
@@ -652,6 +705,7 @@
   },
   {
     "bundleId": "com.brave.Browser.beta",
+    "name": "Brave Browser Beta",
     "enabled": true,
     "filteringBundleIds": [
       "com.brave.Browser.beta",
@@ -664,6 +718,7 @@
   },
   {
     "bundleId": "com.brave.Browser.nightly",
+    "name": "Brave Browser Nightly",
     "enabled": true,
     "filteringBundleIds": [
       "com.brave.Browser.nightly.helper",
@@ -676,6 +731,7 @@
   },
   {
     "bundleId": "com.pushplaylabs.sidekick",
+    "name": "Sidekick",
     "enabled": true,
     "filteringBundleIds": [
       "com.pushplaylabs.sidekick",
@@ -688,6 +744,7 @@
   },
   {
     "bundleId": "net.qihoo.360browser",
+    "name": "360Chrome",
     "enabled": true,
     "filteringBundleIds": [
       "net.qihoo.360browser",
@@ -700,6 +757,7 @@
   },
   {
     "bundleId": "com.apple.Safari.WebApp",
+    "name": "Safari Web App",
     "enabled": true,
     "filteringBundleIds": [
       "com.apple.Safari.WebApp"
