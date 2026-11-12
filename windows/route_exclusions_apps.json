@@ -1156,6 +1156,10 @@
       },
       {
         "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\FileZilla Client"
+      }
+      {
+        "type": "RegistryKey",
         "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\FileZilla Client"
       }
     ],
