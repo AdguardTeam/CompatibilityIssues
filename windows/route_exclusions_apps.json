@@ -1140,5 +1140,29 @@
     "installed_conditions": [],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/114",
     "private_issue_id": "AG-61152"
+  },
+  {
+    "name": "FileZilla",
+    "executable_names": [
+      "filezilla.exe",
+      "fzstorj.exe",
+      "fzsftp.exe",
+      "fzputtygen.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\FileZilla Client"
+      },
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\FileZilla Client"
+      }
+      {
+        "type": "RegistryKey",
+        "pattern": "HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\FileZilla Client"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/97"
   }
 ]
