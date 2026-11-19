@@ -1164,5 +1164,37 @@
       }
     ],
     "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/97"
+  },
+  {
+    "name": "Android SDK Platform-Tools",
+    "executable_names": [
+      "adb.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Android\\Sdk\\platform-tools\\adb.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/142",
+    "private_issue_id": "AG-62043"
+  },
+  {
+    "name": "Android Emulator",
+    "executable_names": [
+      "emulator.exe",
+      "qemu-system-x86_64.exe",
+      "qemu-system-x86_64-headless.exe",
+      "qemu-system-i386.exe",
+      "qemu-system-i386-headless.exe"
+    ],
+    "installed_conditions": [
+      {
+        "type": "FilePath",
+        "pattern": "%LOCALAPPDATA%\\Android\\Sdk\\emulator\\emulator.exe"
+      }
+    ],
+    "public_issue_url": "https://github.com/AdguardTeam/CompatibilityIssues/issues/142",
+    "private_issue_id": "AG-62043"
   }
 ]
