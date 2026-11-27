@@ -765,5 +765,17 @@
     "filteringProcessNames": [
       "Web App"
     ]
+  },
+  {
+    "bundleId": "com.officecommun.search",
+    "name": "Search",
+    "enabled": true,
+    "filteringBundleIds": [
+      "com.officecommun.search"
+    ],
+    "filteringProcessNames": [
+      "Search",
+      "com.apple.WebKit.Networking"
+    ]
   }
 ]
