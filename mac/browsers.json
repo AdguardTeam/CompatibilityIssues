@@ -174,5 +174,11 @@
         "profilesFolder" : "TorBrowser-Data/Browser",
         "nativeMessaging" : "TorBrowser-Data/Browser/Mozilla/NativeMessagingHosts",
         "needsHttpsWorkaround" : true
+    },
+    {
+        "bundleId" : "com.officecommun.search",
+        "kind" : "chrome",
+        "profilesFolder" : "Search",
+        "nativeMessaging" : "Google/Chrome/NativeMessagingHosts"
     }
 ]
